@@ -161,6 +161,8 @@ Hazır Postman collection dosyası projede mevcut. Import etmek için:
 
 Login/Register sonrası dönen token otomatik olarak kaydedilir ve Me isteğinde kullanılır.
 
+![Postman Collection](docs/postman-screenshot.png)
+
 ## Statik Kullanım (GitHub Pages)
 
 Sunucu çalıştırmadan verileri doğrudan GitHub Pages üzerinden çekebilirsiniz:

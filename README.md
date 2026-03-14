@@ -161,6 +161,8 @@ A ready-to-use Postman collection is included. To import:
 
 The token from Login/Register responses is automatically saved and used in the Me request.
 
+![Postman Collection](docs/postman-screenshot.png)
+
 ## Static Usage (GitHub Pages)
 
 You can also fetch the data directly from GitHub Pages without running a server:
