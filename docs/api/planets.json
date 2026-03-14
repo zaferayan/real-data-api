@@ -7,7 +7,8 @@
     "diameter": 4879,
     "moons": 0,
     "dayLength": "59 days",
-    "yearLength": "88 days"
+    "yearLength": "88 days",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/800px-Mercury_in_true_color.jpg"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "diameter": 12104,
     "moons": 0,
     "dayLength": "243 days",
-    "yearLength": "225 days"
+    "yearLength": "225 days",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/800px-Venus_from_Mariner_10.jpg"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "diameter": 12756,
     "moons": 1,
     "dayLength": "24 hours",
-    "yearLength": "365 days"
+    "yearLength": "365 days",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/800px-The_Blue_Marble_%28remastered%29.jpg"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "diameter": 6792,
     "moons": 2,
     "dayLength": "24.6 hours",
-    "yearLength": "687 days"
+    "yearLength": "687 days",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/800px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "diameter": 142984,
     "moons": 95,
     "dayLength": "10 hours",
-    "yearLength": "12 years"
+    "yearLength": "12 years",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/800px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "diameter": 120536,
     "moons": 146,
     "dayLength": "10.7 hours",
-    "yearLength": "29 years"
+    "yearLength": "29 years",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/800px-Saturn_during_Equinox.jpg"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "diameter": 51118,
     "moons": 28,
     "dayLength": "17 hours",
-    "yearLength": "84 years"
+    "yearLength": "84 years",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/800px-Uranus2.jpg"
   },
   {
     "id": 8,
@@ -77,6 +84,7 @@
     "diameter": 49528,
     "moons": 16,
     "dayLength": "16 hours",
-    "yearLength": "165 years"
+    "yearLength": "165 years",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/800px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg"
   }
 ]
