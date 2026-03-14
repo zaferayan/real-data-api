@@ -150,6 +150,17 @@ Edit `db.json` and add a new top-level array. It will automatically become an en
 
 Restart the server and `GET /cars` is ready.
 
+## Postman Collection
+
+A ready-to-use Postman collection is included. To import:
+
+1. Open Postman
+2. Click **Import** (top left)
+3. Drag & drop `Real_Data_API.postman_collection.json` or click **Upload Files**
+4. All endpoints will be available under "Real Data API" collection
+
+The token from Login/Register responses is automatically saved and used in the Me request.
+
 ## Static Usage (GitHub Pages)
 
 You can also fetch the data directly from GitHub Pages without running a server:

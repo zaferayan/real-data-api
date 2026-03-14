@@ -150,6 +150,17 @@ curl -X DELETE http://localhost:4000/dinosaurs/10
 
 Sunucuyu yeniden baslatin ve `GET /cars` hazir.
 
+## Postman Collection
+
+Hazir Postman collection dosyasi projede mevcut. Import etmek icin:
+
+1. Postman'i acin
+2. Sol ustten **Import** butonuna tiklayin
+3. `Real_Data_API.postman_collection.json` dosyasini surukleyip birakin veya **Upload Files** ile secin
+4. Tum endpoint'ler "Real Data API" collection'i altinda gorunecek
+
+Login/Register sonrasi donen token otomatik olarak kaydedilir ve Me isteğinde kullanilir.
+
 ## Statik Kullanim (GitHub Pages)
 
 Sunucu calistirmadan verileri dogrudan GitHub Pages uzerinden cekebilirsiniz:
