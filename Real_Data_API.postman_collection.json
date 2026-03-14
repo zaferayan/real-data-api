@@ -23,7 +23,10 @@
           "request": {
             "method": "POST",
             "header": [
-              { "key": "Content-Type", "value": "application/json" }
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
             ],
             "body": {
               "mode": "raw",
@@ -31,8 +34,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/auth/register",
-              "host": ["{{baseUrl}}"],
-              "path": ["auth", "register"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "register"
+              ]
             }
           },
           "event": [
@@ -54,7 +62,10 @@
           "request": {
             "method": "POST",
             "header": [
-              { "key": "Content-Type", "value": "application/json" }
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
             ],
             "body": {
               "mode": "raw",
@@ -62,8 +73,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/auth/login",
-              "host": ["{{baseUrl}}"],
-              "path": ["auth", "login"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "login"
+              ]
             }
           },
           "event": [
@@ -85,12 +101,20 @@
           "request": {
             "method": "GET",
             "header": [
-              { "key": "Authorization", "value": "Bearer {{token}}" }
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
             ],
             "url": {
               "raw": "{{baseUrl}}/auth/me",
-              "host": ["{{baseUrl}}"],
-              "path": ["auth", "me"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "me"
+              ]
             }
           }
         }
@@ -105,84 +129,121 @@
             "method": "GET",
             "url": {
               "raw": "{{baseUrl}}/movies",
-              "host": ["{{baseUrl}}"],
-              "path": ["movies"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "movies"
+              ]
             }
           }
         },
         {
-          "name": "Get Movie by ID",
+          "name": "Get Movies by ID",
           "request": {
             "method": "GET",
             "url": {
               "raw": "{{baseUrl}}/movies/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["movies", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "movies",
+                "1"
+              ]
             }
           }
         },
         {
-          "name": "Create Movie",
+          "name": "Create Movies",
           "request": {
             "method": "POST",
             "header": [
-              { "key": "Content-Type", "value": "application/json" }
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"title\": \"Interstellar\",\n  \"director\": \"Christopher Nolan\",\n  \"year\": 2014,\n  \"genre\": \"Sci-Fi\",\n  \"rating\": 8.7\n}"
+              "raw": "{\n  \"title\": \"The Shawshank Redemption\",\n  \"director\": \"Frank Darabont\",\n  \"year\": 1994,\n  \"genre\": \"Drama\",\n  \"rating\": 9.3,\n  \"duration\": 142,\n  \"image\": \"https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/movies",
-              "host": ["{{baseUrl}}"],
-              "path": ["movies"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "movies"
+              ]
             }
           }
         },
         {
-          "name": "Update Movie (PUT)",
+          "name": "Update Movies (PUT)",
           "request": {
             "method": "PUT",
             "header": [
-              { "key": "Content-Type", "value": "application/json" }
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"title\": \"Interstellar\",\n  \"director\": \"Christopher Nolan\",\n  \"year\": 2014,\n  \"genre\": \"Sci-Fi\",\n  \"rating\": 9.0\n}"
+              "raw": "{\n  \"title\": \"The Shawshank Redemption\",\n  \"director\": \"Frank Darabont\",\n  \"year\": 1994,\n  \"genre\": \"Drama\",\n  \"rating\": 9.3,\n  \"duration\": 142,\n  \"image\": \"https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/movies/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["movies", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "movies",
+                "1"
+              ]
             }
           }
         },
         {
-          "name": "Update Movie (PATCH)",
+          "name": "Update Movies (PATCH)",
           "request": {
             "method": "PATCH",
             "header": [
-              { "key": "Content-Type", "value": "application/json" }
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"rating\": 9.5\n}"
+              "raw": "{\n  \"title\": \"The Shawshank Redemption\",\n  \"director\": \"Frank Darabont\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/movies/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["movies", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "movies",
+                "1"
+              ]
             }
           }
         },
         {
-          "name": "Delete Movie",
+          "name": "Delete Movies",
           "request": {
             "method": "DELETE",
             "url": {
               "raw": "{{baseUrl}}/movies/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["movies", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "movies",
+                "1"
+              ]
             }
           }
         }
@@ -197,64 +258,766 @@
             "method": "GET",
             "url": {
               "raw": "{{baseUrl}}/books",
-              "host": ["{{baseUrl}}"],
-              "path": ["books"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "books"
+              ]
             }
           }
         },
         {
-          "name": "Get Book by ID",
+          "name": "Get Books by ID",
           "request": {
             "method": "GET",
             "url": {
               "raw": "{{baseUrl}}/books/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["books", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "books",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Books",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"To Kill a Mockingbird\",\n  \"author\": \"Harper Lee\",\n  \"year\": 1960,\n  \"genre\": \"Fiction\",\n  \"pages\": 281,\n  \"image\": \"https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/books",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "books"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Books (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"To Kill a Mockingbird\",\n  \"author\": \"Harper Lee\",\n  \"year\": 1960,\n  \"genre\": \"Fiction\",\n  \"pages\": 281,\n  \"image\": \"https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/books/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "books",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Books (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"To Kill a Mockingbird\",\n  \"author\": \"Harper Lee\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/books/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "books",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Books",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/books/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "books",
+                "1"
+              ]
             }
           }
         }
       ]
     },
     {
-      "name": "Pokemons",
+      "name": "Artists",
       "item": [
         {
-          "name": "Get All Pokemons",
+          "name": "Get All Artists",
           "request": {
             "method": "GET",
             "url": {
-              "raw": "{{baseUrl}}/pokemons",
-              "host": ["{{baseUrl}}"],
-              "path": ["pokemons"]
+              "raw": "{{baseUrl}}/artists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "artists"
+              ]
             }
           }
         },
         {
-          "name": "Get Pokemon by ID",
+          "name": "Get Artists by ID",
           "request": {
             "method": "GET",
             "url": {
-              "raw": "{{baseUrl}}/pokemons/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["pokemons", "1"]
+              "raw": "{{baseUrl}}/artists/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "artists",
+                "1"
+              ]
             }
           }
         },
         {
-          "name": "Create Pokemon",
+          "name": "Create Artists",
           "request": {
             "method": "POST",
             "header": [
-              { "key": "Content-Type", "value": "application/json" }
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Rayquaza\",\n  \"type\": \"Dragon/Flying\",\n  \"hp\": 105\n}"
+              "raw": "{\n  \"name\": \"Leonardo da Vinci\",\n  \"nationality\": \"Italian\",\n  \"era\": \"Renaissance\",\n  \"knownFor\": \"Mona Lisa\",\n  \"born\": 1452,\n  \"died\": 1519,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/220px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg\"\n}"
             },
             "url": {
-              "raw": "{{baseUrl}}/pokemons",
-              "host": ["{{baseUrl}}"],
-              "path": ["pokemons"]
+              "raw": "{{baseUrl}}/artists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "artists"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Artists (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Leonardo da Vinci\",\n  \"nationality\": \"Italian\",\n  \"era\": \"Renaissance\",\n  \"knownFor\": \"Mona Lisa\",\n  \"born\": 1452,\n  \"died\": 1519,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/220px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/artists/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "artists",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Artists (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Leonardo da Vinci\",\n  \"nationality\": \"Italian\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/artists/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "artists",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Artists",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/artists/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "artists",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Musicians",
+      "item": [
+        {
+          "name": "Get All Musicians",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/musicians",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "musicians"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Musicians by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/musicians/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "musicians",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Musicians",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"The Beatles\",\n  \"genre\": \"Rock\",\n  \"country\": \"UK\",\n  \"activeYears\": \"1960-1970\",\n  \"topHit\": \"Hey Jude\",\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Fabs.JPG/250px-The_Fabs.JPG\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/musicians",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "musicians"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Musicians (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"The Beatles\",\n  \"genre\": \"Rock\",\n  \"country\": \"UK\",\n  \"activeYears\": \"1960-1970\",\n  \"topHit\": \"Hey Jude\",\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Fabs.JPG/250px-The_Fabs.JPG\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/musicians/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "musicians",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Musicians (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"The Beatles\",\n  \"genre\": \"Rock\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/musicians/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "musicians",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Musicians",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/musicians/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "musicians",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Countries",
+      "item": [
+        {
+          "name": "Get All Countries",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/countries",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "countries"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Countries by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/countries/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "countries",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Countries",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Japan\",\n  \"capital\": \"Tokyo\",\n  \"continent\": \"Asia\",\n  \"population\": 125700000,\n  \"language\": \"Japanese\",\n  \"currency\": \"Yen\",\n  \"flag\": \"🇯🇵\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/countries",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "countries"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Countries (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Japan\",\n  \"capital\": \"Tokyo\",\n  \"continent\": \"Asia\",\n  \"population\": 125700000,\n  \"language\": \"Japanese\",\n  \"currency\": \"Yen\",\n  \"flag\": \"🇯🇵\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/countries/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "countries",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Countries (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Japan\",\n  \"capital\": \"Tokyo\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/countries/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "countries",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Countries",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/countries/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "countries",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "item": [
+        {
+          "name": "Get All Sports",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/sports",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "sports"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Sports by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/sports/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "sports",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Sports",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Lionel Messi\",\n  \"sport\": \"Football\",\n  \"nationality\": \"Argentine\",\n  \"team\": \"Inter Miami\",\n  \"position\": \"Forward\",\n  \"birthYear\": 1987,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/220px-Lionel_Messi_WC2022.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/sports",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "sports"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Sports (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Lionel Messi\",\n  \"sport\": \"Football\",\n  \"nationality\": \"Argentine\",\n  \"team\": \"Inter Miami\",\n  \"position\": \"Forward\",\n  \"birthYear\": 1987,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/220px-Lionel_Messi_WC2022.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/sports/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "sports",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Sports (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Lionel Messi\",\n  \"sport\": \"Football\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/sports/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "sports",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Sports",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/sports/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "sports",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Games",
+      "item": [
+        {
+          "name": "Get All Games",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/games",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "games"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Games by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/games/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "games",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Games",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"The Legend of Zelda: Breath of the Wild\",\n  \"developer\": \"Nintendo\",\n  \"year\": 2017,\n  \"genre\": \"Action-Adventure\",\n  \"platform\": \"Switch\",\n  \"rating\": 9.7,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/games",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "games"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Games (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"The Legend of Zelda: Breath of the Wild\",\n  \"developer\": \"Nintendo\",\n  \"year\": 2017,\n  \"genre\": \"Action-Adventure\",\n  \"platform\": \"Switch\",\n  \"rating\": 9.7,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/games/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "games",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Games (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"The Legend of Zelda: Breath of the Wild\",\n  \"developer\": \"Nintendo\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/games/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "games",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Games",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/games/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "games",
+                "1"
+              ]
             }
           }
         }
@@ -269,94 +1032,1800 @@
             "method": "GET",
             "url": {
               "raw": "{{baseUrl}}/recipes",
-              "host": ["{{baseUrl}}"],
-              "path": ["recipes"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recipes"
+              ]
             }
           }
         },
         {
-          "name": "Get Recipe by ID",
+          "name": "Get Recipes by ID",
           "request": {
             "method": "GET",
             "url": {
               "raw": "{{baseUrl}}/recipes/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["recipes", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recipes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Recipes",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Margherita Pizza\",\n  \"cuisine\": \"Italian\",\n  \"difficulty\": \"Easy\",\n  \"prepTime\": 30,\n  \"calories\": 250,\n  \"ingredients\": [\n    \"dough\",\n    \"tomato sauce\",\n    \"mozzarella\",\n    \"basil\"\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recipes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recipes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Recipes (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Margherita Pizza\",\n  \"cuisine\": \"Italian\",\n  \"difficulty\": \"Easy\",\n  \"prepTime\": 30,\n  \"calories\": 250,\n  \"ingredients\": [\n    \"dough\",\n    \"tomato sauce\",\n    \"mozzarella\",\n    \"basil\"\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recipes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recipes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Recipes (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Margherita Pizza\",\n  \"cuisine\": \"Italian\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recipes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recipes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Recipes",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/recipes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recipes",
+                "1"
+              ]
             }
           }
         }
       ]
     },
     {
-      "name": "Other Collections",
+      "name": "Planets",
       "item": [
         {
-          "name": "Get All Artists",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/artists", "host": ["{{baseUrl}}"], "path": ["artists"] } }
-        },
-        {
-          "name": "Get All Musicians",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/musicians", "host": ["{{baseUrl}}"], "path": ["musicians"] } }
-        },
-        {
-          "name": "Get All Countries",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/countries", "host": ["{{baseUrl}}"], "path": ["countries"] } }
-        },
-        {
-          "name": "Get All Sports",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/sports", "host": ["{{baseUrl}}"], "path": ["sports"] } }
-        },
-        {
-          "name": "Get All Games",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/games", "host": ["{{baseUrl}}"], "path": ["games"] } }
-        },
-        {
           "name": "Get All Planets",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/planets", "host": ["{{baseUrl}}"], "path": ["planets"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/planets",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "planets"
+              ]
+            }
+          }
         },
         {
-          "name": "Get All Programming Languages",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/programming", "host": ["{{baseUrl}}"], "path": ["programming"] } }
+          "name": "Get Planets by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/planets/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "planets",
+                "1"
+              ]
+            }
+          }
         },
+        {
+          "name": "Create Planets",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Mercury\",\n  \"type\": \"Terrestrial\",\n  \"distanceFromSun\": \"57.9M km\",\n  \"diameter\": 4879,\n  \"moons\": 0,\n  \"dayLength\": \"59 days\",\n  \"yearLength\": \"88 days\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/planets",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "planets"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Planets (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Mercury\",\n  \"type\": \"Terrestrial\",\n  \"distanceFromSun\": \"57.9M km\",\n  \"diameter\": 4879,\n  \"moons\": 0,\n  \"dayLength\": \"59 days\",\n  \"yearLength\": \"88 days\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/planets/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "planets",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Planets (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Mercury\",\n  \"type\": \"Terrestrial\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/planets/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "planets",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Planets",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/planets/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "planets",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Programming",
+      "item": [
+        {
+          "name": "Get All Programming",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/programming",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "programming"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Programming by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/programming/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "programming",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Programming",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"JavaScript\",\n  \"creator\": \"Brendan Eich\",\n  \"year\": 1995,\n  \"paradigm\": \"Multi-paradigm\",\n  \"typing\": \"Dynamic\",\n  \"extension\": \".js\",\n  \"popularity\": 1\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/programming",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "programming"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Programming (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"JavaScript\",\n  \"creator\": \"Brendan Eich\",\n  \"year\": 1995,\n  \"paradigm\": \"Multi-paradigm\",\n  \"typing\": \"Dynamic\",\n  \"extension\": \".js\",\n  \"popularity\": 1\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/programming/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "programming",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Programming (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"JavaScript\",\n  \"creator\": \"Brendan Eich\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/programming/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "programming",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Programming",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/programming/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "programming",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pokemons",
+      "item": [
+        {
+          "name": "Get All Pokemons",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/pokemons",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pokemons"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Pokemons by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/pokemons/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pokemons",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Pokemons",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Pikachu\",\n  \"type\": \"Electric\",\n  \"hp\": 35,\n  \"attack\": 55,\n  \"defense\": 40,\n  \"generation\": 1,\n  \"image\": \"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/pokemons",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pokemons"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Pokemons (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Pikachu\",\n  \"type\": \"Electric\",\n  \"hp\": 35,\n  \"attack\": 55,\n  \"defense\": 40,\n  \"generation\": 1,\n  \"image\": \"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/pokemons/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pokemons",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Pokemons (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Pikachu\",\n  \"type\": \"Electric\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/pokemons/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pokemons",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Pokemons",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/pokemons/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pokemons",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Superheroes",
+      "item": [
         {
           "name": "Get All Superheroes",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/superheroes", "host": ["{{baseUrl}}"], "path": ["superheroes"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/superheroes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "superheroes"
+              ]
+            }
+          }
         },
+        {
+          "name": "Get Superheroes by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/superheroes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "superheroes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Superheroes",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Batman\",\n  \"realName\": \"Bruce Wayne\",\n  \"publisher\": \"DC\",\n  \"power\": \"Intelligence & Gadgets\",\n  \"firstAppearance\": 1939,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/superheroes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "superheroes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Superheroes (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Batman\",\n  \"realName\": \"Bruce Wayne\",\n  \"publisher\": \"DC\",\n  \"power\": \"Intelligence & Gadgets\",\n  \"firstAppearance\": 1939,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/superheroes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "superheroes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Superheroes (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Batman\",\n  \"realName\": \"Bruce Wayne\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/superheroes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "superheroes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Superheroes",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/superheroes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "superheroes",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cars",
+      "item": [
         {
           "name": "Get All Cars",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/cars", "host": ["{{baseUrl}}"], "path": ["cars"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/cars",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "cars"
+              ]
+            }
+          }
         },
         {
-          "name": "Get All TV Shows",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/tvShows", "host": ["{{baseUrl}}"], "path": ["tvShows"] } }
+          "name": "Get Cars by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/cars/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "cars",
+                "1"
+              ]
+            }
+          }
         },
+        {
+          "name": "Create Cars",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"brand\": \"Toyota\",\n  \"model\": \"Supra MK5\",\n  \"year\": 2024,\n  \"hp\": 382,\n  \"type\": \"Sports\",\n  \"country\": \"Japan\",\n  \"price\": 56250,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg/280px-2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/cars",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "cars"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Cars (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"brand\": \"Toyota\",\n  \"model\": \"Supra MK5\",\n  \"year\": 2024,\n  \"hp\": 382,\n  \"type\": \"Sports\",\n  \"country\": \"Japan\",\n  \"price\": 56250,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg/280px-2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/cars/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "cars",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Cars (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"brand\": \"Toyota\",\n  \"model\": \"Supra MK5\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/cars/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "cars",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Cars",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/cars/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "cars",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "TvShows",
+      "item": [
+        {
+          "name": "Get All TvShows",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/tvShows",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tvShows"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get TvShows by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/tvShows/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tvShows",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create TvShows",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Breaking Bad\",\n  \"creator\": \"Vince Gilligan\",\n  \"years\": \"2008-2013\",\n  \"genre\": \"Crime Drama\",\n  \"seasons\": 5,\n  \"rating\": 9.5,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/tvShows",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tvShows"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update TvShows (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Breaking Bad\",\n  \"creator\": \"Vince Gilligan\",\n  \"years\": \"2008-2013\",\n  \"genre\": \"Crime Drama\",\n  \"seasons\": 5,\n  \"rating\": 9.5,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/tvShows/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tvShows",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update TvShows (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Breaking Bad\",\n  \"creator\": \"Vince Gilligan\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/tvShows/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tvShows",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete TvShows",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/tvShows/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "tvShows",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anime",
+      "item": [
         {
           "name": "Get All Anime",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/anime", "host": ["{{baseUrl}}"], "path": ["anime"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/anime",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "anime"
+              ]
+            }
+          }
         },
         {
-          "name": "Get All Football Teams",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/footballTeams", "host": ["{{baseUrl}}"], "path": ["footballTeams"] } }
+          "name": "Get Anime by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/anime/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "anime",
+                "1"
+              ]
+            }
+          }
         },
+        {
+          "name": "Create Anime",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Naruto\",\n  \"studio\": \"Pierrot\",\n  \"year\": 2002,\n  \"genre\": \"Action\",\n  \"episodes\": 720,\n  \"rating\": 8.4,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/9/94/NauroShipp662.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/anime",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "anime"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Anime (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Naruto\",\n  \"studio\": \"Pierrot\",\n  \"year\": 2002,\n  \"genre\": \"Action\",\n  \"episodes\": 720,\n  \"rating\": 8.4,\n  \"image\": \"https://upload.wikimedia.org/wikipedia/en/9/94/NauroShipp662.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/anime/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "anime",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Anime (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Naruto\",\n  \"studio\": \"Pierrot\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/anime/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "anime",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Anime",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/anime/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "anime",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FootballTeams",
+      "item": [
+        {
+          "name": "Get All FootballTeams",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/footballTeams",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "footballTeams"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get FootballTeams by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/footballTeams/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "footballTeams",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create FootballTeams",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Real Madrid\",\n  \"country\": \"Spain\",\n  \"league\": \"La Liga\",\n  \"founded\": 1902,\n  \"stadium\": \"Santiago Bernabeu\",\n  \"capacity\": 83186,\n  \"titles\": 36\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/footballTeams",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "footballTeams"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update FootballTeams (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Real Madrid\",\n  \"country\": \"Spain\",\n  \"league\": \"La Liga\",\n  \"founded\": 1902,\n  \"stadium\": \"Santiago Bernabeu\",\n  \"capacity\": 83186,\n  \"titles\": 36\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/footballTeams/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "footballTeams",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update FootballTeams (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Real Madrid\",\n  \"country\": \"Spain\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/footballTeams/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "footballTeams",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete FootballTeams",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/footballTeams/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "footballTeams",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Instruments",
+      "item": [
         {
           "name": "Get All Instruments",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/instruments", "host": ["{{baseUrl}}"], "path": ["instruments"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/instruments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "instruments"
+              ]
+            }
+          }
         },
+        {
+          "name": "Get Instruments by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/instruments/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "instruments",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Instruments",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Piano\",\n  \"family\": \"Keyboard\",\n  \"origin\": \"Italy\",\n  \"year\": 1700,\n  \"keys\": 88,\n  \"difficulty\": \"Medium\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/instruments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "instruments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Instruments (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Piano\",\n  \"family\": \"Keyboard\",\n  \"origin\": \"Italy\",\n  \"year\": 1700,\n  \"keys\": 88,\n  \"difficulty\": \"Medium\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/instruments/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "instruments",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Instruments (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Piano\",\n  \"family\": \"Keyboard\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/instruments/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "instruments",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Instruments",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/instruments/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "instruments",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dinosaurs",
+      "item": [
         {
           "name": "Get All Dinosaurs",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/dinosaurs", "host": ["{{baseUrl}}"], "path": ["dinosaurs"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/dinosaurs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "dinosaurs"
+              ]
+            }
+          }
         },
+        {
+          "name": "Get Dinosaurs by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/dinosaurs/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "dinosaurs",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Dinosaurs",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Tyrannosaurus Rex\",\n  \"period\": \"Late Cretaceous\",\n  \"diet\": \"Carnivore\",\n  \"length\": \"12m\",\n  \"weight\": \"8 tons\",\n  \"region\": \"North America\",\n  \"yearsAgo\": \"68M\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/dinosaurs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "dinosaurs"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Dinosaurs (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Tyrannosaurus Rex\",\n  \"period\": \"Late Cretaceous\",\n  \"diet\": \"Carnivore\",\n  \"length\": \"12m\",\n  \"weight\": \"8 tons\",\n  \"region\": \"North America\",\n  \"yearsAgo\": \"68M\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/dinosaurs/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "dinosaurs",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Dinosaurs (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Tyrannosaurus Rex\",\n  \"period\": \"Late Cretaceous\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/dinosaurs/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "dinosaurs",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Dinosaurs",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/dinosaurs/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "dinosaurs",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mythologies",
+      "item": [
         {
           "name": "Get All Mythologies",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/mythologies", "host": ["{{baseUrl}}"], "path": ["mythologies"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/mythologies",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "mythologies"
+              ]
+            }
+          }
         },
+        {
+          "name": "Get Mythologies by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/mythologies/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "mythologies",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Mythologies",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Zeus\",\n  \"mythology\": \"Greek\",\n  \"role\": \"King of the Gods\",\n  \"domain\": \"Sky & Thunder\",\n  \"symbol\": \"Lightning Bolt\",\n  \"weapon\": \"Thunderbolt\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/mythologies",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "mythologies"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Mythologies (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Zeus\",\n  \"mythology\": \"Greek\",\n  \"role\": \"King of the Gods\",\n  \"domain\": \"Sky & Thunder\",\n  \"symbol\": \"Lightning Bolt\",\n  \"weapon\": \"Thunderbolt\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/mythologies/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "mythologies",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Mythologies (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Zeus\",\n  \"mythology\": \"Greek\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/mythologies/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "mythologies",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Mythologies",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/mythologies/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "mythologies",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Inventions",
+      "item": [
         {
           "name": "Get All Inventions",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/inventions", "host": ["{{baseUrl}}"], "path": ["inventions"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/inventions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "inventions"
+              ]
+            }
+          }
         },
         {
+          "name": "Get Inventions by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/inventions/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "inventions",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Inventions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Printing Press\",\n  \"inventor\": \"Johannes Gutenberg\",\n  \"year\": 1440,\n  \"country\": \"Germany\",\n  \"impact\": \"Mass communication\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/inventions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "inventions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Inventions (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Printing Press\",\n  \"inventor\": \"Johannes Gutenberg\",\n  \"year\": 1440,\n  \"country\": \"Germany\",\n  \"impact\": \"Mass communication\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/inventions/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "inventions",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Inventions (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Printing Press\",\n  \"inventor\": \"Johannes Gutenberg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/inventions/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "inventions",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Inventions",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/inventions/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "inventions",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coffees",
+      "item": [
+        {
           "name": "Get All Coffees",
-          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/coffees", "host": ["{{baseUrl}}"], "path": ["coffees"] } }
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/coffees",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "coffees"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Coffees by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/coffees/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "coffees",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Coffees",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Espresso\",\n  \"origin\": \"Italy\",\n  \"type\": \"Hot\",\n  \"caffeine\": \"63mg\",\n  \"prepTime\": \"25 sec\",\n  \"ingredients\": [\n    \"coffee\"\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/coffees",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "coffees"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Coffees (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Espresso\",\n  \"origin\": \"Italy\",\n  \"type\": \"Hot\",\n  \"caffeine\": \"63mg\",\n  \"prepTime\": \"25 sec\",\n  \"ingredients\": [\n    \"coffee\"\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/coffees/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "coffees",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Coffees (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Espresso\",\n  \"origin\": \"Italy\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/coffees/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "coffees",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Coffees",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/coffees/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "coffees",
+                "1"
+              ]
+            }
+          }
         }
       ]
     }
