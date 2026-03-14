@@ -8,7 +8,7 @@
     "type": "Sports",
     "country": "Japan",
     "price": 56250,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg"
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=400"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "type": "Sedan",
     "country": "Germany",
     "price": 76900,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2021_BMW_M3_Competition_%28G80%29_front_3-24-21.jpg"
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=400"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "type": "Sedan",
     "country": "USA",
     "price": 89990,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Tesla_Model_S_75D.jpg"
+    "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "type": "Sports",
     "country": "Germany",
     "price": 169700,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Porsche_911_GT3_%28992%29_1X7A4822.jpg"
+    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=400"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "type": "Muscle",
     "country": "USA",
     "price": 42495,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/2024_Ford_Mustang_GT_in_Vapor_Blue%2C_Front_Left%2C_11-25-2023.jpg"
+    "image": "https://images.unsplash.com/photo-1547744152-14d985cb937f?w=400"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "type": "Supercar",
     "country": "Italy",
     "price": 276550,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ferrari_F8_Tributo_at_Goodwood_2019_001.jpg"
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=400"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "type": "Hot Hatch",
     "country": "Japan",
     "price": 44295,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2023_Honda_Civic_Type_R_%28FL5%29%2C_front_7.28.23.jpg"
+    "image": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=400"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "type": "Supercar",
     "country": "Italy",
     "price": 209409,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Lamborghini_Hurac%C3%A1n_LP_610-4_%2813320895475%29.jpg"
+    "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "type": "Grand Tourer",
     "country": "Germany",
     "price": 162900,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercedes-AMG_GT_R_IMG_0728.jpg"
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "type": "Sports",
     "country": "Japan",
     "price": 217990,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Nissan_GT-R_MY2017_%281%29.jpg"
+    "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=400"
   }
 ]
