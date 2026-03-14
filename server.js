@@ -1,5 +1,8 @@
 const express = require("express");
+const jwt = require("jsonwebtoken");
 const fs = require("fs");
+
+const SECRET = "real-data-api-secret";
 
 const PORT = 4000;
 const app = express();
@@ -72,6 +75,81 @@ app.get("/", (req, res) => {
   </table>
 </body>
 </html>`);
+});
+
+// POST /auth/register
+app.post("/auth/register", (req, res) => {
+  const { firstName, lastName, email, password, avatar } = req.body;
+
+  if (!email || !password) {
+    return res.status(400).json({ error: "Email and password are required" });
+  }
+
+  const db = getDb();
+  if (db.users.find((u) => u.email === email)) {
+    return res.status(409).json({ error: "Email already exists" });
+  }
+
+  const maxId = db.users.reduce((max, u) => Math.max(max, u.id), 0);
+  const newUser = {
+    id: maxId + 1,
+    firstName: firstName || "",
+    lastName: lastName || "",
+    email,
+    password,
+    avatar: avatar || `https://i.pravatar.cc/150?u=${email}`,
+  };
+
+  db.users.push(newUser);
+  saveDb(db);
+
+  const token = jwt.sign({ id: newUser.id, email: newUser.email }, SECRET);
+  const { password: _, ...userWithoutPassword } = newUser;
+  res.status(201).json({ token, user: userWithoutPassword });
+});
+
+// POST /auth/login
+app.post("/auth/login", (req, res) => {
+  const { email, password } = req.body;
+
+  if (!email || !password) {
+    return res.status(400).json({ error: "Email and password are required" });
+  }
+
+  const db = getDb();
+  const user = db.users.find((u) => u.email === email);
+
+  if (!user || user.password !== password) {
+    return res.status(401).json({ error: "Invalid email or password" });
+  }
+
+  const token = jwt.sign({ id: user.id, email: user.email }, SECRET);
+  const { password: _, ...userWithoutPassword } = user;
+  res.json({ token, user: userWithoutPassword });
+});
+
+// GET /auth/me
+app.get("/auth/me", (req, res) => {
+  const auth = req.headers.authorization;
+
+  if (!auth || !auth.startsWith("Bearer ")) {
+    return res.status(401).json({ error: "No token provided" });
+  }
+
+  try {
+    const decoded = jwt.verify(auth.split(" ")[1], SECRET);
+    const db = getDb();
+    const user = db.users.find((u) => u.id === decoded.id);
+
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    const { password: _, ...userWithoutPassword } = user;
+    res.json(userWithoutPassword);
+  } catch {
+    return res.status(401).json({ error: "Invalid token" });
+  }
 });
 
 // GET /:collection

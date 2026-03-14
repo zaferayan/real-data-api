@@ -48,6 +48,44 @@ API runs at `http://localhost:4000`.
 | `/inventions` | 10 | Printing Press, Telephone, WWW, Penicillin... |
 | `/coffees` | 10 | Espresso, Turkish Coffee, Cold Brew, Latte... |
 
+## Authentication
+
+Built-in JWT auth for practicing login flows.
+
+### Default Users
+
+| Email | Password |
+|-------|----------|
+| `john@example.com` | `123456` |
+| `jane@example.com` | `123456` |
+| `ali@example.com` | `123456` |
+
+### Auth Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/auth/register` | Register new user |
+| `POST` | `/auth/login` | Login, get token |
+| `GET` | `/auth/me` | Get current user (requires token) |
+
+### Auth Examples
+
+```bash
+# Register
+curl -X POST http://localhost:4000/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{"firstName":"Ayse","lastName":"Kaya","email":"ayse@example.com","password":"123456"}'
+
+# Login
+curl -X POST http://localhost:4000/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"john@example.com","password":"123456"}'
+
+# Use the token from login response
+curl http://localhost:4000/auth/me \
+  -H "Authorization: Bearer eyJhbGci..."
+```
+
 ## CRUD Operations
 
 | Method | Endpoint | Description |
