@@ -1241,7 +1241,7 @@
       "type": "Sports",
       "country": "Japan",
       "price": 56250,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg/280px-2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg"
     },
     {
       "id": 2,
@@ -1252,7 +1252,7 @@
       "type": "Sedan",
       "country": "Germany",
       "price": 76900,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2021_BMW_M3_Competition_%28G80%29_front_3-24-21.jpg/280px-2021_BMW_M3_Competition.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2021_BMW_M3_Competition_%28G80%29_front_3-24-21.jpg"
     },
     {
       "id": 3,
@@ -1263,7 +1263,7 @@
       "type": "Sedan",
       "country": "USA",
       "price": 89990,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2018_Tesla_Model_S_75D.jpg/280px-2018_Tesla_Model_S_75D.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Tesla_Model_S_75D.jpg"
     },
     {
       "id": 4,
@@ -1274,7 +1274,7 @@
       "type": "Sports",
       "country": "Germany",
       "price": 169700,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Porsche_911_GT3_%28992%29_1X7A4822.jpg/280px-Porsche_911_GT3_%28992%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Porsche_911_GT3_%28992%29_1X7A4822.jpg"
     },
     {
       "id": 5,
@@ -1285,7 +1285,7 @@
       "type": "Muscle",
       "country": "USA",
       "price": 42495,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2024_Ford_Mustang_GT_in_Vapor_Blue%2C_Front_Left%2C_11-25-2023.jpg/280px-2024_Ford_Mustang_GT.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/2024_Ford_Mustang_GT_in_Vapor_Blue%2C_Front_Left%2C_11-25-2023.jpg"
     },
     {
       "id": 6,
@@ -1296,7 +1296,7 @@
       "type": "Supercar",
       "country": "Italy",
       "price": 276550,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ferrari_F8_Tributo_at_Goodwood_2019_001.jpg/280px-Ferrari_F8_Tributo.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ferrari_F8_Tributo_at_Goodwood_2019_001.jpg"
     },
     {
       "id": 7,
@@ -1307,7 +1307,7 @@
       "type": "Hot Hatch",
       "country": "Japan",
       "price": 44295,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2023_Honda_Civic_Type_R_%28FL5%29%2C_front_7.28.23.jpg/280px-2023_Honda_Civic_Type_R.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2023_Honda_Civic_Type_R_%28FL5%29%2C_front_7.28.23.jpg"
     },
     {
       "id": 8,
@@ -1318,7 +1318,7 @@
       "type": "Supercar",
       "country": "Italy",
       "price": 209409,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lamborghini_Hurac%C3%A1n_LP_610-4_%2813320895475%29.jpg/280px-Lamborghini_Huracan.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Lamborghini_Hurac%C3%A1n_LP_610-4_%2813320895475%29.jpg"
     },
     {
       "id": 9,
@@ -1329,7 +1329,7 @@
       "type": "Grand Tourer",
       "country": "Germany",
       "price": 162900,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercedes-AMG_GT_R_IMG_0728.jpg/280px-Mercedes-AMG_GT_R.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercedes-AMG_GT_R_IMG_0728.jpg"
     },
     {
       "id": 10,
@@ -1340,7 +1340,7 @@
       "type": "Sports",
       "country": "Japan",
       "price": 217990,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nissan_GT-R_MY2017_%281%29.jpg/280px-Nissan_GT-R.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Nissan_GT-R_MY2017_%281%29.jpg"
     }
   ],
   "tvShows": [
