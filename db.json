@@ -1,0 +1,2138 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": "Drama",
+      "rating": 9.3,
+      "duration": 142,
+      "image": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": "Crime",
+      "rating": 9.2,
+      "duration": 175,
+      "image": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": "Action",
+      "rating": 9,
+      "duration": 152,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "genre": "Crime",
+      "rating": 8.9,
+      "duration": 154,
+      "image": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "year": 1994,
+      "genre": "Drama",
+      "rating": 8.8,
+      "duration": 142,
+      "image": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTYtZmU5YS00YjQ5LTljYjgtMjY2NDVhYWU5NjRiXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Inception",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": "Sci-Fi",
+      "rating": 8.8,
+      "duration": 148,
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Fight Club",
+      "director": "David Fincher",
+      "year": 1999,
+      "genre": "Drama",
+      "rating": 8.8,
+      "duration": 139,
+      "image": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Matrix",
+      "director": "Lana Wachowski",
+      "year": 1999,
+      "genre": "Sci-Fi",
+      "rating": 8.7,
+      "duration": 136,
+      "image": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDL._V1_SX300.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Interstellar",
+      "director": "Christopher Nolan",
+      "year": 2014,
+      "genre": "Sci-Fi",
+      "rating": 8.7,
+      "duration": 169,
+      "image": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Goodfellas",
+      "director": "Martin Scorsese",
+      "year": 1990,
+      "genre": "Crime",
+      "rating": 8.7,
+      "duration": 146,
+      "image": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGc@._V1_SX300.jpg"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "year": 1960,
+      "genre": "Fiction",
+      "pages": 281,
+      "image": "https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 1949,
+      "genre": "Dystopian",
+      "pages": 328,
+      "image": "https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "genre": "Romance",
+      "pages": 432,
+      "image": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925,
+      "genre": "Fiction",
+      "pages": 180,
+      "image": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg"
+    },
+    {
+      "id": 5,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "year": 1967,
+      "genre": "Magical Realism",
+      "pages": 417,
+      "image": "https://covers.openlibrary.org/b/isbn/9780060883287-M.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "year": 1951,
+      "genre": "Fiction",
+      "pages": 234,
+      "image": "https://covers.openlibrary.org/b/isbn/9780316769488-M.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": 1932,
+      "genre": "Dystopian",
+      "pages": 311,
+      "image": "https://covers.openlibrary.org/b/isbn/9780060850524-M.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "year": 1954,
+      "genre": "Fantasy",
+      "pages": 1178,
+      "image": "https://covers.openlibrary.org/b/isbn/9780618640157-M.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "year": 1997,
+      "genre": "Fantasy",
+      "pages": 309,
+      "image": "https://covers.openlibrary.org/b/isbn/9780590353427-M.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "genre": "Fiction",
+      "pages": 197,
+      "image": "https://covers.openlibrary.org/b/isbn/9780061122415-M.jpg"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Leonardo da Vinci",
+      "nationality": "Italian",
+      "era": "Renaissance",
+      "knownFor": "Mona Lisa",
+      "born": 1452,
+      "died": 1519,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/220px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Vincent van Gogh",
+      "nationality": "Dutch",
+      "era": "Post-Impressionism",
+      "knownFor": "The Starry Night",
+      "born": 1853,
+      "died": 1890,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/220px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pablo Picasso",
+      "nationality": "Spanish",
+      "era": "Cubism",
+      "knownFor": "Guernica",
+      "born": 1881,
+      "died": 1973,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/220px-Pablo_picasso_1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Claude Monet",
+      "nationality": "French",
+      "era": "Impressionism",
+      "knownFor": "Water Lilies",
+      "born": 1840,
+      "died": 1926,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/220px-Claude_Monet_1899_Nadar_crop.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Frida Kahlo",
+      "nationality": "Mexican",
+      "era": "Surrealism",
+      "knownFor": "The Two Fridas",
+      "born": 1907,
+      "died": 1954,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/220px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Michelangelo",
+      "nationality": "Italian",
+      "era": "Renaissance",
+      "knownFor": "Sistine Chapel Ceiling",
+      "born": 1475,
+      "died": 1564,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/220px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Salvador Dali",
+      "nationality": "Spanish",
+      "era": "Surrealism",
+      "knownFor": "The Persistence of Memory",
+      "born": 1904,
+      "died": 1989,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Salvador_Dal%C3%AD_1939.jpg/220px-Salvador_Dal%C3%AD_1939.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Rembrandt",
+      "nationality": "Dutch",
+      "era": "Baroque",
+      "knownFor": "The Night Watch",
+      "born": 1606,
+      "died": 1669,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/220px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Andy Warhol",
+      "nationality": "American",
+      "era": "Pop Art",
+      "knownFor": "Campbell's Soup Cans",
+      "born": 1928,
+      "died": 1987,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Andy_Warhol_1975.jpg/220px-Andy_Warhol_1975.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Gustav Klimt",
+      "nationality": "Austrian",
+      "era": "Art Nouveau",
+      "knownFor": "The Kiss",
+      "born": 1862,
+      "died": 1918,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Klimt.jpg/220px-Klimt.jpg"
+    }
+  ],
+  "musicians": [
+    {
+      "id": 1,
+      "name": "The Beatles",
+      "genre": "Rock",
+      "country": "UK",
+      "activeYears": "1960-1970",
+      "topHit": "Hey Jude",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Fabs.JPG/250px-The_Fabs.JPG"
+    },
+    {
+      "id": 2,
+      "name": "Michael Jackson",
+      "genre": "Pop",
+      "country": "USA",
+      "activeYears": "1964-2009",
+      "topHit": "Thriller",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Michael_Jackson_in_1988.jpg/220px-Michael_Jackson_in_1988.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Queen",
+      "genre": "Rock",
+      "country": "UK",
+      "activeYears": "1970-present",
+      "topHit": "Bohemian Rhapsody",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Queen_-_Live_Magic.jpg/220px-Queen_-_Live_Magic.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Elvis Presley",
+      "genre": "Rock and Roll",
+      "country": "USA",
+      "activeYears": "1953-1977",
+      "topHit": "Jailhouse Rock",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/220px-Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bob Marley",
+      "genre": "Reggae",
+      "country": "Jamaica",
+      "activeYears": "1963-1981",
+      "topHit": "No Woman, No Cry",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bob-Marley.jpg/220px-Bob-Marley.jpg"
+    },
+    {
+      "id": 6,
+      "name": "David Bowie",
+      "genre": "Art Rock",
+      "country": "UK",
+      "activeYears": "1962-2016",
+      "topHit": "Space Oddity",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg/220px-David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pink Floyd",
+      "genre": "Progressive Rock",
+      "country": "UK",
+      "activeYears": "1965-2014",
+      "topHit": "Comfortably Numb",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Pink_Floyd_-_all_members.jpg/300px-Pink_Floyd_-_all_members.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Nirvana",
+      "genre": "Grunge",
+      "country": "USA",
+      "activeYears": "1987-1994",
+      "topHit": "Smells Like Teen Spirit",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nirvana_around_1992.jpg/250px-Nirvana_around_1992.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Beyonce",
+      "genre": "R&B",
+      "country": "USA",
+      "activeYears": "1997-present",
+      "topHit": "Crazy in Love",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beyonc%C3%A9_at_the_2024_Golden_Globe_Awards_%28cropped%29.jpg/220px-Beyonc%C3%A9_at_the_2024_Golden_Globe_Awards_%28cropped%29.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Radiohead",
+      "genre": "Alternative Rock",
+      "country": "UK",
+      "activeYears": "1985-present",
+      "topHit": "Creep",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Radiohead_%28band%29.jpg/250px-Radiohead_%28band%29.jpg"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "capital": "Tokyo",
+      "continent": "Asia",
+      "population": 125700000,
+      "language": "Japanese",
+      "currency": "Yen",
+      "flag": "🇯🇵"
+    },
+    {
+      "id": 2,
+      "name": "Brazil",
+      "capital": "Brasilia",
+      "continent": "South America",
+      "population": 214300000,
+      "language": "Portuguese",
+      "currency": "Real",
+      "flag": "🇧🇷"
+    },
+    {
+      "id": 3,
+      "name": "Germany",
+      "capital": "Berlin",
+      "continent": "Europe",
+      "population": 83200000,
+      "language": "German",
+      "currency": "Euro",
+      "flag": "🇩🇪"
+    },
+    {
+      "id": 4,
+      "name": "Turkey",
+      "capital": "Ankara",
+      "continent": "Europe/Asia",
+      "population": 85300000,
+      "language": "Turkish",
+      "currency": "Lira",
+      "flag": "🇹🇷"
+    },
+    {
+      "id": 5,
+      "name": "Australia",
+      "capital": "Canberra",
+      "continent": "Oceania",
+      "population": 26500000,
+      "language": "English",
+      "currency": "Dollar",
+      "flag": "🇦🇺"
+    },
+    {
+      "id": 6,
+      "name": "Egypt",
+      "capital": "Cairo",
+      "continent": "Africa",
+      "population": 104100000,
+      "language": "Arabic",
+      "currency": "Pound",
+      "flag": "🇪🇬"
+    },
+    {
+      "id": 7,
+      "name": "Canada",
+      "capital": "Ottawa",
+      "continent": "North America",
+      "population": 40100000,
+      "language": "English/French",
+      "currency": "Dollar",
+      "flag": "🇨🇦"
+    },
+    {
+      "id": 8,
+      "name": "South Korea",
+      "capital": "Seoul",
+      "continent": "Asia",
+      "population": 51700000,
+      "language": "Korean",
+      "currency": "Won",
+      "flag": "🇰🇷"
+    },
+    {
+      "id": 9,
+      "name": "Italy",
+      "capital": "Rome",
+      "continent": "Europe",
+      "population": 59000000,
+      "language": "Italian",
+      "currency": "Euro",
+      "flag": "🇮🇹"
+    },
+    {
+      "id": 10,
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "continent": "North America",
+      "population": 128900000,
+      "language": "Spanish",
+      "currency": "Peso",
+      "flag": "🇲🇽"
+    }
+  ],
+  "sports": [
+    {
+      "id": 1,
+      "name": "Lionel Messi",
+      "sport": "Football",
+      "nationality": "Argentine",
+      "team": "Inter Miami",
+      "position": "Forward",
+      "birthYear": 1987,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/220px-Lionel_Messi_WC2022.jpg"
+    },
+    {
+      "id": 2,
+      "name": "LeBron James",
+      "sport": "Basketball",
+      "nationality": "American",
+      "team": "Los Angeles Lakers",
+      "position": "Forward",
+      "birthYear": 1984,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977108%29_%28cropped2%29.jpg/220px-LeBron_James_%2851959977108%29_%28cropped2%29.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Serena Williams",
+      "sport": "Tennis",
+      "nationality": "American",
+      "team": "Individual",
+      "position": "Singles",
+      "birthYear": 1981,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Serena_Williams_at_2013_US_Open.jpg/220px-Serena_Williams_at_2013_US_Open.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cristiano Ronaldo",
+      "sport": "Football",
+      "nationality": "Portuguese",
+      "team": "Al Nassr",
+      "position": "Forward",
+      "birthYear": 1985,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/220px-Cristiano_Ronaldo.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Usain Bolt",
+      "sport": "Athletics",
+      "nationality": "Jamaican",
+      "team": "Individual",
+      "position": "Sprinter",
+      "birthYear": 1986,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Usain_Bolt_smiling_Berlin_2009.jpg/220px-Usain_Bolt_smiling_Berlin_2009.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Michael Jordan",
+      "sport": "Basketball",
+      "nationality": "American",
+      "team": "Chicago Bulls (retired)",
+      "position": "Shooting Guard",
+      "birthYear": 1963,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/220px-Michael_Jordan_in_2014.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Roger Federer",
+      "sport": "Tennis",
+      "nationality": "Swiss",
+      "team": "Individual",
+      "position": "Singles",
+      "birthYear": 1981,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/R_Federer.jpg/220px-R_Federer.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Muhammad Ali",
+      "sport": "Boxing",
+      "nationality": "American",
+      "team": "Individual",
+      "position": "Heavyweight",
+      "birthYear": 1942,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/220px-Muhammad_Ali_NYWTS.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Simone Biles",
+      "sport": "Gymnastics",
+      "nationality": "American",
+      "team": "Individual",
+      "position": "All-around",
+      "birthYear": 1997,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Simone_Biles_in_2024_%28cropped%29.jpg/220px-Simone_Biles_in_2024_%28cropped%29.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Neymar Jr",
+      "sport": "Football",
+      "nationality": "Brazilian",
+      "team": "Santos",
+      "position": "Forward",
+      "birthYear": 1992,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705_%28cropped%29.jpg/220px-Neymar.jpg"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "year": 2017,
+      "genre": "Action-Adventure",
+      "platform": "Switch",
+      "rating": 9.7,
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Witcher 3: Wild Hunt",
+      "developer": "CD Projekt Red",
+      "year": 2015,
+      "genre": "RPG",
+      "platform": "Multi",
+      "rating": 9.3,
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Witcher_3_cover_art.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Red Dead Redemption 2",
+      "developer": "Rockstar Games",
+      "year": 2018,
+      "genre": "Action-Adventure",
+      "platform": "Multi",
+      "rating": 9.7,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
+    },
+    {
+      "id": 4,
+      "title": "God of War",
+      "developer": "Santa Monica Studio",
+      "year": 2018,
+      "genre": "Action-Adventure",
+      "platform": "PS4",
+      "rating": 9.4,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Minecraft",
+      "developer": "Mojang",
+      "year": 2011,
+      "genre": "Sandbox",
+      "platform": "Multi",
+      "rating": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+    },
+    {
+      "id": 6,
+      "title": "Grand Theft Auto V",
+      "developer": "Rockstar Games",
+      "year": 2013,
+      "genre": "Action-Adventure",
+      "platform": "Multi",
+      "rating": 9.5,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"
+    },
+    {
+      "id": 7,
+      "title": "The Last of Us",
+      "developer": "Naughty Dog",
+      "year": 2013,
+      "genre": "Action-Adventure",
+      "platform": "PS3",
+      "rating": 9.5,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Elden Ring",
+      "developer": "FromSoftware",
+      "year": 2022,
+      "genre": "Action RPG",
+      "platform": "Multi",
+      "rating": 9.5,
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Portal 2",
+      "developer": "Valve",
+      "year": 2011,
+      "genre": "Puzzle",
+      "platform": "Multi",
+      "rating": 9.5,
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Hades",
+      "developer": "Supergiant Games",
+      "year": 2020,
+      "genre": "Roguelike",
+      "platform": "Multi",
+      "rating": 9.3,
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Hades_cover_art.jpg"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "cuisine": "Italian",
+      "difficulty": "Easy",
+      "prepTime": 30,
+      "calories": 250,
+      "ingredients": [
+        "dough",
+        "tomato sauce",
+        "mozzarella",
+        "basil"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sushi Roll",
+      "cuisine": "Japanese",
+      "difficulty": "Hard",
+      "prepTime": 60,
+      "calories": 200,
+      "ingredients": [
+        "rice",
+        "nori",
+        "salmon",
+        "avocado",
+        "soy sauce"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tacos al Pastor",
+      "cuisine": "Mexican",
+      "difficulty": "Medium",
+      "prepTime": 45,
+      "calories": 300,
+      "ingredients": [
+        "pork",
+        "pineapple",
+        "tortilla",
+        "onion",
+        "cilantro"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pad Thai",
+      "cuisine": "Thai",
+      "difficulty": "Medium",
+      "prepTime": 30,
+      "calories": 350,
+      "ingredients": [
+        "rice noodles",
+        "shrimp",
+        "tofu",
+        "peanuts",
+        "lime"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Croissant",
+      "cuisine": "French",
+      "difficulty": "Hard",
+      "prepTime": 180,
+      "calories": 230,
+      "ingredients": [
+        "flour",
+        "butter",
+        "yeast",
+        "milk",
+        "sugar"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Kebab",
+      "cuisine": "Turkish",
+      "difficulty": "Medium",
+      "prepTime": 40,
+      "calories": 320,
+      "ingredients": [
+        "lamb",
+        "onion",
+        "tomato",
+        "pepper",
+        "yogurt"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Fish and Chips",
+      "cuisine": "British",
+      "difficulty": "Easy",
+      "prepTime": 35,
+      "calories": 450,
+      "ingredients": [
+        "cod",
+        "potatoes",
+        "flour",
+        "beer",
+        "peas"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bibimbap",
+      "cuisine": "Korean",
+      "difficulty": "Medium",
+      "prepTime": 40,
+      "calories": 400,
+      "ingredients": [
+        "rice",
+        "beef",
+        "spinach",
+        "carrot",
+        "egg",
+        "gochujang"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Tiramisu",
+      "cuisine": "Italian",
+      "difficulty": "Medium",
+      "prepTime": 45,
+      "calories": 280,
+      "ingredients": [
+        "ladyfingers",
+        "mascarpone",
+        "espresso",
+        "cocoa",
+        "eggs"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pho",
+      "cuisine": "Vietnamese",
+      "difficulty": "Medium",
+      "prepTime": 120,
+      "calories": 350,
+      "ingredients": [
+        "rice noodles",
+        "beef",
+        "star anise",
+        "cinnamon",
+        "basil"
+      ]
+    }
+  ],
+  "planets": [
+    {
+      "id": 1,
+      "name": "Mercury",
+      "type": "Terrestrial",
+      "distanceFromSun": "57.9M km",
+      "diameter": 4879,
+      "moons": 0,
+      "dayLength": "59 days",
+      "yearLength": "88 days"
+    },
+    {
+      "id": 2,
+      "name": "Venus",
+      "type": "Terrestrial",
+      "distanceFromSun": "108.2M km",
+      "diameter": 12104,
+      "moons": 0,
+      "dayLength": "243 days",
+      "yearLength": "225 days"
+    },
+    {
+      "id": 3,
+      "name": "Earth",
+      "type": "Terrestrial",
+      "distanceFromSun": "149.6M km",
+      "diameter": 12756,
+      "moons": 1,
+      "dayLength": "24 hours",
+      "yearLength": "365 days"
+    },
+    {
+      "id": 4,
+      "name": "Mars",
+      "type": "Terrestrial",
+      "distanceFromSun": "227.9M km",
+      "diameter": 6792,
+      "moons": 2,
+      "dayLength": "24.6 hours",
+      "yearLength": "687 days"
+    },
+    {
+      "id": 5,
+      "name": "Jupiter",
+      "type": "Gas Giant",
+      "distanceFromSun": "778.5M km",
+      "diameter": 142984,
+      "moons": 95,
+      "dayLength": "10 hours",
+      "yearLength": "12 years"
+    },
+    {
+      "id": 6,
+      "name": "Saturn",
+      "type": "Gas Giant",
+      "distanceFromSun": "1.43B km",
+      "diameter": 120536,
+      "moons": 146,
+      "dayLength": "10.7 hours",
+      "yearLength": "29 years"
+    },
+    {
+      "id": 7,
+      "name": "Uranus",
+      "type": "Ice Giant",
+      "distanceFromSun": "2.87B km",
+      "diameter": 51118,
+      "moons": 28,
+      "dayLength": "17 hours",
+      "yearLength": "84 years"
+    },
+    {
+      "id": 8,
+      "name": "Neptune",
+      "type": "Ice Giant",
+      "distanceFromSun": "4.5B km",
+      "diameter": 49528,
+      "moons": 16,
+      "dayLength": "16 hours",
+      "yearLength": "165 years"
+    }
+  ],
+  "programming": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "creator": "Brendan Eich",
+      "year": 1995,
+      "paradigm": "Multi-paradigm",
+      "typing": "Dynamic",
+      "extension": ".js",
+      "popularity": 1
+    },
+    {
+      "id": 2,
+      "name": "Python",
+      "creator": "Guido van Rossum",
+      "year": 1991,
+      "paradigm": "Multi-paradigm",
+      "typing": "Dynamic",
+      "extension": ".py",
+      "popularity": 2
+    },
+    {
+      "id": 3,
+      "name": "TypeScript",
+      "creator": "Anders Hejlsberg",
+      "year": 2012,
+      "paradigm": "Multi-paradigm",
+      "typing": "Static",
+      "extension": ".ts",
+      "popularity": 3
+    },
+    {
+      "id": 4,
+      "name": "Java",
+      "creator": "James Gosling",
+      "year": 1995,
+      "paradigm": "OOP",
+      "typing": "Static",
+      "extension": ".java",
+      "popularity": 4
+    },
+    {
+      "id": 5,
+      "name": "C#",
+      "creator": "Anders Hejlsberg",
+      "year": 2000,
+      "paradigm": "OOP",
+      "typing": "Static",
+      "extension": ".cs",
+      "popularity": 5
+    },
+    {
+      "id": 6,
+      "name": "Go",
+      "creator": "Robert Griesemer",
+      "year": 2009,
+      "paradigm": "Procedural",
+      "typing": "Static",
+      "extension": ".go",
+      "popularity": 6
+    },
+    {
+      "id": 7,
+      "name": "Rust",
+      "creator": "Graydon Hoare",
+      "year": 2010,
+      "paradigm": "Multi-paradigm",
+      "typing": "Static",
+      "extension": ".rs",
+      "popularity": 7
+    },
+    {
+      "id": 8,
+      "name": "Swift",
+      "creator": "Chris Lattner",
+      "year": 2014,
+      "paradigm": "Multi-paradigm",
+      "typing": "Static",
+      "extension": ".swift",
+      "popularity": 8
+    },
+    {
+      "id": 9,
+      "name": "Kotlin",
+      "creator": "JetBrains",
+      "year": 2011,
+      "paradigm": "Multi-paradigm",
+      "typing": "Static",
+      "extension": ".kt",
+      "popularity": 9
+    },
+    {
+      "id": 10,
+      "name": "Ruby",
+      "creator": "Yukihiro Matsumoto",
+      "year": 1995,
+      "paradigm": "OOP",
+      "typing": "Dynamic",
+      "extension": ".rb",
+      "popularity": 10
+    }
+  ],
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "type": "Electric",
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "generation": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    },
+    {
+      "id": 2,
+      "name": "Charizard",
+      "type": "Fire/Flying",
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "generation": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    },
+    {
+      "id": 3,
+      "name": "Mewtwo",
+      "type": "Psychic",
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "generation": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    },
+    {
+      "id": 4,
+      "name": "Bulbasaur",
+      "type": "Grass/Poison",
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "generation": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    },
+    {
+      "id": 5,
+      "name": "Gengar",
+      "type": "Ghost/Poison",
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "generation": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+    },
+    {
+      "id": 6,
+      "name": "Eevee",
+      "type": "Normal",
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "generation": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+    },
+    {
+      "id": 7,
+      "name": "Snorlax",
+      "type": "Normal",
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "generation": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+    },
+    {
+      "id": 8,
+      "name": "Lucario",
+      "type": "Fighting/Steel",
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "generation": 4,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+    },
+    {
+      "id": 9,
+      "name": "Garchomp",
+      "type": "Dragon/Ground",
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "generation": 4,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
+    },
+    {
+      "id": 10,
+      "name": "Greninja",
+      "type": "Water/Dark",
+      "hp": 72,
+      "attack": 95,
+      "defense": 67,
+      "generation": 6,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
+    }
+  ],
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "realName": "Bruce Wayne",
+      "publisher": "DC",
+      "power": "Intelligence & Gadgets",
+      "firstAppearance": 1939,
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Spider-Man",
+      "realName": "Peter Parker",
+      "publisher": "Marvel",
+      "power": "Spider Sense & Web",
+      "firstAppearance": 1962,
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "realName": "Diana Prince",
+      "publisher": "DC",
+      "power": "Super Strength & Flight",
+      "firstAppearance": 1941,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Wonder_Woman.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Iron Man",
+      "realName": "Tony Stark",
+      "publisher": "Marvel",
+      "power": "Powered Armor",
+      "firstAppearance": 1963,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png"
+    },
+    {
+      "id": 5,
+      "name": "Superman",
+      "realName": "Clark Kent",
+      "publisher": "DC",
+      "power": "Super Strength & Flight",
+      "firstAppearance": 1938,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"
+    },
+    {
+      "id": 6,
+      "name": "Black Panther",
+      "realName": "T'Challa",
+      "publisher": "Marvel",
+      "power": "Enhanced Abilities & Vibranium Suit",
+      "firstAppearance": 1966,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Black_Panther_%28T%27Challa_-_comic_book_character%29.png"
+    },
+    {
+      "id": 7,
+      "name": "Captain America",
+      "realName": "Steve Rogers",
+      "publisher": "Marvel",
+      "power": "Super Soldier Serum",
+      "firstAppearance": 1941,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/91/CaptainAmerica109.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Thor",
+      "realName": "Thor Odinson",
+      "publisher": "Marvel",
+      "power": "God of Thunder & Mjolnir",
+      "firstAppearance": 1962,
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Thor_%28Marvel_Comics%29.jpg"
+    },
+    {
+      "id": 9,
+      "name": "The Flash",
+      "realName": "Barry Allen",
+      "publisher": "DC",
+      "power": "Super Speed",
+      "firstAppearance": 1956,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Flash_%28Barry_Allen%29.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Wolverine",
+      "realName": "James Howlett",
+      "publisher": "Marvel",
+      "power": "Regeneration & Adamantium Claws",
+      "firstAppearance": 1974,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Wolverine_%28character%29.png"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Supra MK5",
+      "year": 2024,
+      "hp": 382,
+      "type": "Sports",
+      "country": "Japan",
+      "price": 56250,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg/280px-2021_Toyota_GR_Supra_2.0%2C_front_3.19.21.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "BMW",
+      "model": "M3 Competition",
+      "year": 2024,
+      "hp": 503,
+      "type": "Sedan",
+      "country": "Germany",
+      "price": 76900,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2021_BMW_M3_Competition_%28G80%29_front_3-24-21.jpg/280px-2021_BMW_M3_Competition.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Tesla",
+      "model": "Model S Plaid",
+      "year": 2024,
+      "hp": 1020,
+      "type": "Sedan",
+      "country": "USA",
+      "price": 89990,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2018_Tesla_Model_S_75D.jpg/280px-2018_Tesla_Model_S_75D.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Porsche",
+      "model": "911 GT3",
+      "year": 2024,
+      "hp": 502,
+      "type": "Sports",
+      "country": "Germany",
+      "price": 169700,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Porsche_911_GT3_%28992%29_1X7A4822.jpg/280px-Porsche_911_GT3_%28992%29.jpg"
+    },
+    {
+      "id": 5,
+      "brand": "Ford",
+      "model": "Mustang GT",
+      "year": 2024,
+      "hp": 480,
+      "type": "Muscle",
+      "country": "USA",
+      "price": 42495,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2024_Ford_Mustang_GT_in_Vapor_Blue%2C_Front_Left%2C_11-25-2023.jpg/280px-2024_Ford_Mustang_GT.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Ferrari",
+      "model": "F8 Tributo",
+      "year": 2023,
+      "hp": 710,
+      "type": "Supercar",
+      "country": "Italy",
+      "price": 276550,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ferrari_F8_Tributo_at_Goodwood_2019_001.jpg/280px-Ferrari_F8_Tributo.jpg"
+    },
+    {
+      "id": 7,
+      "brand": "Honda",
+      "model": "Civic Type R",
+      "year": 2024,
+      "hp": 315,
+      "type": "Hot Hatch",
+      "country": "Japan",
+      "price": 44295,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2023_Honda_Civic_Type_R_%28FL5%29%2C_front_7.28.23.jpg/280px-2023_Honda_Civic_Type_R.jpg"
+    },
+    {
+      "id": 8,
+      "brand": "Lamborghini",
+      "model": "Huracan",
+      "year": 2024,
+      "hp": 631,
+      "type": "Supercar",
+      "country": "Italy",
+      "price": 209409,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lamborghini_Hurac%C3%A1n_LP_610-4_%2813320895475%29.jpg/280px-Lamborghini_Huracan.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "Mercedes-Benz",
+      "model": "AMG GT",
+      "year": 2024,
+      "hp": 577,
+      "type": "Grand Tourer",
+      "country": "Germany",
+      "price": 162900,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercedes-AMG_GT_R_IMG_0728.jpg/280px-Mercedes-AMG_GT_R.jpg"
+    },
+    {
+      "id": 10,
+      "brand": "Nissan",
+      "model": "GT-R Nismo",
+      "year": 2024,
+      "hp": 600,
+      "type": "Sports",
+      "country": "Japan",
+      "price": 217990,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nissan_GT-R_MY2017_%281%29.jpg/280px-Nissan_GT-R.jpg"
+    }
+  ],
+  "tvShows": [
+    {
+      "id": 1,
+      "title": "Breaking Bad",
+      "creator": "Vince Gilligan",
+      "years": "2008-2013",
+      "genre": "Crime Drama",
+      "seasons": 5,
+      "rating": 9.5,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png"
+    },
+    {
+      "id": 2,
+      "title": "Game of Thrones",
+      "creator": "David Benioff & D.B. Weiss",
+      "years": "2011-2019",
+      "genre": "Fantasy Drama",
+      "seasons": 8,
+      "rating": 9.2,
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Friends",
+      "creator": "David Crane & Marta Kauffman",
+      "years": "1994-2004",
+      "genre": "Sitcom",
+      "seasons": 10,
+      "rating": 8.9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Friends_title_card.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Office",
+      "creator": "Greg Daniels",
+      "years": "2005-2013",
+      "genre": "Mockumentary",
+      "seasons": 9,
+      "rating": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/56/The_Office_Title_Card.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Stranger Things",
+      "creator": "The Duffer Brothers",
+      "years": "2016-2025",
+      "genre": "Sci-Fi Horror",
+      "seasons": 5,
+      "rating": 8.7,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_1.png"
+    },
+    {
+      "id": 6,
+      "title": "The Sopranos",
+      "creator": "David Chase",
+      "years": "1999-2007",
+      "genre": "Crime Drama",
+      "seasons": 6,
+      "rating": 9.2,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Sopranos_titlescreen.png"
+    },
+    {
+      "id": 7,
+      "title": "Chernobyl",
+      "creator": "Craig Mazin",
+      "years": "2019",
+      "genre": "Historical Drama",
+      "seasons": 1,
+      "rating": 9.4,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Chernobyl_2019_Miniseries.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Dark",
+      "creator": "Baran bo Odar & Jantje Friese",
+      "years": "2017-2020",
+      "genre": "Sci-Fi Thriller",
+      "seasons": 3,
+      "rating": 8.8,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Dark_%28TV_series%29.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Mandalorian",
+      "creator": "Jon Favreau",
+      "years": "2019-present",
+      "genre": "Sci-Fi Western",
+      "seasons": 3,
+      "rating": 8.7,
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/TheMandalorianSeason3Poster.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Peaky Blinders",
+      "creator": "Steven Knight",
+      "years": "2013-2022",
+      "genre": "Crime Drama",
+      "seasons": 6,
+      "rating": 8.8,
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Peaky_Blinders_titlecard.jpg"
+    }
+  ],
+  "anime": [
+    {
+      "id": 1,
+      "title": "Naruto",
+      "studio": "Pierrot",
+      "year": 2002,
+      "genre": "Action",
+      "episodes": 720,
+      "rating": 8.4,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/NauroShipp662.jpg"
+    },
+    {
+      "id": 2,
+      "title": "One Piece",
+      "studio": "Toei Animation",
+      "year": 1999,
+      "genre": "Adventure",
+      "episodes": 1100,
+      "rating": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Attack on Titan",
+      "studio": "MAPPA",
+      "year": 2013,
+      "genre": "Dark Fantasy",
+      "episodes": 94,
+      "rating": 9.1,
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Death Note",
+      "studio": "Madhouse",
+      "year": 2006,
+      "genre": "Thriller",
+      "episodes": 37,
+      "rating": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "studio": "Bones",
+      "year": 2009,
+      "genre": "Action",
+      "episodes": 64,
+      "rating": 9.2,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/Fma_brotherhood.png"
+    },
+    {
+      "id": 6,
+      "title": "Dragon Ball Z",
+      "studio": "Toei Animation",
+      "year": 1989,
+      "genre": "Action",
+      "episodes": 291,
+      "rating": 8.8,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Dragon_Ball_Z.png"
+    },
+    {
+      "id": 7,
+      "title": "Demon Slayer",
+      "studio": "ufotable",
+      "year": 2019,
+      "genre": "Action",
+      "episodes": 55,
+      "rating": 8.7,
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Steins;Gate",
+      "studio": "White Fox",
+      "year": 2011,
+      "genre": "Sci-Fi Thriller",
+      "episodes": 24,
+      "rating": 9.1,
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Steins%3BGate_cover.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Cowboy Bebop",
+      "studio": "Sunrise",
+      "year": 1998,
+      "genre": "Sci-Fi",
+      "episodes": 26,
+      "rating": 8.9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/Cowboy_Bebop_-_cover.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Jujutsu Kaisen",
+      "studio": "MAPPA",
+      "year": 2020,
+      "genre": "Action",
+      "episodes": 47,
+      "rating": 8.6,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_Kaisen_vol_1.jpg"
+    }
+  ],
+  "footballTeams": [
+    {
+      "id": 1,
+      "name": "Real Madrid",
+      "country": "Spain",
+      "league": "La Liga",
+      "founded": 1902,
+      "stadium": "Santiago Bernabeu",
+      "capacity": 83186,
+      "titles": 36
+    },
+    {
+      "id": 2,
+      "name": "FC Barcelona",
+      "country": "Spain",
+      "league": "La Liga",
+      "founded": 1899,
+      "stadium": "Spotify Camp Nou",
+      "capacity": 99354,
+      "titles": 27
+    },
+    {
+      "id": 3,
+      "name": "Manchester United",
+      "country": "England",
+      "league": "Premier League",
+      "founded": 1878,
+      "stadium": "Old Trafford",
+      "capacity": 74310,
+      "titles": 20
+    },
+    {
+      "id": 4,
+      "name": "Liverpool",
+      "country": "England",
+      "league": "Premier League",
+      "founded": 1892,
+      "stadium": "Anfield",
+      "capacity": 61276,
+      "titles": 19
+    },
+    {
+      "id": 5,
+      "name": "Bayern Munich",
+      "country": "Germany",
+      "league": "Bundesliga",
+      "founded": 1900,
+      "stadium": "Allianz Arena",
+      "capacity": 75024,
+      "titles": 33
+    },
+    {
+      "id": 6,
+      "name": "AC Milan",
+      "country": "Italy",
+      "league": "Serie A",
+      "founded": 1899,
+      "stadium": "San Siro",
+      "capacity": 75923,
+      "titles": 19
+    },
+    {
+      "id": 7,
+      "name": "Juventus",
+      "country": "Italy",
+      "league": "Serie A",
+      "founded": 1897,
+      "stadium": "Allianz Stadium",
+      "capacity": 41507,
+      "titles": 36
+    },
+    {
+      "id": 8,
+      "name": "Paris Saint-Germain",
+      "country": "France",
+      "league": "Ligue 1",
+      "founded": 1970,
+      "stadium": "Parc des Princes",
+      "capacity": 47929,
+      "titles": 12
+    },
+    {
+      "id": 9,
+      "name": "Galatasaray",
+      "country": "Turkey",
+      "league": "Super Lig",
+      "founded": 1905,
+      "stadium": "RAMS Park",
+      "capacity": 52280,
+      "titles": 24
+    },
+    {
+      "id": 10,
+      "name": "Fenerbahce",
+      "country": "Turkey",
+      "league": "Super Lig",
+      "founded": 1907,
+      "stadium": "Sukru Saracoglu",
+      "capacity": 50530,
+      "titles": 19
+    }
+  ],
+  "instruments": [
+    {
+      "id": 1,
+      "name": "Piano",
+      "family": "Keyboard",
+      "origin": "Italy",
+      "year": 1700,
+      "keys": 88,
+      "difficulty": "Medium"
+    },
+    {
+      "id": 2,
+      "name": "Guitar",
+      "family": "String",
+      "origin": "Spain",
+      "year": 1500,
+      "strings": 6,
+      "difficulty": "Medium"
+    },
+    {
+      "id": 3,
+      "name": "Violin",
+      "family": "String",
+      "origin": "Italy",
+      "year": 1530,
+      "strings": 4,
+      "difficulty": "Hard"
+    },
+    {
+      "id": 4,
+      "name": "Drums",
+      "family": "Percussion",
+      "origin": "Ancient",
+      "year": -5500,
+      "pieces": 5,
+      "difficulty": "Medium"
+    },
+    {
+      "id": 5,
+      "name": "Saxophone",
+      "family": "Woodwind",
+      "origin": "Belgium",
+      "year": 1846,
+      "keys": 23,
+      "difficulty": "Medium"
+    },
+    {
+      "id": 6,
+      "name": "Trumpet",
+      "family": "Brass",
+      "origin": "Egypt",
+      "year": -1500,
+      "valves": 3,
+      "difficulty": "Hard"
+    },
+    {
+      "id": 7,
+      "name": "Cello",
+      "family": "String",
+      "origin": "Italy",
+      "year": 1660,
+      "strings": 4,
+      "difficulty": "Hard"
+    },
+    {
+      "id": 8,
+      "name": "Flute",
+      "family": "Woodwind",
+      "origin": "Germany",
+      "year": -900,
+      "keys": 16,
+      "difficulty": "Medium"
+    },
+    {
+      "id": 9,
+      "name": "Harp",
+      "family": "String",
+      "origin": "Mesopotamia",
+      "year": -3500,
+      "strings": 47,
+      "difficulty": "Hard"
+    },
+    {
+      "id": 10,
+      "name": "Ukulele",
+      "family": "String",
+      "origin": "Hawaii",
+      "year": 1879,
+      "strings": 4,
+      "difficulty": "Easy"
+    }
+  ],
+  "dinosaurs": [
+    {
+      "id": 1,
+      "name": "Tyrannosaurus Rex",
+      "period": "Late Cretaceous",
+      "diet": "Carnivore",
+      "length": "12m",
+      "weight": "8 tons",
+      "region": "North America",
+      "yearsAgo": "68M"
+    },
+    {
+      "id": 2,
+      "name": "Velociraptor",
+      "period": "Late Cretaceous",
+      "diet": "Carnivore",
+      "length": "2m",
+      "weight": "15 kg",
+      "region": "Central Asia",
+      "yearsAgo": "75M"
+    },
+    {
+      "id": 3,
+      "name": "Triceratops",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "length": "9m",
+      "weight": "6 tons",
+      "region": "North America",
+      "yearsAgo": "68M"
+    },
+    {
+      "id": 4,
+      "name": "Brachiosaurus",
+      "period": "Late Jurassic",
+      "diet": "Herbivore",
+      "length": "26m",
+      "weight": "56 tons",
+      "region": "North America",
+      "yearsAgo": "154M"
+    },
+    {
+      "id": 5,
+      "name": "Stegosaurus",
+      "period": "Late Jurassic",
+      "diet": "Herbivore",
+      "length": "9m",
+      "weight": "3.5 tons",
+      "region": "North America",
+      "yearsAgo": "155M"
+    },
+    {
+      "id": 6,
+      "name": "Pteranodon",
+      "period": "Late Cretaceous",
+      "diet": "Piscivore",
+      "length": "1.8m",
+      "weight": "25 kg",
+      "region": "North America",
+      "yearsAgo": "86M"
+    },
+    {
+      "id": 7,
+      "name": "Spinosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Carnivore",
+      "length": "15m",
+      "weight": "7 tons",
+      "region": "North Africa",
+      "yearsAgo": "99M"
+    },
+    {
+      "id": 8,
+      "name": "Ankylosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "length": "8m",
+      "weight": "6 tons",
+      "region": "North America",
+      "yearsAgo": "68M"
+    },
+    {
+      "id": 9,
+      "name": "Parasaurolophus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "length": "10m",
+      "weight": "2.5 tons",
+      "region": "North America",
+      "yearsAgo": "76M"
+    },
+    {
+      "id": 10,
+      "name": "Dilophosaurus",
+      "period": "Early Jurassic",
+      "diet": "Carnivore",
+      "length": "7m",
+      "weight": "400 kg",
+      "region": "North America",
+      "yearsAgo": "193M"
+    }
+  ],
+  "mythologies": [
+    {
+      "id": 1,
+      "name": "Zeus",
+      "mythology": "Greek",
+      "role": "King of the Gods",
+      "domain": "Sky & Thunder",
+      "symbol": "Lightning Bolt",
+      "weapon": "Thunderbolt"
+    },
+    {
+      "id": 2,
+      "name": "Thor",
+      "mythology": "Norse",
+      "role": "God of Thunder",
+      "domain": "Thunder & Strength",
+      "symbol": "Hammer",
+      "weapon": "Mjolnir"
+    },
+    {
+      "id": 3,
+      "name": "Anubis",
+      "mythology": "Egyptian",
+      "role": "God of the Dead",
+      "domain": "Death & Afterlife",
+      "symbol": "Jackal",
+      "weapon": "Staff"
+    },
+    {
+      "id": 4,
+      "name": "Athena",
+      "mythology": "Greek",
+      "role": "Goddess of Wisdom",
+      "domain": "Wisdom & War",
+      "symbol": "Owl",
+      "weapon": "Spear & Shield"
+    },
+    {
+      "id": 5,
+      "name": "Odin",
+      "mythology": "Norse",
+      "role": "Allfather",
+      "domain": "Wisdom & Death",
+      "symbol": "Ravens",
+      "weapon": "Gungnir"
+    },
+    {
+      "id": 6,
+      "name": "Ra",
+      "mythology": "Egyptian",
+      "role": "Sun God",
+      "domain": "Sun & Creation",
+      "symbol": "Sun Disk",
+      "weapon": "Solar Barque"
+    },
+    {
+      "id": 7,
+      "name": "Poseidon",
+      "mythology": "Greek",
+      "role": "God of the Sea",
+      "domain": "Sea & Earthquakes",
+      "symbol": "Trident",
+      "weapon": "Trident"
+    },
+    {
+      "id": 8,
+      "name": "Loki",
+      "mythology": "Norse",
+      "role": "Trickster God",
+      "domain": "Mischief & Chaos",
+      "symbol": "Snake",
+      "weapon": "Shapeshifting"
+    },
+    {
+      "id": 9,
+      "name": "Amaterasu",
+      "mythology": "Japanese",
+      "role": "Sun Goddess",
+      "domain": "Sun & Universe",
+      "symbol": "Mirror",
+      "weapon": "Divine Light"
+    },
+    {
+      "id": 10,
+      "name": "Ganesha",
+      "mythology": "Hindu",
+      "role": "God of Beginnings",
+      "domain": "Wisdom & Success",
+      "symbol": "Elephant",
+      "weapon": "Axe & Lotus"
+    }
+  ],
+  "inventions": [
+    {
+      "id": 1,
+      "name": "Printing Press",
+      "inventor": "Johannes Gutenberg",
+      "year": 1440,
+      "country": "Germany",
+      "impact": "Mass communication"
+    },
+    {
+      "id": 2,
+      "name": "Telephone",
+      "inventor": "Alexander Graham Bell",
+      "year": 1876,
+      "country": "USA",
+      "impact": "Instant voice communication"
+    },
+    {
+      "id": 3,
+      "name": "Light Bulb",
+      "inventor": "Thomas Edison",
+      "year": 1879,
+      "country": "USA",
+      "impact": "Artificial lighting"
+    },
+    {
+      "id": 4,
+      "name": "World Wide Web",
+      "inventor": "Tim Berners-Lee",
+      "year": 1989,
+      "country": "Switzerland",
+      "impact": "Global information sharing"
+    },
+    {
+      "id": 5,
+      "name": "Airplane",
+      "inventor": "Wright Brothers",
+      "year": 1903,
+      "country": "USA",
+      "impact": "Air travel"
+    },
+    {
+      "id": 6,
+      "name": "Penicillin",
+      "inventor": "Alexander Fleming",
+      "year": 1928,
+      "country": "UK",
+      "impact": "Modern antibiotics"
+    },
+    {
+      "id": 7,
+      "name": "Steam Engine",
+      "inventor": "James Watt",
+      "year": 1769,
+      "country": "UK",
+      "impact": "Industrial Revolution"
+    },
+    {
+      "id": 8,
+      "name": "Electricity",
+      "inventor": "Nikola Tesla & Thomas Edison",
+      "year": 1882,
+      "country": "USA",
+      "impact": "Modern power systems"
+    },
+    {
+      "id": 9,
+      "name": "Compass",
+      "inventor": "Chinese inventors",
+      "year": 206,
+      "country": "China",
+      "impact": "Navigation"
+    },
+    {
+      "id": 10,
+      "name": "Telescope",
+      "inventor": "Hans Lippershey",
+      "year": 1608,
+      "country": "Netherlands",
+      "impact": "Astronomy & space exploration"
+    }
+  ],
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Espresso",
+      "origin": "Italy",
+      "type": "Hot",
+      "caffeine": "63mg",
+      "prepTime": "25 sec",
+      "ingredients": [
+        "coffee"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cappuccino",
+      "origin": "Italy",
+      "type": "Hot",
+      "caffeine": "63mg",
+      "prepTime": "3 min",
+      "ingredients": [
+        "espresso",
+        "steamed milk",
+        "foam"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Latte",
+      "origin": "Italy",
+      "type": "Hot",
+      "caffeine": "63mg",
+      "prepTime": "3 min",
+      "ingredients": [
+        "espresso",
+        "steamed milk"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Americano",
+      "origin": "USA",
+      "type": "Hot",
+      "caffeine": "63mg",
+      "prepTime": "1 min",
+      "ingredients": [
+        "espresso",
+        "hot water"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cold Brew",
+      "origin": "Japan",
+      "type": "Cold",
+      "caffeine": "200mg",
+      "prepTime": "12 hours",
+      "ingredients": [
+        "coarse ground coffee",
+        "cold water"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Turkish Coffee",
+      "origin": "Turkey",
+      "type": "Hot",
+      "caffeine": "50mg",
+      "prepTime": "5 min",
+      "ingredients": [
+        "finely ground coffee",
+        "water",
+        "sugar"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mocha",
+      "origin": "Yemen",
+      "type": "Hot",
+      "caffeine": "63mg",
+      "prepTime": "4 min",
+      "ingredients": [
+        "espresso",
+        "chocolate",
+        "steamed milk"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Affogato",
+      "origin": "Italy",
+      "type": "Hot/Cold",
+      "caffeine": "63mg",
+      "prepTime": "2 min",
+      "ingredients": [
+        "espresso",
+        "vanilla gelato"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Flat White",
+      "origin": "Australia",
+      "type": "Hot",
+      "caffeine": "130mg",
+      "prepTime": "3 min",
+      "ingredients": [
+        "double espresso",
+        "microfoam milk"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Irish Coffee",
+      "origin": "Ireland",
+      "type": "Hot",
+      "caffeine": "63mg",
+      "prepTime": "5 min",
+      "ingredients": [
+        "coffee",
+        "irish whiskey",
+        "sugar",
+        "cream"
+      ]
+    }
+  ]
+}
