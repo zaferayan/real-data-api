@@ -4,6 +4,10 @@ A REST API serving curated, real-world data sets. No fake data - real films, rea
 
 Built with Express. No database needed - just a single `db.json` file.
 
+## Live Demo
+
+Static JSON available at: **https://zaferayan.github.io/real-data-api**
+
 ## Installation
 
 ```bash
@@ -32,6 +36,28 @@ API runs at `http://localhost:4000`.
 | `/recipes` | 10 | Margherita Pizza, Sushi Roll, Kebab, Pad Thai... |
 | `/planets` | 8 | Mercury, Venus, Earth, Mars, Jupiter... |
 | `/programming` | 10 | JavaScript, Python, TypeScript, Rust, Go... |
+| `/pokemons` | 10 | Pikachu, Charizard, Mewtwo, Gengar... |
+| `/superheroes` | 10 | Batman, Spider-Man, Wonder Woman, Iron Man... |
+| `/cars` | 10 | Toyota Supra, Ferrari F8, Tesla Model S... |
+| `/tvShows` | 10 | Breaking Bad, Friends, Dark, Chernobyl... |
+| `/anime` | 10 | Naruto, One Piece, Death Note, Demon Slayer... |
+| `/footballTeams` | 10 | Real Madrid, Galatasaray, Liverpool, Bayern... |
+| `/instruments` | 10 | Piano, Guitar, Violin, Saxophone... |
+| `/dinosaurs` | 10 | T-Rex, Velociraptor, Triceratops, Spinosaurus... |
+| `/mythologies` | 10 | Zeus, Thor, Anubis, Amaterasu, Ganesha... |
+| `/inventions` | 10 | Printing Press, Telephone, WWW, Penicillin... |
+| `/coffees` | 10 | Espresso, Turkish Coffee, Cold Brew, Latte... |
+
+## CRUD Operations
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/:collection` | Get all items |
+| `GET` | `/:collection/:id` | Get single item |
+| `POST` | `/:collection` | Create new item |
+| `PUT` | `/:collection/:id` | Replace item |
+| `PATCH` | `/:collection/:id` | Update fields |
+| `DELETE` | `/:collection/:id` | Delete item |
 
 ## Example Requests
 
@@ -42,8 +68,18 @@ curl http://localhost:4000/films
 # Single film
 curl http://localhost:4000/films/3
 
-# All recipes
-curl http://localhost:4000/recipes
+# Add a new pokemon
+curl -X POST http://localhost:4000/pokemons \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Rayquaza","type":"Dragon/Flying","hp":105}'
+
+# Update a recipe
+curl -X PATCH http://localhost:4000/recipes/6 \
+  -H "Content-Type: application/json" \
+  -d '{"difficulty":"Hard"}'
+
+# Delete a dinosaur
+curl -X DELETE http://localhost:4000/dinosaurs/10
 ```
 
 ## Example Response
@@ -75,3 +111,13 @@ Edit `db.json` and add a new top-level array. It will automatically become an en
 ```
 
 Restart the server and `GET /cars` is ready.
+
+## Static Usage (GitHub Pages)
+
+You can also fetch the data directly from GitHub Pages without running a server:
+
+```js
+fetch("https://zaferayan.github.io/real-data-api/api/films.json")
+  .then(res => res.json())
+  .then(data => console.log(data));
+```

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Mercury",
+    "type": "Terrestrial",
+    "distanceFromSun": "57.9M km",
+    "diameter": 4879,
+    "moons": 0,
+    "dayLength": "59 days",
+    "yearLength": "88 days"
+  },
+  {
+    "id": 2,
+    "name": "Venus",
+    "type": "Terrestrial",
+    "distanceFromSun": "108.2M km",
+    "diameter": 12104,
+    "moons": 0,
+    "dayLength": "243 days",
+    "yearLength": "225 days"
+  },
+  {
+    "id": 3,
+    "name": "Earth",
+    "type": "Terrestrial",
+    "distanceFromSun": "149.6M km",
+    "diameter": 12756,
+    "moons": 1,
+    "dayLength": "24 hours",
+    "yearLength": "365 days"
+  },
+  {
+    "id": 4,
+    "name": "Mars",
+    "type": "Terrestrial",
+    "distanceFromSun": "227.9M km",
+    "diameter": 6792,
+    "moons": 2,
+    "dayLength": "24.6 hours",
+    "yearLength": "687 days"
+  },
+  {
+    "id": 5,
+    "name": "Jupiter",
+    "type": "Gas Giant",
+    "distanceFromSun": "778.5M km",
+    "diameter": 142984,
+    "moons": 95,
+    "dayLength": "10 hours",
+    "yearLength": "12 years"
+  },
+  {
+    "id": 6,
+    "name": "Saturn",
+    "type": "Gas Giant",
+    "distanceFromSun": "1.43B km",
+    "diameter": 120536,
+    "moons": 146,
+    "dayLength": "10.7 hours",
+    "yearLength": "29 years"
+  },
+  {
+    "id": 7,
+    "name": "Uranus",
+    "type": "Ice Giant",
+    "distanceFromSun": "2.87B km",
+    "diameter": 51118,
+    "moons": 28,
+    "dayLength": "17 hours",
+    "yearLength": "84 years"
+  },
+  {
+    "id": 8,
+    "name": "Neptune",
+    "type": "Ice Giant",
+    "distanceFromSun": "4.5B km",
+    "diameter": 49528,
+    "moons": 16,
+    "dayLength": "16 hours",
+    "yearLength": "165 years"
+  }
+]

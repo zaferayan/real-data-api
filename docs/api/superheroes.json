@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Batman",
+    "realName": "Bruce Wayne",
+    "publisher": "DC",
+    "power": "Intelligence & Gadgets",
+    "firstAppearance": 1939,
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Spider-Man",
+    "realName": "Peter Parker",
+    "publisher": "Marvel",
+    "power": "Spider Sense & Web",
+    "firstAppearance": 1962,
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Wonder Woman",
+    "realName": "Diana Prince",
+    "publisher": "DC",
+    "power": "Super Strength & Flight",
+    "firstAppearance": 1941,
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Wonder_Woman.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Iron Man",
+    "realName": "Tony Stark",
+    "publisher": "Marvel",
+    "power": "Powered Armor",
+    "firstAppearance": 1963,
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png"
+  },
+  {
+    "id": 5,
+    "name": "Superman",
+    "realName": "Clark Kent",
+    "publisher": "DC",
+    "power": "Super Strength & Flight",
+    "firstAppearance": 1938,
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"
+  },
+  {
+    "id": 6,
+    "name": "Black Panther",
+    "realName": "T'Challa",
+    "publisher": "Marvel",
+    "power": "Enhanced Abilities & Vibranium Suit",
+    "firstAppearance": 1966,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Black_Panther_%28T%27Challa_-_comic_book_character%29.png"
+  },
+  {
+    "id": 7,
+    "name": "Captain America",
+    "realName": "Steve Rogers",
+    "publisher": "Marvel",
+    "power": "Super Soldier Serum",
+    "firstAppearance": 1941,
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/91/CaptainAmerica109.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Thor",
+    "realName": "Thor Odinson",
+    "publisher": "Marvel",
+    "power": "God of Thunder & Mjolnir",
+    "firstAppearance": 1962,
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Thor_%28Marvel_Comics%29.jpg"
+  },
+  {
+    "id": 9,
+    "name": "The Flash",
+    "realName": "Barry Allen",
+    "publisher": "DC",
+    "power": "Super Speed",
+    "firstAppearance": 1956,
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Flash_%28Barry_Allen%29.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Wolverine",
+    "realName": "James Howlett",
+    "publisher": "Marvel",
+    "power": "Regeneration & Adamantium Claws",
+    "firstAppearance": 1974,
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Wolverine_%28character%29.png"
+  }
+]

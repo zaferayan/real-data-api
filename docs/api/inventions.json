@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Printing Press",
+    "inventor": "Johannes Gutenberg",
+    "year": 1440,
+    "country": "Germany",
+    "impact": "Mass communication"
+  },
+  {
+    "id": 2,
+    "name": "Telephone",
+    "inventor": "Alexander Graham Bell",
+    "year": 1876,
+    "country": "USA",
+    "impact": "Instant voice communication"
+  },
+  {
+    "id": 3,
+    "name": "Light Bulb",
+    "inventor": "Thomas Edison",
+    "year": 1879,
+    "country": "USA",
+    "impact": "Artificial lighting"
+  },
+  {
+    "id": 4,
+    "name": "World Wide Web",
+    "inventor": "Tim Berners-Lee",
+    "year": 1989,
+    "country": "Switzerland",
+    "impact": "Global information sharing"
+  },
+  {
+    "id": 5,
+    "name": "Airplane",
+    "inventor": "Wright Brothers",
+    "year": 1903,
+    "country": "USA",
+    "impact": "Air travel"
+  },
+  {
+    "id": 6,
+    "name": "Penicillin",
+    "inventor": "Alexander Fleming",
+    "year": 1928,
+    "country": "UK",
+    "impact": "Modern antibiotics"
+  },
+  {
+    "id": 7,
+    "name": "Steam Engine",
+    "inventor": "James Watt",
+    "year": 1769,
+    "country": "UK",
+    "impact": "Industrial Revolution"
+  },
+  {
+    "id": 8,
+    "name": "Electricity",
+    "inventor": "Nikola Tesla & Thomas Edison",
+    "year": 1882,
+    "country": "USA",
+    "impact": "Modern power systems"
+  },
+  {
+    "id": 9,
+    "name": "Compass",
+    "inventor": "Chinese inventors",
+    "year": 206,
+    "country": "China",
+    "impact": "Navigation"
+  },
+  {
+    "id": 10,
+    "name": "Telescope",
+    "inventor": "Hans Lippershey",
+    "year": 1608,
+    "country": "Netherlands",
+    "impact": "Astronomy & space exploration"
+  }
+]

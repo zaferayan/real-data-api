@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Piano",
+    "family": "Keyboard",
+    "origin": "Italy",
+    "year": 1700,
+    "keys": 88,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "name": "Guitar",
+    "family": "String",
+    "origin": "Spain",
+    "year": 1500,
+    "strings": 6,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "name": "Violin",
+    "family": "String",
+    "origin": "Italy",
+    "year": 1530,
+    "strings": 4,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 4,
+    "name": "Drums",
+    "family": "Percussion",
+    "origin": "Ancient",
+    "year": -5500,
+    "pieces": 5,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "name": "Saxophone",
+    "family": "Woodwind",
+    "origin": "Belgium",
+    "year": 1846,
+    "keys": 23,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "name": "Trumpet",
+    "family": "Brass",
+    "origin": "Egypt",
+    "year": -1500,
+    "valves": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 7,
+    "name": "Cello",
+    "family": "String",
+    "origin": "Italy",
+    "year": 1660,
+    "strings": 4,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8,
+    "name": "Flute",
+    "family": "Woodwind",
+    "origin": "Germany",
+    "year": -900,
+    "keys": 16,
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "name": "Harp",
+    "family": "String",
+    "origin": "Mesopotamia",
+    "year": -3500,
+    "strings": 47,
+    "difficulty": "Hard"
+  },
+  {
+    "id": 10,
+    "name": "Ukulele",
+    "family": "String",
+    "origin": "Hawaii",
+    "year": 1879,
+    "strings": 4,
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Real Madrid",
+    "country": "Spain",
+    "league": "La Liga",
+    "founded": 1902,
+    "stadium": "Santiago Bernabeu",
+    "capacity": 83186,
+    "titles": 36
+  },
+  {
+    "id": 2,
+    "name": "FC Barcelona",
+    "country": "Spain",
+    "league": "La Liga",
+    "founded": 1899,
+    "stadium": "Spotify Camp Nou",
+    "capacity": 99354,
+    "titles": 27
+  },
+  {
+    "id": 3,
+    "name": "Manchester United",
+    "country": "England",
+    "league": "Premier League",
+    "founded": 1878,
+    "stadium": "Old Trafford",
+    "capacity": 74310,
+    "titles": 20
+  },
+  {
+    "id": 4,
+    "name": "Liverpool",
+    "country": "England",
+    "league": "Premier League",
+    "founded": 1892,
+    "stadium": "Anfield",
+    "capacity": 61276,
+    "titles": 19
+  },
+  {
+    "id": 5,
+    "name": "Bayern Munich",
+    "country": "Germany",
+    "league": "Bundesliga",
+    "founded": 1900,
+    "stadium": "Allianz Arena",
+    "capacity": 75024,
+    "titles": 33
+  },
+  {
+    "id": 6,
+    "name": "AC Milan",
+    "country": "Italy",
+    "league": "Serie A",
+    "founded": 1899,
+    "stadium": "San Siro",
+    "capacity": 75923,
+    "titles": 19
+  },
+  {
+    "id": 7,
+    "name": "Juventus",
+    "country": "Italy",
+    "league": "Serie A",
+    "founded": 1897,
+    "stadium": "Allianz Stadium",
+    "capacity": 41507,
+    "titles": 36
+  },
+  {
+    "id": 8,
+    "name": "Paris Saint-Germain",
+    "country": "France",
+    "league": "Ligue 1",
+    "founded": 1970,
+    "stadium": "Parc des Princes",
+    "capacity": 47929,
+    "titles": 12
+  },
+  {
+    "id": 9,
+    "name": "Galatasaray",
+    "country": "Turkey",
+    "league": "Super Lig",
+    "founded": 1905,
+    "stadium": "RAMS Park",
+    "capacity": 52280,
+    "titles": 24
+  },
+  {
+    "id": 10,
+    "name": "Fenerbahce",
+    "country": "Turkey",
+    "league": "Super Lig",
+    "founded": 1907,
+    "stadium": "Sukru Saracoglu",
+    "capacity": 50530,
+    "titles": 19
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "prepTime": 30,
+    "calories": 250,
+    "ingredients": [
+      "dough",
+      "tomato sauce",
+      "mozzarella",
+      "basil"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sushi Roll",
+    "cuisine": "Japanese",
+    "difficulty": "Hard",
+    "prepTime": 60,
+    "calories": 200,
+    "ingredients": [
+      "rice",
+      "nori",
+      "salmon",
+      "avocado",
+      "soy sauce"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tacos al Pastor",
+    "cuisine": "Mexican",
+    "difficulty": "Medium",
+    "prepTime": 45,
+    "calories": 300,
+    "ingredients": [
+      "pork",
+      "pineapple",
+      "tortilla",
+      "onion",
+      "cilantro"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pad Thai",
+    "cuisine": "Thai",
+    "difficulty": "Medium",
+    "prepTime": 30,
+    "calories": 350,
+    "ingredients": [
+      "rice noodles",
+      "shrimp",
+      "tofu",
+      "peanuts",
+      "lime"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Croissant",
+    "cuisine": "French",
+    "difficulty": "Hard",
+    "prepTime": 180,
+    "calories": 230,
+    "ingredients": [
+      "flour",
+      "butter",
+      "yeast",
+      "milk",
+      "sugar"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Kebab",
+    "cuisine": "Turkish",
+    "difficulty": "Medium",
+    "prepTime": 40,
+    "calories": 320,
+    "ingredients": [
+      "lamb",
+      "onion",
+      "tomato",
+      "pepper",
+      "yogurt"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Fish and Chips",
+    "cuisine": "British",
+    "difficulty": "Easy",
+    "prepTime": 35,
+    "calories": 450,
+    "ingredients": [
+      "cod",
+      "potatoes",
+      "flour",
+      "beer",
+      "peas"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Bibimbap",
+    "cuisine": "Korean",
+    "difficulty": "Medium",
+    "prepTime": 40,
+    "calories": 400,
+    "ingredients": [
+      "rice",
+      "beef",
+      "spinach",
+      "carrot",
+      "egg",
+      "gochujang"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tiramisu",
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "prepTime": 45,
+    "calories": 280,
+    "ingredients": [
+      "ladyfingers",
+      "mascarpone",
+      "espresso",
+      "cocoa",
+      "eggs"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Pho",
+    "cuisine": "Vietnamese",
+    "difficulty": "Medium",
+    "prepTime": 120,
+    "calories": 350,
+    "ingredients": [
+      "rice noodles",
+      "beef",
+      "star anise",
+      "cinnamon",
+      "basil"
+    ]
+  }
+]

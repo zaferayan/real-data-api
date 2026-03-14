@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript",
+    "creator": "Brendan Eich",
+    "year": 1995,
+    "paradigm": "Multi-paradigm",
+    "typing": "Dynamic",
+    "extension": ".js",
+    "popularity": 1
+  },
+  {
+    "id": 2,
+    "name": "Python",
+    "creator": "Guido van Rossum",
+    "year": 1991,
+    "paradigm": "Multi-paradigm",
+    "typing": "Dynamic",
+    "extension": ".py",
+    "popularity": 2
+  },
+  {
+    "id": 3,
+    "name": "TypeScript",
+    "creator": "Anders Hejlsberg",
+    "year": 2012,
+    "paradigm": "Multi-paradigm",
+    "typing": "Static",
+    "extension": ".ts",
+    "popularity": 3
+  },
+  {
+    "id": 4,
+    "name": "Java",
+    "creator": "James Gosling",
+    "year": 1995,
+    "paradigm": "OOP",
+    "typing": "Static",
+    "extension": ".java",
+    "popularity": 4
+  },
+  {
+    "id": 5,
+    "name": "C#",
+    "creator": "Anders Hejlsberg",
+    "year": 2000,
+    "paradigm": "OOP",
+    "typing": "Static",
+    "extension": ".cs",
+    "popularity": 5
+  },
+  {
+    "id": 6,
+    "name": "Go",
+    "creator": "Robert Griesemer",
+    "year": 2009,
+    "paradigm": "Procedural",
+    "typing": "Static",
+    "extension": ".go",
+    "popularity": 6
+  },
+  {
+    "id": 7,
+    "name": "Rust",
+    "creator": "Graydon Hoare",
+    "year": 2010,
+    "paradigm": "Multi-paradigm",
+    "typing": "Static",
+    "extension": ".rs",
+    "popularity": 7
+  },
+  {
+    "id": 8,
+    "name": "Swift",
+    "creator": "Chris Lattner",
+    "year": 2014,
+    "paradigm": "Multi-paradigm",
+    "typing": "Static",
+    "extension": ".swift",
+    "popularity": 8
+  },
+  {
+    "id": 9,
+    "name": "Kotlin",
+    "creator": "JetBrains",
+    "year": 2011,
+    "paradigm": "Multi-paradigm",
+    "typing": "Static",
+    "extension": ".kt",
+    "popularity": 9
+  },
+  {
+    "id": 10,
+    "name": "Ruby",
+    "creator": "Yukihiro Matsumoto",
+    "year": 1995,
+    "paradigm": "OOP",
+    "typing": "Dynamic",
+    "extension": ".rb",
+    "popularity": 10
+  }
+]

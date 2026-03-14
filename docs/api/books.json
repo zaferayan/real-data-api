@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "genre": "Fiction",
+    "pages": 281,
+    "image": "https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg"
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genre": "Dystopian",
+    "pages": 328,
+    "image": "https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "genre": "Romance",
+    "pages": 432,
+    "image": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "genre": "Fiction",
+    "pages": 180,
+    "image": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg"
+  },
+  {
+    "id": 5,
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "year": 1967,
+    "genre": "Magical Realism",
+    "pages": 417,
+    "image": "https://covers.openlibrary.org/b/isbn/9780060883287-M.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "genre": "Fiction",
+    "pages": 234,
+    "image": "https://covers.openlibrary.org/b/isbn/9780316769488-M.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "genre": "Dystopian",
+    "pages": 311,
+    "image": "https://covers.openlibrary.org/b/isbn/9780060850524-M.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year": 1954,
+    "genre": "Fantasy",
+    "pages": 1178,
+    "image": "https://covers.openlibrary.org/b/isbn/9780618640157-M.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997,
+    "genre": "Fantasy",
+    "pages": 309,
+    "image": "https://covers.openlibrary.org/b/isbn/9780590353427-M.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": 1988,
+    "genre": "Fiction",
+    "pages": 197,
+    "image": "https://covers.openlibrary.org/b/isbn/9780061122415-M.jpg"
+  }
+]

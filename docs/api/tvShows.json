@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Breaking Bad",
+    "creator": "Vince Gilligan",
+    "years": "2008-2013",
+    "genre": "Crime Drama",
+    "seasons": 5,
+    "rating": 9.5,
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png"
+  },
+  {
+    "id": 2,
+    "title": "Game of Thrones",
+    "creator": "David Benioff & D.B. Weiss",
+    "years": "2011-2019",
+    "genre": "Fantasy Drama",
+    "seasons": 8,
+    "rating": 9.2,
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Friends",
+    "creator": "David Crane & Marta Kauffman",
+    "years": "1994-2004",
+    "genre": "Sitcom",
+    "seasons": 10,
+    "rating": 8.9,
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Friends_title_card.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Office",
+    "creator": "Greg Daniels",
+    "years": "2005-2013",
+    "genre": "Mockumentary",
+    "seasons": 9,
+    "rating": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/56/The_Office_Title_Card.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Stranger Things",
+    "creator": "The Duffer Brothers",
+    "years": "2016-2025",
+    "genre": "Sci-Fi Horror",
+    "seasons": 5,
+    "rating": 8.7,
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_1.png"
+  },
+  {
+    "id": 6,
+    "title": "The Sopranos",
+    "creator": "David Chase",
+    "years": "1999-2007",
+    "genre": "Crime Drama",
+    "seasons": 6,
+    "rating": 9.2,
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Sopranos_titlescreen.png"
+  },
+  {
+    "id": 7,
+    "title": "Chernobyl",
+    "creator": "Craig Mazin",
+    "years": "2019",
+    "genre": "Historical Drama",
+    "seasons": 1,
+    "rating": 9.4,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Chernobyl_2019_Miniseries.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Dark",
+    "creator": "Baran bo Odar & Jantje Friese",
+    "years": "2017-2020",
+    "genre": "Sci-Fi Thriller",
+    "seasons": 3,
+    "rating": 8.8,
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Dark_%28TV_series%29.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Mandalorian",
+    "creator": "Jon Favreau",
+    "years": "2019-present",
+    "genre": "Sci-Fi Western",
+    "seasons": 3,
+    "rating": 8.7,
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/TheMandalorianSeason3Poster.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Peaky Blinders",
+    "creator": "Steven Knight",
+    "years": "2013-2022",
+    "genre": "Crime Drama",
+    "seasons": 6,
+    "rating": 8.8,
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Peaky_Blinders_titlecard.jpg"
+  }
+]

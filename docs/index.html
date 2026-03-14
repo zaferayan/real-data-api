@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Data API</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; padding: 40px; max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 2rem; margin-bottom: 8px; color: #fff; }
+    h1 span { color: #3b82f6; }
+    .subtitle { color: #888; margin-bottom: 12px; }
+    .github { margin-bottom: 32px; }
+    .github a { color: #888; text-decoration: none; font-size: 0.85rem; }
+    .github a:hover { color: #3b82f6; }
+    h2 { font-size: 1.1rem; color: #fff; margin: 24px 0 12px; }
+    .badge { display: inline-block; background: #3b82f620; color: #3b82f6; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; margin-left: 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+    .card { background: #141414; border: 1px solid #1e1e1e; border-radius: 8px; padding: 16px; transition: border-color 0.2s; cursor: pointer; text-decoration: none; color: inherit; display: block; }
+    .card:hover { border-color: #3b82f6; }
+    .card-title { font-family: monospace; font-weight: 600; color: #3b82f6; font-size: 0.95rem; margin-bottom: 6px; }
+    .card-desc { color: #888; font-size: 0.8rem; }
+    .card-count { color: #555; font-size: 0.75rem; margin-top: 8px; }
+    .usage { background: #141414; border: 1px solid #1e1e1e; border-radius: 8px; padding: 20px; margin-top: 24px; }
+    .usage h3 { font-size: 0.95rem; color: #fff; margin-bottom: 12px; }
+    pre { background: #0d0d0d; border: 1px solid #1e1e1e; border-radius: 6px; padding: 14px; overflow-x: auto; font-size: 0.85rem; color: #e0e0e0; }
+    code { font-family: 'SF Mono', 'Fira Code', monospace; }
+    .keyword { color: #c084fc; }
+    .string { color: #34d399; }
+    .func { color: #60a5fa; }
+  </style>
+</head>
+<body>
+  <h1><span>Real</span> Data API</h1>
+  <p class="subtitle">Curated real-world datasets served as static JSON</p>
+  <p class="github"><a href="https://github.com/zaferayan/real-data-api">github.com/zaferayan/real-data-api</a></p>
+
+  <h2>Endpoints <span class="badge" id="count"></span></h2>
+  <div class="grid" id="grid"></div>
+
+  <div class="usage">
+    <h3>Usage</h3>
+    <pre><code><span class="keyword">fetch</span>(<span class="string">"https://zaferayan.github.io/real-data-api/api/films.json"</span>)
+  .<span class="func">then</span>(res => res.<span class="func">json</span>())
+  .<span class="func">then</span>(data => <span class="func">console.log</span>(data));</code></pre>
+  </div>
+
+  <script>
+    const endpoints = {
+      films: "The Shawshank Redemption, The Dark Knight, Inception...",
+      books: "1984, The Great Gatsby, The Lord of the Rings...",
+      artists: "Leonardo da Vinci, Van Gogh, Frida Kahlo...",
+      musicians: "The Beatles, Queen, Nirvana, Beyonce...",
+      countries: "Japan, Turkey, Brazil, South Korea...",
+      sports: "Messi, LeBron James, Serena Williams...",
+      games: "Zelda: BOTW, Elden Ring, The Witcher 3...",
+      recipes: "Margherita Pizza, Sushi Roll, Kebab...",
+      planets: "Mercury, Venus, Earth, Mars, Jupiter...",
+      programming: "JavaScript, Python, TypeScript, Rust...",
+      pokemons: "Pikachu, Charizard, Mewtwo, Gengar...",
+      superheroes: "Batman, Spider-Man, Wonder Woman...",
+      cars: "Toyota Supra, Ferrari F8, Tesla Model S...",
+      tvShows: "Breaking Bad, Friends, Dark, Chernobyl...",
+      anime: "Naruto, One Piece, Death Note, Demon Slayer...",
+      footballTeams: "Real Madrid, Galatasaray, Liverpool...",
+      instruments: "Piano, Guitar, Violin, Saxophone...",
+      dinosaurs: "T-Rex, Velociraptor, Triceratops...",
+      mythologies: "Zeus, Thor, Anubis, Amaterasu...",
+      inventions: "Printing Press, WWW, Penicillin...",
+      coffees: "Espresso, Turkish Coffee, Cold Brew...",
+    };
+
+    const grid = document.getElementById("grid");
+    const keys = Object.keys(endpoints);
+    document.getElementById("count").textContent = keys.length + " collections";
+
+    keys.forEach(name => {
+      const card = document.createElement("a");
+      card.className = "card";
+      card.href = `api/${name}.json`;
+      card.innerHTML = `
+        <div class="card-title">/api/${name}.json</div>
+        <div class="card-desc">${endpoints[name]}</div>
+      `;
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

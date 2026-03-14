@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "developer": "Nintendo",
+    "year": 2017,
+    "genre": "Action-Adventure",
+    "platform": "Switch",
+    "rating": 9.7,
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Witcher 3: Wild Hunt",
+    "developer": "CD Projekt Red",
+    "year": 2015,
+    "genre": "RPG",
+    "platform": "Multi",
+    "rating": 9.3,
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Witcher_3_cover_art.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Red Dead Redemption 2",
+    "developer": "Rockstar Games",
+    "year": 2018,
+    "genre": "Action-Adventure",
+    "platform": "Multi",
+    "rating": 9.7,
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
+  },
+  {
+    "id": 4,
+    "title": "God of War",
+    "developer": "Santa Monica Studio",
+    "year": 2018,
+    "genre": "Action-Adventure",
+    "platform": "PS4",
+    "rating": 9.4,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Minecraft",
+    "developer": "Mojang",
+    "year": 2011,
+    "genre": "Sandbox",
+    "platform": "Multi",
+    "rating": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+  },
+  {
+    "id": 6,
+    "title": "Grand Theft Auto V",
+    "developer": "Rockstar Games",
+    "year": 2013,
+    "genre": "Action-Adventure",
+    "platform": "Multi",
+    "rating": 9.5,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"
+  },
+  {
+    "id": 7,
+    "title": "The Last of Us",
+    "developer": "Naughty Dog",
+    "year": 2013,
+    "genre": "Action-Adventure",
+    "platform": "PS3",
+    "rating": 9.5,
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Elden Ring",
+    "developer": "FromSoftware",
+    "year": 2022,
+    "genre": "Action RPG",
+    "platform": "Multi",
+    "rating": 9.5,
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Portal 2",
+    "developer": "Valve",
+    "year": 2011,
+    "genre": "Puzzle",
+    "platform": "Multi",
+    "rating": 9.5,
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Hades",
+    "developer": "Supergiant Games",
+    "year": 2020,
+    "genre": "Roguelike",
+    "platform": "Multi",
+    "rating": 9.3,
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Hades_cover_art.jpg"
+  }
+]

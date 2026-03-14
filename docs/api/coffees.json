@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso",
+    "origin": "Italy",
+    "type": "Hot",
+    "caffeine": "63mg",
+    "prepTime": "25 sec",
+    "ingredients": [
+      "coffee"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "origin": "Italy",
+    "type": "Hot",
+    "caffeine": "63mg",
+    "prepTime": "3 min",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "foam"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Latte",
+    "origin": "Italy",
+    "type": "Hot",
+    "caffeine": "63mg",
+    "prepTime": "3 min",
+    "ingredients": [
+      "espresso",
+      "steamed milk"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Americano",
+    "origin": "USA",
+    "type": "Hot",
+    "caffeine": "63mg",
+    "prepTime": "1 min",
+    "ingredients": [
+      "espresso",
+      "hot water"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cold Brew",
+    "origin": "Japan",
+    "type": "Cold",
+    "caffeine": "200mg",
+    "prepTime": "12 hours",
+    "ingredients": [
+      "coarse ground coffee",
+      "cold water"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Turkish Coffee",
+    "origin": "Turkey",
+    "type": "Hot",
+    "caffeine": "50mg",
+    "prepTime": "5 min",
+    "ingredients": [
+      "finely ground coffee",
+      "water",
+      "sugar"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mocha",
+    "origin": "Yemen",
+    "type": "Hot",
+    "caffeine": "63mg",
+    "prepTime": "4 min",
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "steamed milk"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Affogato",
+    "origin": "Italy",
+    "type": "Hot/Cold",
+    "caffeine": "63mg",
+    "prepTime": "2 min",
+    "ingredients": [
+      "espresso",
+      "vanilla gelato"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Flat White",
+    "origin": "Australia",
+    "type": "Hot",
+    "caffeine": "130mg",
+    "prepTime": "3 min",
+    "ingredients": [
+      "double espresso",
+      "microfoam milk"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Irish Coffee",
+    "origin": "Ireland",
+    "type": "Hot",
+    "caffeine": "63mg",
+    "prepTime": "5 min",
+    "ingredients": [
+      "coffee",
+      "irish whiskey",
+      "sugar",
+      "cream"
+    ]
+  }
+]

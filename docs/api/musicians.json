@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "The Beatles",
+    "genre": "Rock",
+    "country": "UK",
+    "activeYears": "1960-1970",
+    "topHit": "Hey Jude",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Fabs.JPG/250px-The_Fabs.JPG"
+  },
+  {
+    "id": 2,
+    "name": "Michael Jackson",
+    "genre": "Pop",
+    "country": "USA",
+    "activeYears": "1964-2009",
+    "topHit": "Thriller",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Michael_Jackson_in_1988.jpg/220px-Michael_Jackson_in_1988.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Queen",
+    "genre": "Rock",
+    "country": "UK",
+    "activeYears": "1970-present",
+    "topHit": "Bohemian Rhapsody",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Queen_-_Live_Magic.jpg/220px-Queen_-_Live_Magic.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Elvis Presley",
+    "genre": "Rock and Roll",
+    "country": "USA",
+    "activeYears": "1953-1977",
+    "topHit": "Jailhouse Rock",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/220px-Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bob Marley",
+    "genre": "Reggae",
+    "country": "Jamaica",
+    "activeYears": "1963-1981",
+    "topHit": "No Woman, No Cry",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bob-Marley.jpg/220px-Bob-Marley.jpg"
+  },
+  {
+    "id": 6,
+    "name": "David Bowie",
+    "genre": "Art Rock",
+    "country": "UK",
+    "activeYears": "1962-2016",
+    "topHit": "Space Oddity",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg/220px-David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "country": "UK",
+    "activeYears": "1965-2014",
+    "topHit": "Comfortably Numb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Pink_Floyd_-_all_members.jpg/300px-Pink_Floyd_-_all_members.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nirvana",
+    "genre": "Grunge",
+    "country": "USA",
+    "activeYears": "1987-1994",
+    "topHit": "Smells Like Teen Spirit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nirvana_around_1992.jpg/250px-Nirvana_around_1992.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Beyonce",
+    "genre": "R&B",
+    "country": "USA",
+    "activeYears": "1997-present",
+    "topHit": "Crazy in Love",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beyonc%C3%A9_at_the_2024_Golden_Globe_Awards_%28cropped%29.jpg/220px-Beyonc%C3%A9_at_the_2024_Golden_Globe_Awards_%28cropped%29.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Radiohead",
+    "genre": "Alternative Rock",
+    "country": "UK",
+    "activeYears": "1985-present",
+    "topHit": "Creep",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Radiohead_%28band%29.jpg/250px-Radiohead_%28band%29.jpg"
+  }
+]

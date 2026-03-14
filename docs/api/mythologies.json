@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Zeus",
+    "mythology": "Greek",
+    "role": "King of the Gods",
+    "domain": "Sky & Thunder",
+    "symbol": "Lightning Bolt",
+    "weapon": "Thunderbolt"
+  },
+  {
+    "id": 2,
+    "name": "Thor",
+    "mythology": "Norse",
+    "role": "God of Thunder",
+    "domain": "Thunder & Strength",
+    "symbol": "Hammer",
+    "weapon": "Mjolnir"
+  },
+  {
+    "id": 3,
+    "name": "Anubis",
+    "mythology": "Egyptian",
+    "role": "God of the Dead",
+    "domain": "Death & Afterlife",
+    "symbol": "Jackal",
+    "weapon": "Staff"
+  },
+  {
+    "id": 4,
+    "name": "Athena",
+    "mythology": "Greek",
+    "role": "Goddess of Wisdom",
+    "domain": "Wisdom & War",
+    "symbol": "Owl",
+    "weapon": "Spear & Shield"
+  },
+  {
+    "id": 5,
+    "name": "Odin",
+    "mythology": "Norse",
+    "role": "Allfather",
+    "domain": "Wisdom & Death",
+    "symbol": "Ravens",
+    "weapon": "Gungnir"
+  },
+  {
+    "id": 6,
+    "name": "Ra",
+    "mythology": "Egyptian",
+    "role": "Sun God",
+    "domain": "Sun & Creation",
+    "symbol": "Sun Disk",
+    "weapon": "Solar Barque"
+  },
+  {
+    "id": 7,
+    "name": "Poseidon",
+    "mythology": "Greek",
+    "role": "God of the Sea",
+    "domain": "Sea & Earthquakes",
+    "symbol": "Trident",
+    "weapon": "Trident"
+  },
+  {
+    "id": 8,
+    "name": "Loki",
+    "mythology": "Norse",
+    "role": "Trickster God",
+    "domain": "Mischief & Chaos",
+    "symbol": "Snake",
+    "weapon": "Shapeshifting"
+  },
+  {
+    "id": 9,
+    "name": "Amaterasu",
+    "mythology": "Japanese",
+    "role": "Sun Goddess",
+    "domain": "Sun & Universe",
+    "symbol": "Mirror",
+    "weapon": "Divine Light"
+  },
+  {
+    "id": 10,
+    "name": "Ganesha",
+    "mythology": "Hindu",
+    "role": "God of Beginnings",
+    "domain": "Wisdom & Success",
+    "symbol": "Elephant",
+    "weapon": "Axe & Lotus"
+  }
+]

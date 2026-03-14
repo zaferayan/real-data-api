@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 125700000,
+    "language": "Japanese",
+    "currency": "Yen",
+    "flag": "🇯🇵"
+  },
+  {
+    "id": 2,
+    "name": "Brazil",
+    "capital": "Brasilia",
+    "continent": "South America",
+    "population": 214300000,
+    "language": "Portuguese",
+    "currency": "Real",
+    "flag": "🇧🇷"
+  },
+  {
+    "id": 3,
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 83200000,
+    "language": "German",
+    "currency": "Euro",
+    "flag": "🇩🇪"
+  },
+  {
+    "id": 4,
+    "name": "Turkey",
+    "capital": "Ankara",
+    "continent": "Europe/Asia",
+    "population": 85300000,
+    "language": "Turkish",
+    "currency": "Lira",
+    "flag": "🇹🇷"
+  },
+  {
+    "id": 5,
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 26500000,
+    "language": "English",
+    "currency": "Dollar",
+    "flag": "🇦🇺"
+  },
+  {
+    "id": 6,
+    "name": "Egypt",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "population": 104100000,
+    "language": "Arabic",
+    "currency": "Pound",
+    "flag": "🇪🇬"
+  },
+  {
+    "id": 7,
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "population": 40100000,
+    "language": "English/French",
+    "currency": "Dollar",
+    "flag": "🇨🇦"
+  },
+  {
+    "id": 8,
+    "name": "South Korea",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "population": 51700000,
+    "language": "Korean",
+    "currency": "Won",
+    "flag": "🇰🇷"
+  },
+  {
+    "id": 9,
+    "name": "Italy",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 59000000,
+    "language": "Italian",
+    "currency": "Euro",
+    "flag": "🇮🇹"
+  },
+  {
+    "id": 10,
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "population": 128900000,
+    "language": "Spanish",
+    "currency": "Peso",
+    "flag": "🇲🇽"
+  }
+]

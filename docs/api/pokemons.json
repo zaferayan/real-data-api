@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "type": "Electric",
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "generation": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+  },
+  {
+    "id": 2,
+    "name": "Charizard",
+    "type": "Fire/Flying",
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "generation": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+  },
+  {
+    "id": 3,
+    "name": "Mewtwo",
+    "type": "Psychic",
+    "hp": 106,
+    "attack": 110,
+    "defense": 90,
+    "generation": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+  },
+  {
+    "id": 4,
+    "name": "Bulbasaur",
+    "type": "Grass/Poison",
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "generation": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+  },
+  {
+    "id": 5,
+    "name": "Gengar",
+    "type": "Ghost/Poison",
+    "hp": 60,
+    "attack": 65,
+    "defense": 60,
+    "generation": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+  },
+  {
+    "id": 6,
+    "name": "Eevee",
+    "type": "Normal",
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "generation": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+  },
+  {
+    "id": 7,
+    "name": "Snorlax",
+    "type": "Normal",
+    "hp": 160,
+    "attack": 110,
+    "defense": 65,
+    "generation": 1,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+  },
+  {
+    "id": 8,
+    "name": "Lucario",
+    "type": "Fighting/Steel",
+    "hp": 70,
+    "attack": 110,
+    "defense": 70,
+    "generation": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+  },
+  {
+    "id": 9,
+    "name": "Garchomp",
+    "type": "Dragon/Ground",
+    "hp": 108,
+    "attack": 130,
+    "defense": 95,
+    "generation": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
+  },
+  {
+    "id": 10,
+    "name": "Greninja",
+    "type": "Water/Dark",
+    "hp": 72,
+    "attack": 95,
+    "defense": 67,
+    "generation": 6,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
+  }
+]

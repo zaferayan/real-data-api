@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Tyrannosaurus Rex",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "length": "12m",
+    "weight": "8 tons",
+    "region": "North America",
+    "yearsAgo": "68M"
+  },
+  {
+    "id": 2,
+    "name": "Velociraptor",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "length": "2m",
+    "weight": "15 kg",
+    "region": "Central Asia",
+    "yearsAgo": "75M"
+  },
+  {
+    "id": 3,
+    "name": "Triceratops",
+    "period": "Late Cretaceous",
+    "diet": "Herbivore",
+    "length": "9m",
+    "weight": "6 tons",
+    "region": "North America",
+    "yearsAgo": "68M"
+  },
+  {
+    "id": 4,
+    "name": "Brachiosaurus",
+    "period": "Late Jurassic",
+    "diet": "Herbivore",
+    "length": "26m",
+    "weight": "56 tons",
+    "region": "North America",
+    "yearsAgo": "154M"
+  },
+  {
+    "id": 5,
+    "name": "Stegosaurus",
+    "period": "Late Jurassic",
+    "diet": "Herbivore",
+    "length": "9m",
+    "weight": "3.5 tons",
+    "region": "North America",
+    "yearsAgo": "155M"
+  },
+  {
+    "id": 6,
+    "name": "Pteranodon",
+    "period": "Late Cretaceous",
+    "diet": "Piscivore",
+    "length": "1.8m",
+    "weight": "25 kg",
+    "region": "North America",
+    "yearsAgo": "86M"
+  },
+  {
+    "id": 7,
+    "name": "Spinosaurus",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "length": "15m",
+    "weight": "7 tons",
+    "region": "North Africa",
+    "yearsAgo": "99M"
+  },
+  {
+    "id": 8,
+    "name": "Ankylosaurus",
+    "period": "Late Cretaceous",
+    "diet": "Herbivore",
+    "length": "8m",
+    "weight": "6 tons",
+    "region": "North America",
+    "yearsAgo": "68M"
+  },
+  {
+    "id": 9,
+    "name": "Parasaurolophus",
+    "period": "Late Cretaceous",
+    "diet": "Herbivore",
+    "length": "10m",
+    "weight": "2.5 tons",
+    "region": "North America",
+    "yearsAgo": "76M"
+  },
+  {
+    "id": 10,
+    "name": "Dilophosaurus",
+    "period": "Early Jurassic",
+    "diet": "Carnivore",
+    "length": "7m",
+    "weight": "400 kg",
+    "region": "North America",
+    "yearsAgo": "193M"
+  }
+]
