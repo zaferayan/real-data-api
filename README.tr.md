@@ -2,9 +2,9 @@
 
 Gerçek dünya verileri sunan bir REST API. Sahte veri yok - gerçek filmler, gerçek müzisyenler, gerçek tarifler.
 
-Express ile yazildi. Veritabani gerekmez - tek bir `db.json` dosyasi yeterli.
+Express ile yazıldı. Veritabanı gerekmez - tek bir `db.json` dosyası yeterli.
 
-## Canli Demo
+## Canlı Demo
 
 Statik JSON: **https://zaferayan.github.io/real-data-api**
 
@@ -14,17 +14,17 @@ Statik JSON: **https://zaferayan.github.io/real-data-api**
 npm install
 ```
 
-## Kullanim
+## Kullanım
 
 ```bash
 npm start
 ```
 
-API `http://localhost:4000` adresinde calisir.
+API `http://localhost:4000` adresinde çalışır.
 
 ## Endpoint'ler
 
-| Endpoint | Adet | Ornek |
+| Endpoint | Adet | Örnek |
 |----------|------|-------|
 | `/movies` | 10 | The Shawshank Redemption, The Dark Knight, Inception... |
 | `/books` | 10 | 1984, The Great Gatsby, The Lord of the Rings... |
@@ -48,13 +48,13 @@ API `http://localhost:4000` adresinde calisir.
 | `/inventions` | 10 | Printing Press, Telephone, WWW, Penicillin... |
 | `/coffees` | 10 | Espresso, Turkish Coffee, Cold Brew, Latte... |
 
-## Kimlik Dogrulama (Auth)
+## Kimlik Doğrulama (Auth)
 
-Ogrencilerin login akislarini pratikte deneyebilmesi icin JWT tabanli auth sistemi.
+Öğrencilerin login akışlarını pratikte deneyebilmesi için JWT tabanlı auth sistemi.
 
-### Hazir Kullanicilar
+### Hazır Kullanıcılar
 
-| Email | Sifre |
+| Email | Şifre |
 |-------|-------|
 | `john@example.com` | `123456` |
 | `jane@example.com` | `123456` |
@@ -62,45 +62,45 @@ Ogrencilerin login akislarini pratikte deneyebilmesi icin JWT tabanli auth siste
 
 ### Auth Endpoint'leri
 
-| Method | Endpoint | Aciklama |
+| Method | Endpoint | Açıklama |
 |--------|----------|----------|
-| `POST` | `/auth/register` | Yeni kullanici kaydi |
-| `POST` | `/auth/login` | Giris yap, token al |
-| `GET` | `/auth/me` | Mevcut kullaniciyi getir (token gerekli) |
+| `POST` | `/auth/register` | Yeni kullanıcı kaydı |
+| `POST` | `/auth/login` | Giriş yap, token al |
+| `GET` | `/auth/me` | Mevcut kullanıcıyı getir (token gerekli) |
 
-### Auth Ornekleri
+### Auth Örnekleri
 
 ```bash
-# Kayit ol
+# Kayıt ol
 curl -X POST http://localhost:4000/auth/register \
   -H "Content-Type: application/json" \
   -d '{"firstName":"Ayse","lastName":"Kaya","email":"ayse@example.com","password":"123456"}'
 
-# Giris yap
+# Giriş yap
 curl -X POST http://localhost:4000/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email":"john@example.com","password":"123456"}'
 
-# Token ile kullanici bilgisi al
+# Token ile kullanıcı bilgisi al
 curl http://localhost:4000/auth/me \
   -H "Authorization: Bearer eyJhbGci..."
 ```
 
-## CRUD Islemleri
+## CRUD İşlemleri
 
-| Method | Endpoint | Aciklama |
+| Method | Endpoint | Açıklama |
 |--------|----------|----------|
-| `GET` | `/:collection` | Tum kayitlari getir |
-| `GET` | `/:collection/:id` | Tek kayit getir |
-| `POST` | `/:collection` | Yeni kayit olustur |
-| `PUT` | `/:collection/:id` | Kaydi degistir |
-| `PATCH` | `/:collection/:id` | Alanlari guncelle |
-| `DELETE` | `/:collection/:id` | Kaydi sil |
+| `GET` | `/:collection` | Tüm kayıtları getir |
+| `GET` | `/:collection/:id` | Tek kayıt getir |
+| `POST` | `/:collection` | Yeni kayıt oluştur |
+| `PUT` | `/:collection/:id` | Kaydı değiştir |
+| `PATCH` | `/:collection/:id` | Alanları güncelle |
+| `DELETE` | `/:collection/:id` | Kaydı sil |
 
-## Ornek Istekler
+## Örnek İstekler
 
 ```bash
-# Tum filmler
+# Tüm filmler
 curl http://localhost:4000/movies
 
 # Tek film
@@ -111,7 +111,7 @@ curl -X POST http://localhost:4000/pokemons \
   -H "Content-Type: application/json" \
   -d '{"name":"Rayquaza","type":"Dragon/Flying","hp":105}'
 
-# Tarif guncelle
+# Tarif güncelle
 curl -X PATCH http://localhost:4000/recipes/6 \
   -H "Content-Type: application/json" \
   -d '{"difficulty":"Hard"}'
@@ -120,7 +120,7 @@ curl -X PATCH http://localhost:4000/recipes/6 \
 curl -X DELETE http://localhost:4000/dinosaurs/10
 ```
 
-## Ornek Yanit
+## Örnek Yanıt
 
 ```json
 {
@@ -137,7 +137,7 @@ curl -X DELETE http://localhost:4000/dinosaurs/10
 
 ## Yeni Veri Ekleme
 
-`db.json` dosyasina yeni bir dizi ekleyin. Otomatik olarak endpoint haline gelir:
+`db.json` dosyasına yeni bir dizi ekleyin. Otomatik olarak endpoint haline gelir:
 
 ```json
 {
@@ -148,22 +148,22 @@ curl -X DELETE http://localhost:4000/dinosaurs/10
 }
 ```
 
-Sunucuyu yeniden baslatin ve `GET /cars` hazir.
+Sunucuyu yeniden başlatın ve `GET /cars` hazır.
 
 ## Postman Collection
 
-Hazir Postman collection dosyasi projede mevcut. Import etmek icin:
+Hazır Postman collection dosyası projede mevcut. Import etmek için:
 
-1. Postman'i acin
-2. Sol ustten **Import** butonuna tiklayin
-3. `Real_Data_API.postman_collection.json` dosyasini surukleyip birakin veya **Upload Files** ile secin
-4. Tum endpoint'ler "Real Data API" collection'i altinda gorunecek
+1. Postman'i açın
+2. Sol üstten **Import** butonuna tıklayın
+3. `Real_Data_API.postman_collection.json` dosyasını sürükleyip bırakın veya **Upload Files** ile seçin
+4. Tüm endpoint'ler "Real Data API" collection'ı altında görünecek
 
-Login/Register sonrasi donen token otomatik olarak kaydedilir ve Me isteğinde kullanilir.
+Login/Register sonrası dönen token otomatik olarak kaydedilir ve Me isteğinde kullanılır.
 
-## Statik Kullanim (GitHub Pages)
+## Statik Kullanım (GitHub Pages)
 
-Sunucu calistirmadan verileri dogrudan GitHub Pages uzerinden cekebilirsiniz:
+Sunucu çalıştırmadan verileri doğrudan GitHub Pages üzerinden çekebilirsiniz:
 
 ```js
 fetch("https://zaferayan.github.io/real-data-api/api/movies.json")
