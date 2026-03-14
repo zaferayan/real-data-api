@@ -26,7 +26,7 @@ API runs at `http://localhost:4000`.
 
 | Endpoint | Items | Example |
 |----------|-------|---------|
-| `/films` | 10 | The Shawshank Redemption, The Dark Knight, Inception... |
+| `/movies` | 10 | The Shawshank Redemption, The Dark Knight, Inception... |
 | `/books` | 10 | 1984, The Great Gatsby, The Lord of the Rings... |
 | `/artists` | 10 | Leonardo da Vinci, Van Gogh, Frida Kahlo... |
 | `/musicians` | 10 | The Beatles, Queen, Nirvana, Beyonce... |
@@ -100,11 +100,11 @@ curl http://localhost:4000/auth/me \
 ## Example Requests
 
 ```bash
-# All films
-curl http://localhost:4000/films
+# All movies
+curl http://localhost:4000/movies
 
-# Single film
-curl http://localhost:4000/films/3
+# Single movie
+curl http://localhost:4000/movies/3
 
 # Add a new pokemon
 curl -X POST http://localhost:4000/pokemons \
@@ -155,7 +155,7 @@ Restart the server and `GET /cars` is ready.
 You can also fetch the data directly from GitHub Pages without running a server:
 
 ```js
-fetch("https://zaferayan.github.io/real-data-api/api/films.json")
+fetch("https://zaferayan.github.io/real-data-api/api/movies.json")
   .then(res => res.json())
   .then(data => console.log(data));
 ```
