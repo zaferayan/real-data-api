@@ -8,7 +8,8 @@
     "prepTime": "25 sec",
     "ingredients": [
       "coffee"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Espresso_cup.jpg/250px-Espresso_cup.jpg"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "espresso",
       "steamed milk",
       "foam"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/A-cup-of-cappuccino-coffee-dar-es-salaam-cafe.jpg/250px-A-cup-of-cappuccino-coffee-dar-es-salaam-cafe.jpg"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "ingredients": [
       "espresso",
       "steamed milk"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Caffe_Latte_cup.jpg/250px-Caffe_Latte_cup.jpg"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "ingredients": [
       "espresso",
       "hot water"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/A_cup_of_Americano_in_Lano_Coffee_%28Palembang%2C_SS%29.jpg/250px-A_cup_of_Americano_in_Lano_Coffee_%28Palembang%2C_SS%29.jpg"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "ingredients": [
       "coarse ground coffee",
       "cold water"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Amir_makes_cold_brew_coffee_at_Wikimania_2021_-_02.png/250px-Amir_makes_cold_brew_coffee_at_Wikimania_2021_-_02.png"
   },
   {
     "id": 6,
@@ -70,7 +75,8 @@
       "finely ground coffee",
       "water",
       "sugar"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Turkish_coffee_in_Jajce.jpg/250px-Turkish_coffee_in_Jajce.jpg"
   },
   {
     "id": 7,
@@ -83,7 +89,8 @@
       "espresso",
       "chocolate",
       "steamed milk"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Mocha_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg/250px-Mocha_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg"
   },
   {
     "id": 8,
@@ -95,7 +102,8 @@
     "ingredients": [
       "espresso",
       "vanilla gelato"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/%E5%92%96%E5%95%A1%E9%9B%AA%E7%B3%95.jpg/250px-%E5%92%96%E5%95%A1%E9%9B%AA%E7%B3%95.jpg"
   },
   {
     "id": 9,
@@ -107,7 +115,8 @@
     "ingredients": [
       "double espresso",
       "microfoam milk"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flat_white_coffee_Highgate_Cricket_Club%2C_Crouch_End%2C_London.jpg/250px-Flat_white_coffee_Highgate_Cricket_Club%2C_Crouch_End%2C_London.jpg"
   },
   {
     "id": 10,
@@ -121,6 +130,7 @@
       "irish whiskey",
       "sugar",
       "cream"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Irish_coffee.jpg/250px-Irish_coffee.jpg"
   }
 ]

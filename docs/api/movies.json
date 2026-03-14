@@ -17,7 +17,7 @@
     "genre": "Crime",
     "rating": 9.2,
     "duration": 175,
-    "image": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_SX300.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 3,
@@ -47,7 +47,7 @@
     "genre": "Drama",
     "rating": 8.8,
     "duration": 142,
-    "image": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTYtZmU5YS00YjQ5LTljYjgtMjY2NDVhYWU5NjRiXkEyXkFqcGc@._V1_SX300.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 6,
@@ -77,7 +77,7 @@
     "genre": "Sci-Fi",
     "rating": 8.7,
     "duration": 136,
-    "image": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDL._V1_SX300.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 9,
@@ -97,6 +97,6 @@
     "genre": "Crime",
     "rating": 8.7,
     "duration": 146,
-    "image": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGc@._V1_SX300.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_SX300.jpg"
   }
 ]

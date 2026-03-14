@@ -7,7 +7,7 @@
     "knownFor": "Mona Lisa",
     "born": 1452,
     "died": 1519,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/220px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/250px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "knownFor": "The Starry Night",
     "born": 1853,
     "died": 1890,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/220px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/250px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "knownFor": "Guernica",
     "born": 1881,
     "died": 1973,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/220px-Pablo_picasso_1.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/250px-Pablo_picasso_1.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "knownFor": "Water Lilies",
     "born": 1840,
     "died": 1926,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/220px-Claude_Monet_1899_Nadar_crop.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/250px-Claude_Monet_1899_Nadar_crop.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "knownFor": "The Two Fridas",
     "born": 1907,
     "died": 1954,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/220px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/250px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "knownFor": "Sistine Chapel Ceiling",
     "born": 1475,
     "died": 1564,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/220px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/250px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "knownFor": "The Persistence of Memory",
     "born": 1904,
     "died": 1989,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Salvador_Dal%C3%AD_1939.jpg/220px-Salvador_Dal%C3%AD_1939.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Salvador_Dal%C3%AD_1939.jpg/250px-Salvador_Dal%C3%AD_1939.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "knownFor": "The Night Watch",
     "born": 1606,
     "died": 1669,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/220px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/250px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "knownFor": "Campbell's Soup Cans",
     "born": 1928,
     "died": 1987,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Andy_Warhol_1975.jpg/220px-Andy_Warhol_1975.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Andy_Warhol_1975.jpg/250px-Andy_Warhol_1975.jpg"
   },
   {
     "id": 10,
@@ -97,6 +97,6 @@
     "knownFor": "The Kiss",
     "born": 1862,
     "died": 1918,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Klimt.jpg/220px-Klimt.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Klimt.jpg/250px-Klimt.jpg"
   }
 ]

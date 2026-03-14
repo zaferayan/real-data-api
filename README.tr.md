@@ -8,6 +8,8 @@ Express ile yazıldı. Veritabanı gerekmez - tek bir `db.json` dosyası yeterli
 
 Statik JSON: **https://zaferayan.github.io/real-data-api**
 
+**Test Sayfasi:** Tum endpoint'leri gorsellerle birlikte **https://zaferayan.github.io/real-data-api/test.html** adresinden veya lokalde `http://localhost:4000/test` uzerinden gorebilirsiniz.
+
 ## Kurulum
 
 ```bash

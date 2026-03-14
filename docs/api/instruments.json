@@ -6,7 +6,8 @@
     "origin": "Italy",
     "year": 1700,
     "keys": 88,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/250px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "origin": "Spain",
     "year": 1500,
     "strings": 6,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Acoustic_Guitar_with_Seashell_Inlay.jpg/250px-Acoustic_Guitar_with_Seashell_Inlay.jpg"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "origin": "Italy",
     "year": 1530,
     "strings": 4,
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bow_Fiddle_Rock_East.jpg/250px-Bow_Fiddle_Rock_East.jpg"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "origin": "Ancient",
     "year": -5500,
     "pieces": 5,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_06.jpg/250px-A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_06.jpg"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "origin": "Belgium",
     "year": 1846,
     "keys": 23,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/4_Saxophone_Amati_white_background.jpg/250px-4_Saxophone_Amati_white_background.jpg"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "origin": "Egypt",
     "year": -1500,
     "valves": 3,
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Trumpet_1.png/250px-Trumpet_1.png"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "origin": "Italy",
     "year": 1660,
     "strings": 4,
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cello_bygget_af_Johann_Hinrich_Schnabel_%281744-1799%29.jpg/250px-Cello_bygget_af_Johann_Hinrich_Schnabel_%281744-1799%29.jpg"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "origin": "Germany",
     "year": -900,
     "keys": 16,
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg/250px-Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "origin": "Mesopotamia",
     "year": -3500,
     "strings": 47,
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pedal_harp_in_library.jpg/250px-Pedal_harp_in_library.jpg"
   },
   {
     "id": 10,
@@ -87,6 +96,7 @@
     "origin": "Hawaii",
     "year": 1879,
     "strings": 4,
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pineapple_Ukulele_with_Feather_and_Seashells.jpg/250px-Pineapple_Ukulele_with_Feather_and_Seashells.jpg"
   }
 ]

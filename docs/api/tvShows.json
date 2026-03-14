@@ -7,7 +7,7 @@
     "genre": "Crime Drama",
     "seasons": 5,
     "rating": 9.5,
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png"
+    "image": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "genre": "Fantasy Drama",
     "seasons": 8,
     "rating": 9.2,
-    "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "genre": "Sitcom",
     "seasons": 10,
     "rating": 8.9,
-    "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Friends_title_card.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "genre": "Mockumentary",
     "seasons": 9,
     "rating": 9,
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/56/The_Office_Title_Card.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "genre": "Sci-Fi Horror",
     "seasons": 5,
     "rating": 8.7,
-    "image": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_1.png"
+    "image": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "genre": "Crime Drama",
     "seasons": 6,
     "rating": 9.2,
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Sopranos_titlescreen.png"
+    "image": "https://m.media-amazon.com/images/M/MV5BMjRmMTNiMTQtMDg1ZS00MGM1LWE1MGUtYjEzMGFjNWUzOWRkXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "genre": "Historical Drama",
     "seasons": 1,
     "rating": 9.4,
-    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Chernobyl_2019_Miniseries.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BNzU0OTI4YTQtNGQ1ZS00ZjA4LTg3MTMtZjkyZWNjN2RiZDJmXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "genre": "Sci-Fi Thriller",
     "seasons": 3,
     "rating": 8.8,
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Dark_%28TV_series%29.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BOWJjMGViY2UtNTAzNS00ZGFjLWFkNTMtMDBiMDMyZTM1NTY3XkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "genre": "Sci-Fi Western",
     "seasons": 3,
     "rating": 8.7,
-    "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/TheMandalorianSeason3Poster.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
     "id": 10,
@@ -97,6 +97,6 @@
     "genre": "Crime Drama",
     "seasons": 6,
     "rating": 8.8,
-    "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Peaky_Blinders_titlecard.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BOGM0NGY3ZmItOGE2ZC00OWIxLTk0N2EtZWY4Yzg3ZDlhNGI3XkEyXkFqcGc@._V1_SX300.jpg"
   }
 ]

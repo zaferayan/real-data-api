@@ -7,7 +7,8 @@
     "paradigm": "Multi-paradigm",
     "typing": "Dynamic",
     "extension": ".js",
-    "popularity": 1
+    "popularity": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/JavaScript_unofficial_logo.svg/250px-JavaScript_unofficial_logo.svg.png"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "paradigm": "Multi-paradigm",
     "typing": "Dynamic",
     "extension": ".py",
-    "popularity": 2
+    "popularity": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/250px-Python_logo_01.svg.png"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "paradigm": "Multi-paradigm",
     "typing": "Static",
     "extension": ".ts",
-    "popularity": 3
+    "popularity": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Typescript-logo.png/250px-Typescript-logo.png"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "paradigm": "OOP",
     "typing": "Static",
     "extension": ".java",
-    "popularity": 4
+    "popularity": 4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/250px-Duke_%28Java_mascot%29_waving.svg.png"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "paradigm": "OOP",
     "typing": "Static",
     "extension": ".cs",
-    "popularity": 5
+    "popularity": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/C_Sharp_Icon.png/250px-C_Sharp_Icon.png"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "paradigm": "Procedural",
     "typing": "Static",
     "extension": ".go",
-    "popularity": 6
+    "popularity": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Go_gopher_mascot_bw.png/250px-Go_gopher_mascot_bw.png"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "paradigm": "Multi-paradigm",
     "typing": "Static",
     "extension": ".rs",
-    "popularity": 7
+    "popularity": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rust_Foundation_logo.png/250px-Rust_Foundation_logo.png"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "paradigm": "Multi-paradigm",
     "typing": "Static",
     "extension": ".swift",
-    "popularity": 8
+    "popularity": 8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/250px-Swift_logo.svg.png"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "paradigm": "Multi-paradigm",
     "typing": "Static",
     "extension": ".kt",
-    "popularity": 9
+    "popularity": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kotlin_icon_%282021-present%29.svg/250px-Kotlin_icon_%282021-present%29.svg.png"
   },
   {
     "id": 10,
@@ -97,6 +106,7 @@
     "paradigm": "OOP",
     "typing": "Dynamic",
     "extension": ".rb",
-    "popularity": 10
+    "popularity": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/250px-Ruby_logo.svg.png"
   }
 ]

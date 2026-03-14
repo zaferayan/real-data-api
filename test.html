@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Data API - Test Page</title>
+    <!-- DAISYUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- TAILWIND -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      .endpoint-section {
+        scroll-margin-top: 80px;
+      }
+      img.item-img {
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body class="bg-base-200 min-h-screen">
+    <!-- Navbar -->
+    <div class="navbar bg-base-100 shadow-sm sticky top-0 z-50">
+      <div class="navbar-start">
+        <h1 class="text-xl font-bold px-4">
+          <span class="text-primary">Real</span> Data API
+        </h1>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <p class="text-sm opacity-60">Test Page - All Endpoints</p>
+      </div>
+      <div class="navbar-end">
+        <span id="statusBadge" class="badge badge-outline badge-sm mr-4"
+          >Loading...</span
+        >
+      </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto p-4 pb-20">
+      <!-- Endpoint Navigation -->
+      <div class="flex flex-wrap gap-2 my-6" id="navTabs"></div>
+
+      <!-- Loading -->
+      <div id="loading" class="flex justify-center py-20">
+        <span class="loading loading-spinner loading-lg text-primary"></span>
+      </div>
+
+      <!-- Content -->
+      <div id="content" class="space-y-8"></div>
+    </div>
+
+    <script>
+      const API = "http://localhost:4000";
+
+      const META = {
+        movies: {
+          label: "title",
+          sub: "director",
+          detail: "year",
+          badge: "genre",
+        },
+        books: {
+          label: "title",
+          sub: "author",
+          detail: "year",
+          badge: "genre",
+        },
+        artists: {
+          label: "name",
+          sub: "nationality",
+          detail: "era",
+          badge: "knownFor",
+        },
+        musicians: {
+          label: "name",
+          sub: "genre",
+          detail: "country",
+          badge: "activeYears",
+        },
+        countries: {
+          label: "name",
+          sub: "capital",
+          detail: "continent",
+          badge: "population",
+        },
+        sports: {
+          label: "name",
+          sub: "sport",
+          detail: "nationality",
+          badge: "team",
+        },
+        games: {
+          label: "title",
+          sub: "developer",
+          detail: "year",
+          badge: "genre",
+        },
+        recipes: {
+          label: "name",
+          sub: "cuisine",
+          detail: "difficulty",
+          badge: "prepTime",
+        },
+        planets: {
+          label: "name",
+          sub: "type",
+          detail: "diameter",
+          badge: "distanceFromSun",
+        },
+        programming: {
+          label: "name",
+          sub: "creator",
+          detail: "year",
+          badge: "paradigm",
+        },
+        pokemons: { label: "name", sub: "type", detail: "hp", badge: "attack" },
+        superheroes: {
+          label: "name",
+          sub: "realName",
+          detail: "publisher",
+          badge: "power",
+        },
+        cars: {
+          label: ["brand", "model"],
+          sub: "year",
+          detail: "hp",
+          badge: "engine",
+        },
+        tvShows: {
+          label: "title",
+          sub: "creator",
+          detail: "years",
+          badge: "genre",
+        },
+        anime: {
+          label: "title",
+          sub: "studio",
+          detail: "year",
+          badge: "genre",
+        },
+        footballTeams: {
+          label: "name",
+          sub: "league",
+          detail: "country",
+          badge: "founded",
+        },
+        instruments: {
+          label: "name",
+          sub: "family",
+          detail: "origin",
+          badge: "year",
+        },
+        dinosaurs: {
+          label: "name",
+          sub: "period",
+          detail: "diet",
+          badge: "length",
+        },
+        mythologies: {
+          label: "name",
+          sub: "mythology",
+          detail: "role",
+          badge: "domain",
+        },
+        inventions: {
+          label: "name",
+          sub: "inventor",
+          detail: "year",
+          badge: "country",
+        },
+        coffees: {
+          label: "name",
+          sub: "origin",
+          detail: "type",
+          badge: "caffeine",
+        },
+        users: {
+          label: ["firstName", "lastName"],
+          sub: "email",
+          detail: null,
+          badge: null,
+        },
+      };
+
+      function getLabel(item, field) {
+        if (Array.isArray(field))
+          return field.map((f) => item[f] || "").join(" ");
+        return item[field] || "";
+      }
+
+      function formatValue(val) {
+        if (val == null) return "";
+        if (typeof val === "number" && val > 100000)
+          return val.toLocaleString();
+        if (Array.isArray(val)) return val.join(", ");
+        return String(val);
+      }
+
+      async function loadAll() {
+        const endpoints = Object.keys(META);
+        const navTabs = document.getElementById("navTabs");
+        const content = document.getElementById("content");
+        const loading = document.getElementById("loading");
+        const statusBadge = document.getElementById("statusBadge");
+
+        // Create nav tabs
+        endpoints.forEach((ep) => {
+          const btn = document.createElement("a");
+          btn.href = `#${ep}`;
+          btn.className =
+            "badge badge-outline badge-primary cursor-pointer hover:badge-primary hover:text-primary-content transition-all";
+          btn.textContent = `/${ep}`;
+          navTabs.appendChild(btn);
+        });
+
+        let loaded = 0;
+        let failed = 0;
+
+        const results = await Promise.allSettled(
+          endpoints.map((ep) =>
+            fetch(`${API}/${ep}`)
+              .then((r) => r.json())
+              .then((data) => ({ ep, data })),
+          ),
+        );
+
+        loading.style.display = "none";
+
+        for (const result of results) {
+          if (result.status === "rejected") {
+            failed++;
+            continue;
+          }
+
+          const { ep, data } = result.value;
+          const meta = META[ep];
+          loaded++;
+
+          const section = document.createElement("div");
+          section.id = ep;
+          section.className = "endpoint-section";
+
+          const listItems = data
+            .map((item, i) => {
+              const label = getLabel(item, meta.label);
+              const sub = meta.sub ? formatValue(item[meta.sub]) : "";
+              const detail = meta.detail ? formatValue(item[meta.detail]) : "";
+              const badge = meta.badge ? formatValue(item[meta.badge]) : "";
+              const hasImage = !!item.image;
+
+              const imgHtml = hasImage
+                ? `<div><img class="item-img size-10 rounded-box" src="${item.image}" alt="${label}" onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\\'size-10 rounded-box bg-base-300 flex items-center justify-center text-xs opacity-40\\'>?</div>'"/></div>`
+                : `<div class="size-10 rounded-box bg-base-300 flex items-center justify-center text-lg font-bold opacity-30">${label.charAt(0)}</div>`;
+
+              const badgeHtml = badge
+                ? `<span class="badge badge-sm badge-ghost">${badge}</span>`
+                : "";
+
+              return `
+            <li class="list-row">
+              ${imgHtml}
+              <div class="list-col-grow">
+                <div class="font-medium">${label}</div>
+                <div class="text-xs opacity-60">${sub}${detail ? " &middot; " + detail : ""}</div>
+              </div>
+              ${badgeHtml}
+            </li>`;
+            })
+            .join("");
+
+          section.innerHTML = `
+          <ul class="list bg-base-100 rounded-box shadow-md">
+            <li class="p-4 pb-2 text-xs opacity-60 tracking-wide flex justify-between items-center">
+              <span>/${ep}</span>
+              <span class="badge badge-xs badge-primary">${data.length} items</span>
+            </li>
+            ${listItems}
+          </ul>`;
+
+          content.appendChild(section);
+        }
+
+        statusBadge.textContent =
+          `${loaded} OK` + (failed ? ` / ${failed} failed` : "");
+        statusBadge.className = failed
+          ? "badge badge-warning badge-sm mr-4"
+          : "badge badge-success badge-sm mr-4";
+      }
+
+      loadAll();
+    </script>
+  </body>
+</html>

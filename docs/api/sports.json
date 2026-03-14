@@ -7,7 +7,7 @@
     "team": "Inter Miami",
     "position": "Forward",
     "birthYear": 1987,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/220px-Lionel_Messi_WC2022.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/250px-Lionel_Messi_WC2022.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "team": "Los Angeles Lakers",
     "position": "Forward",
     "birthYear": 1984,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977108%29_%28cropped2%29.jpg/220px-LeBron_James_%2851959977108%29_%28cropped2%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/LeBronJamesBush.jpg/250px-LeBronJamesBush.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "team": "Individual",
     "position": "Singles",
     "birthYear": 1981,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Serena_Williams_at_2013_US_Open.jpg/220px-Serena_Williams_at_2013_US_Open.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Serena_Williams_at_2013_US_Open.jpg/250px-Serena_Williams_at_2013_US_Open.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "team": "Al Nassr",
     "position": "Forward",
     "birthYear": 1985,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/220px-Cristiano_Ronaldo.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/250px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "team": "Individual",
     "position": "Sprinter",
     "birthYear": 1986,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Usain_Bolt_smiling_Berlin_2009.jpg/220px-Usain_Bolt_smiling_Berlin_2009.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Usain_Bolt_pictured_with_seven_of_Brunel%27s_student_athletes_-_30_July_2009.jpg/250px-Usain_Bolt_pictured_with_seven_of_Brunel%27s_student_athletes_-_30_July_2009.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "team": "Chicago Bulls (retired)",
     "position": "Shooting Guard",
     "birthYear": 1963,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/220px-Michael_Jordan_in_2014.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/250px-Michael_Jordan_in_2014.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "team": "Individual",
     "position": "Singles",
     "birthYear": 1981,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/R_Federer.jpg/220px-R_Federer.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Roger_Federer_signerer_autografer_under_Roma_Masters_2003.jpg/250px-Roger_Federer_signerer_autografer_under_Roma_Masters_2003.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "team": "Individual",
     "position": "Heavyweight",
     "birthYear": 1942,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/220px-Muhammad_Ali_NYWTS.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/250px-Muhammad_Ali_NYWTS.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "team": "Individual",
     "position": "All-around",
     "birthYear": 1997,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Simone_Biles_in_2024_%28cropped%29.jpg/220px-Simone_Biles_in_2024_%28cropped%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Simone_Biles_Rio_2016b.jpg/250px-Simone_Biles_Rio_2016b.jpg"
   },
   {
     "id": 10,
@@ -97,6 +97,6 @@
     "team": "Santos",
     "position": "Forward",
     "birthYear": 1992,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705_%28cropped%29.jpg/220px-Neymar.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg/250px-Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg"
   }
 ]

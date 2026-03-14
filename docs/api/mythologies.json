@@ -6,7 +6,8 @@
     "role": "King of the Gods",
     "domain": "Sky & Thunder",
     "symbol": "Lightning Bolt",
-    "weapon": "Thunderbolt"
+    "weapon": "Thunderbolt",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Zeus_%28Robert_Wl%C3%A9rick%29.jpg/250px-Zeus_%28Robert_Wl%C3%A9rick%29.jpg"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "role": "God of Thunder",
     "domain": "Thunder & Strength",
     "symbol": "Hammer",
-    "weapon": "Mjolnir"
+    "weapon": "Mjolnir",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Thor_Lightning_Strikes.jpg/250px-Thor_Lightning_Strikes.jpg"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "role": "God of the Dead",
     "domain": "Death & Afterlife",
     "symbol": "Jackal",
-    "weapon": "Staff"
+    "weapon": "Staff",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Anubis_%28God%29.png/250px-Anubis_%28God%29.png"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "role": "Goddess of Wisdom",
     "domain": "Wisdom & War",
     "symbol": "Owl",
-    "weapon": "Spear & Shield"
+    "weapon": "Spear & Shield",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Statue_of_Athena._Academy_of_Athens.jpg/250px-Statue_of_Athena._Academy_of_Athens.jpg"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "role": "Allfather",
     "domain": "Wisdom & Death",
     "symbol": "Ravens",
-    "weapon": "Gungnir"
+    "weapon": "Gungnir",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Detalj_av_statyn_Odin_av_Bengt_Erland_Fogelberg%2C_Nationalmuseum.jpg/250px-Detalj_av_statyn_Odin_av_Bengt_Erland_Fogelberg%2C_Nationalmuseum.jpg"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "role": "Sun God",
     "domain": "Sun & Creation",
     "symbol": "Sun Disk",
-    "weapon": "Solar Barque"
+    "weapon": "Solar Barque",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ra_%28God%29.png/250px-Ra_%28God%29.png"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "role": "God of the Sea",
     "domain": "Sea & Earthquakes",
     "symbol": "Trident",
-    "weapon": "Trident"
+    "weapon": "Trident",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Socha_Poseidona%2C_Pardubice_01.jpg/250px-Socha_Poseidona%2C_Pardubice_01.jpg"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "role": "Trickster God",
     "domain": "Mischief & Chaos",
     "symbol": "Snake",
-    "weapon": "Shapeshifting"
+    "weapon": "Shapeshifting",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Loki_and_Dvalin.jpg/250px-Loki_and_Dvalin.jpg"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "role": "Sun Goddess",
     "domain": "Sun & Universe",
     "symbol": "Mirror",
-    "weapon": "Divine Light"
+    "weapon": "Divine Light",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Amaterasu_rooster.jpg/250px-Amaterasu_rooster.jpg"
   },
   {
     "id": 10,
@@ -87,6 +96,7 @@
     "role": "God of Beginnings",
     "domain": "Wisdom & Success",
     "symbol": "Elephant",
-    "weapon": "Axe & Lotus"
+    "weapon": "Axe & Lotus",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gardez_Ganesha%2C_Maharajadhiraja_Shri_Shahi_Kimgalau.jpg/250px-Gardez_Ganesha%2C_Maharajadhiraja_Shri_Shahi_Kimgalau.jpg"
   }
 ]

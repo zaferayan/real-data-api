@@ -17,6 +17,11 @@ function saveDb(db) {
   fs.writeFileSync("db.json", JSON.stringify(db, null, 2));
 }
 
+// GET /test
+app.get("/test", (req, res) => {
+  res.sendFile(__dirname + "/test.html");
+});
+
 // GET /
 app.get("/", (req, res) => {
   const db = getDb();

@@ -7,7 +7,8 @@
     "length": "12m",
     "weight": "8 tons",
     "region": "North America",
-    "yearsAgo": "68M"
+    "yearsAgo": "68M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tyrannosaurus_rex_skeleton_%28cast_of_specimen_MOR_555%29_at_Cleveland_Museum_of_Natural_History.jpg/250px-Tyrannosaurus_rex_skeleton_%28cast_of_specimen_MOR_555%29_at_Cleveland_Museum_of_Natural_History.jpg"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "length": "2m",
     "weight": "15 kg",
     "region": "Central Asia",
-    "yearsAgo": "75M"
+    "yearsAgo": "75M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Velociraptor_mongoliensis.jpg/250px-Velociraptor_mongoliensis.jpg"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "length": "9m",
     "weight": "6 tons",
     "region": "North America",
-    "yearsAgo": "68M"
+    "yearsAgo": "68M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Triceratops_skeleton_-_Ulster_Museum_1.JPG/250px-Triceratops_skeleton_-_Ulster_Museum_1.JPG"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "length": "26m",
     "weight": "56 tons",
     "region": "North America",
-    "yearsAgo": "154M"
+    "yearsAgo": "154M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Brachiosaurus_mount.jpg/250px-Brachiosaurus_mount.jpg"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "length": "9m",
     "weight": "3.5 tons",
     "region": "North America",
-    "yearsAgo": "155M"
+    "yearsAgo": "155M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Stegosaurus_Skeleton_%2836094963090%29.jpg/250px-Stegosaurus_Skeleton_%2836094963090%29.jpg"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "length": "1.8m",
     "weight": "25 kg",
     "region": "North America",
-    "yearsAgo": "86M"
+    "yearsAgo": "86M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Pteranodon_skeleton%2C_from_Abel%2C_O._%281919%29._Die_St%C3%A4mme_der_Wirbeltiere.jpg/250px-Pteranodon_skeleton%2C_from_Abel%2C_O._%281919%29._Die_St%C3%A4mme_der_Wirbeltiere.jpg"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "length": "15m",
     "weight": "7 tons",
     "region": "North Africa",
-    "yearsAgo": "99M"
+    "yearsAgo": "99M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Spinosaurus_swimming.jpg/250px-Spinosaurus_swimming.jpg"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "length": "8m",
     "weight": "6 tons",
     "region": "North America",
-    "yearsAgo": "68M"
+    "yearsAgo": "68M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mirrored_Ankylosaurus_magniventris_reconstruction.png/250px-Mirrored_Ankylosaurus_magniventris_reconstruction.png"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "length": "10m",
     "weight": "2.5 tons",
     "region": "North America",
-    "yearsAgo": "76M"
+    "yearsAgo": "76M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Parasaurolophus_walkeri.jpg/250px-Parasaurolophus_walkeri.jpg"
   },
   {
     "id": 10,
@@ -97,6 +106,7 @@
     "length": "7m",
     "weight": "400 kg",
     "region": "North America",
-    "yearsAgo": "193M"
+    "yearsAgo": "193M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Dilophosaurus_wetherilli.jpg/250px-Dilophosaurus_wetherilli.jpg"
   }
 ]

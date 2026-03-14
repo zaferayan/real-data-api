@@ -5,7 +5,8 @@
     "inventor": "Johannes Gutenberg",
     "year": 1440,
     "country": "Germany",
-    "impact": "Mass communication"
+    "impact": "Mass communication",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Printing_press_04.jpg/250px-Printing_press_04.jpg"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "inventor": "Alexander Graham Bell",
     "year": 1876,
     "country": "USA",
-    "impact": "Instant voice communication"
+    "impact": "Instant voice communication",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Alexander_Graham_Telephone_in_Newyork.jpg/250px-Alexander_Graham_Telephone_in_Newyork.jpg"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "inventor": "Thomas Edison",
     "year": 1879,
     "country": "USA",
-    "impact": "Artificial lighting"
+    "impact": "Artificial lighting",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Edison_incandescent_light_bulb_enclosed_in_cage.jpg/250px-Edison_incandescent_light_bulb_enclosed_in_cage.jpg"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "inventor": "Tim Berners-Lee",
     "year": 1989,
     "country": "Switzerland",
-    "impact": "Global information sharing"
+    "impact": "Global information sharing",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/YouTube_results_screenshot.jpg/250px-YouTube_results_screenshot.jpg"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "inventor": "Wright Brothers",
     "year": 1903,
     "country": "USA",
-    "impact": "Air travel"
+    "impact": "Air travel",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Relic_from_the_Wright_brothers%E2%80%99_airplane_attached_to_the_Ingenuity_helicopter.jpg/250px-Relic_from_the_Wright_brothers%E2%80%99_airplane_attached_to_the_Ingenuity_helicopter.jpg"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "inventor": "Alexander Fleming",
     "year": 1928,
     "country": "UK",
-    "impact": "Modern antibiotics"
+    "impact": "Modern antibiotics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg/250px-Synthetic_Production_of_Penicillin_TR1468.jpg"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "inventor": "James Watt",
     "year": 1769,
     "country": "UK",
-    "impact": "Industrial Revolution"
+    "impact": "Industrial Revolution",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Maquina_vapor_Watt_ETSIIM.jpg/250px-Maquina_vapor_Watt_ETSIIM.jpg"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "inventor": "Nikola Tesla & Thomas Edison",
     "year": 1882,
     "country": "USA",
-    "impact": "Modern power systems"
+    "impact": "Modern power systems",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Franklin%27s_Experiment%2C_June_1752_Demonstrating_the_identity_of_Lightning_and_Electricity%2C_from_which_he_invented_the_Lightning_Rod_MET_DP-21537-001.jpg/250px-Franklin%27s_Experiment%2C_June_1752_Demonstrating_the_identity_of_Lightning_and_Electricity%2C_from_which_he_invented_the_Lightning_Rod_MET_DP-21537-001.jpg"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "inventor": "Chinese inventors",
     "year": 206,
     "country": "China",
-    "impact": "Navigation"
+    "impact": "Navigation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plastic-compass.jpg/250px-Plastic-compass.jpg"
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "inventor": "Hans Lippershey",
     "year": 1608,
     "country": "Netherlands",
-    "impact": "Astronomy & space exploration"
+    "impact": "Astronomy & space exploration",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Galilei%27s_newer_telescope%2C_part_with_lens%2C_Museo_Galileo%2C_Florence%2C_Inv._2427%2C_224092.jpg/250px-Galilei%27s_newer_telescope%2C_part_with_lens%2C_Museo_Galileo%2C_Florence%2C_Inv._2427%2C_224092.jpg"
   }
 ]

@@ -11,7 +11,8 @@
       "tomato sauce",
       "mozzarella",
       "basil"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Piante_Margherita_Pizza_Slice.jpg/250px-Piante_Margherita_Pizza_Slice.jpg"
   },
   {
     "id": 2,
@@ -26,7 +27,8 @@
       "salmon",
       "avocado",
       "soy sauce"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Golden_Maki_Rainbow_Roll_sushi.jpg/250px-Golden_Maki_Rainbow_Roll_sushi.jpg"
   },
   {
     "id": 3,
@@ -41,7 +43,8 @@
       "tortilla",
       "onion",
       "cilantro"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Al_pastor_tacos_from_Las_Diablitas_food_truck_-_July_2022_-_Sarah_Stierch.jpg/250px-Al_pastor_tacos_from_Las_Diablitas_food_truck_-_July_2022_-_Sarah_Stierch.jpg"
   },
   {
     "id": 4,
@@ -56,7 +59,8 @@
       "tofu",
       "peanuts",
       "lime"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Pad_Thai_at_Kinn_Thai_Restaurant%2C_Canberra%2C_2022.jpg/250px-Pad_Thai_at_Kinn_Thai_Restaurant%2C_Canberra%2C_2022.jpg"
   },
   {
     "id": 5,
@@ -71,7 +75,8 @@
       "yeast",
       "milk",
       "sugar"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Recipe_croissant_hk_DIY.jpg/250px-Recipe_croissant_hk_DIY.jpg"
   },
   {
     "id": 6,
@@ -86,7 +91,8 @@
       "tomato",
       "pepper",
       "yogurt"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Orient_Food_D%C3%B6ner_Kebab_Restaurant_in_Hauptstra%C3%9Fe_2b_%28Tauberbischofsheim%29.jpg/250px-Orient_Food_D%C3%B6ner_Kebab_Restaurant_in_Hauptstra%C3%9Fe_2b_%28Tauberbischofsheim%29.jpg"
   },
   {
     "id": 7,
@@ -101,7 +107,8 @@
       "flour",
       "beer",
       "peas"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Fish_and_chips_-_Cambridge%2C_MA.jpg/250px-Fish_and_chips_-_Cambridge%2C_MA.jpg"
   },
   {
     "id": 8,
@@ -117,7 +124,8 @@
       "carrot",
       "egg",
       "gochujang"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Korean_bibimbap_at_Food_Court_TST.jpg/250px-Korean_bibimbap_at_Food_Court_TST.jpg"
   },
   {
     "id": 9,
@@ -132,7 +140,8 @@
       "espresso",
       "cocoa",
       "eggs"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Tiramisu_at_Italian_restaurant_in_Japan.jpg/250px-Tiramisu_at_Italian_restaurant_in_Japan.jpg"
   },
   {
     "id": 10,
@@ -147,6 +156,7 @@
       "star anise",
       "cinnamon",
       "basil"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pho%2C_popular_Vietnamese_noodle_soup.jpg/250px-Pho%2C_popular_Vietnamese_noodle_soup.jpg"
   }
 ]

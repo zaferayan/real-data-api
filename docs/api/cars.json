@@ -8,7 +8,7 @@
     "type": "Sports",
     "country": "Japan",
     "price": 56250,
-    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Toyota_GR_Supra_%28A90%29_Washington_DC_Metro_Area%2C_USA.jpg/250px-Toyota_GR_Supra_%28A90%29_Washington_DC_Metro_Area%2C_USA.jpg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "type": "Sedan",
     "country": "Germany",
     "price": 76900,
-    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/BMW_M3_Competition_%28G80%29_1X7A1573.jpg/250px-BMW_M3_Competition_%28G80%29_1X7A1573.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "type": "Sedan",
     "country": "USA",
     "price": 89990,
-    "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Tesla_Model_S_Plaid_Autofr%C3%BChling_Ulm_IMG_9321.jpg/250px-Tesla_Model_S_Plaid_Autofr%C3%BChling_Ulm_IMG_9321.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "type": "Sports",
     "country": "Germany",
     "price": 169700,
-    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Porsche_911_GT3_4.0_%28992%29_1X7A7256.jpg/250px-Porsche_911_GT3_4.0_%28992%29_1X7A7256.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "type": "Muscle",
     "country": "USA",
     "price": 42495,
-    "image": "https://images.unsplash.com/photo-1547744152-14d985cb937f?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/2024_Ford_Mustang_GT%2C_Kingsville%2C_Ontario%2C_2025-06-29.jpg/250px-2024_Ford_Mustang_GT%2C_Kingsville%2C_Ontario%2C_2025-06-29.jpg"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "type": "Supercar",
     "country": "Italy",
     "price": 276550,
-    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ferrari_F8_Tributo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1319%29.jpg/250px-Ferrari_F8_Tributo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1319%29.jpg"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "type": "Hot Hatch",
     "country": "Japan",
     "price": 44295,
-    "image": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Honda_CIVIC_TYPE_R_%28FK8%29.jpg/250px-Honda_CIVIC_TYPE_R_%28FK8%29.jpg"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "type": "Supercar",
     "country": "Italy",
     "price": 209409,
-    "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Lamborghini_Hurac%C3%A1n_Tecnica_1X7A7430.jpg/250px-Lamborghini_Hurac%C3%A1n_Tecnica_1X7A7430.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "type": "Grand Tourer",
     "country": "Germany",
     "price": 162900,
-    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Mercedes-AMG_GT43_Coupe_C192.jpg/250px-Mercedes-AMG_GT43_Coupe_C192.jpg"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "type": "Sports",
     "country": "Japan",
     "price": 217990,
-    "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=400"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Nissan_GT-R_Nismo_%28R35%29%2C_2022%2C_front.jpg/250px-Nissan_GT-R_Nismo_%28R35%29%2C_2022%2C_front.jpg"
   }
 ]

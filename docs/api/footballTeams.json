@@ -7,7 +7,8 @@
     "founded": 1902,
     "stadium": "Santiago Bernabeu",
     "capacity": 83186,
-    "titles": 36
+    "titles": 36,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Logo_Real_Madrid_%28Espa%C3%B1a%29.jpg/250px-Logo_Real_Madrid_%28Espa%C3%B1a%29.jpg"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "founded": 1899,
     "stadium": "Spotify Camp Nou",
     "capacity": 99354,
-    "titles": 27
+    "titles": 27,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/FCBarcelona.JPG/250px-FCBarcelona.JPG"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "founded": 1878,
     "stadium": "Old Trafford",
     "capacity": 74310,
-    "titles": 20
+    "titles": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Master_crest_RGB_WIKIPEDIA.jpg/250px-Master_crest_RGB_WIKIPEDIA.jpg"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "founded": 1892,
     "stadium": "Anfield",
     "capacity": 61276,
-    "titles": 19
+    "titles": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Crest_of_Liverpool_FC_-_geograph.org.uk_-_7321152.jpg/250px-Crest_of_Liverpool_FC_-_geograph.org.uk_-_7321152.jpg"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "founded": 1900,
     "stadium": "Allianz Arena",
     "capacity": 75024,
-    "titles": 33
+    "titles": 33,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/250px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "founded": 1899,
     "stadium": "San Siro",
     "capacity": 75923,
-    "titles": 19
+    "titles": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/250px-Logo_of_AC_Milan.svg.png"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "founded": 1897,
     "stadium": "Allianz Stadium",
     "capacity": 41507,
-    "titles": 36
+    "titles": 36,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Juventus_FC_-_logo_black_%28Italy%2C_2017%29.svg/250px-Juventus_FC_-_logo_black_%28Italy%2C_2017%29.svg.png"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "founded": 1970,
     "stadium": "Parc des Princes",
     "capacity": 47929,
-    "titles": 12
+    "titles": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/PSG_Logo.svg/250px-PSG_Logo.svg.png"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "founded": 1905,
     "stadium": "RAMS Park",
     "capacity": 52280,
-    "titles": 24
+    "titles": 24,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Galatasaray_Sports_Club_Logo.svg/250px-Galatasaray_Sports_Club_Logo.svg.png"
   },
   {
     "id": 10,
@@ -97,6 +106,7 @@
     "founded": 1907,
     "stadium": "Sukru Saracoglu",
     "capacity": 50530,
-    "titles": 19
+    "titles": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Fenerbah%C3%A7e_Spor_Kul%C3%BCb%C3%BC_%28logo%2C_1923%29.svg/250px-Fenerbah%C3%A7e_Spor_Kul%C3%BCb%C3%BC_%28logo%2C_1923%29.svg.png"
   }
 ]

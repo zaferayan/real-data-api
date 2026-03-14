@@ -8,6 +8,8 @@ Built with Express. No database needed - just a single `db.json` file.
 
 Static JSON available at: **https://zaferayan.github.io/real-data-api**
 
+**Test Page:** Browse all endpoints with images at **https://zaferayan.github.io/real-data-api/test.html** or run locally at `http://localhost:4000/test`.
+
 ## Installation
 
 ```bash

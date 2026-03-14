@@ -18,7 +18,7 @@
       "genre": "Crime",
       "rating": 9.2,
       "duration": 175,
-      "image": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_SX300.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 3,
@@ -48,7 +48,7 @@
       "genre": "Drama",
       "rating": 8.8,
       "duration": 142,
-      "image": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTYtZmU5YS00YjQ5LTljYjgtMjY2NDVhYWU5NjRiXkEyXkFqcGc@._V1_SX300.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 6,
@@ -78,7 +78,7 @@
       "genre": "Sci-Fi",
       "rating": 8.7,
       "duration": 136,
-      "image": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDL._V1_SX300.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 9,
@@ -98,7 +98,7 @@
       "genre": "Crime",
       "rating": 8.7,
       "duration": 146,
-      "image": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGc@._V1_SX300.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_SX300.jpg"
     }
   ],
   "books": [
@@ -202,7 +202,7 @@
       "knownFor": "Mona Lisa",
       "born": 1452,
       "died": 1519,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/220px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg/250px-Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
     },
     {
       "id": 2,
@@ -212,7 +212,7 @@
       "knownFor": "The Starry Night",
       "born": 1853,
       "died": 1890,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/220px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/250px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
     },
     {
       "id": 3,
@@ -222,7 +222,7 @@
       "knownFor": "Guernica",
       "born": 1881,
       "died": 1973,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/220px-Pablo_picasso_1.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/250px-Pablo_picasso_1.jpg"
     },
     {
       "id": 4,
@@ -232,7 +232,7 @@
       "knownFor": "Water Lilies",
       "born": 1840,
       "died": 1926,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/220px-Claude_Monet_1899_Nadar_crop.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/250px-Claude_Monet_1899_Nadar_crop.jpg"
     },
     {
       "id": 5,
@@ -242,7 +242,7 @@
       "knownFor": "The Two Fridas",
       "born": 1907,
       "died": 1954,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/220px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/250px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
     },
     {
       "id": 6,
@@ -252,7 +252,7 @@
       "knownFor": "Sistine Chapel Ceiling",
       "born": 1475,
       "died": 1564,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/220px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/250px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg"
     },
     {
       "id": 7,
@@ -262,7 +262,7 @@
       "knownFor": "The Persistence of Memory",
       "born": 1904,
       "died": 1989,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Salvador_Dal%C3%AD_1939.jpg/220px-Salvador_Dal%C3%AD_1939.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Salvador_Dal%C3%AD_1939.jpg/250px-Salvador_Dal%C3%AD_1939.jpg"
     },
     {
       "id": 8,
@@ -272,7 +272,7 @@
       "knownFor": "The Night Watch",
       "born": 1606,
       "died": 1669,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/220px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/250px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
     },
     {
       "id": 9,
@@ -282,7 +282,7 @@
       "knownFor": "Campbell's Soup Cans",
       "born": 1928,
       "died": 1987,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Andy_Warhol_1975.jpg/220px-Andy_Warhol_1975.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Andy_Warhol_1975.jpg/250px-Andy_Warhol_1975.jpg"
     },
     {
       "id": 10,
@@ -292,7 +292,7 @@
       "knownFor": "The Kiss",
       "born": 1862,
       "died": 1918,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Klimt.jpg/220px-Klimt.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Klimt.jpg/250px-Klimt.jpg"
     }
   ],
   "musicians": [
@@ -303,7 +303,7 @@
       "country": "UK",
       "activeYears": "1960-1970",
       "topHit": "Hey Jude",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Fabs.JPG/250px-The_Fabs.JPG"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/The_Beatles%2C_The_Ed_Sullivan_Show_group_photo.jpg/250px-The_Beatles%2C_The_Ed_Sullivan_Show_group_photo.jpg"
     },
     {
       "id": 2,
@@ -312,7 +312,7 @@
       "country": "USA",
       "activeYears": "1964-2009",
       "topHit": "Thriller",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Michael_Jackson_in_1988.jpg/220px-Michael_Jackson_in_1988.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/250px-Michael_Jackson_in_1988.jpg"
     },
     {
       "id": 3,
@@ -321,7 +321,7 @@
       "country": "UK",
       "activeYears": "1970-present",
       "topHit": "Bohemian Rhapsody",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Queen_-_Live_Magic.jpg/220px-Queen_-_Live_Magic.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Queen_A_Night_At_The_Opera_%281975_Elektra_publicity_photo_02%29.jpg/250px-Queen_A_Night_At_The_Opera_%281975_Elektra_publicity_photo_02%29.jpg"
     },
     {
       "id": 4,
@@ -330,7 +330,7 @@
       "country": "USA",
       "activeYears": "1953-1977",
       "topHit": "Jailhouse Rock",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/220px-Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/250px-Elvis_Presley_promoting_Jailhouse_Rock.jpg"
     },
     {
       "id": 5,
@@ -339,7 +339,7 @@
       "country": "Jamaica",
       "activeYears": "1963-1981",
       "topHit": "No Woman, No Cry",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bob-Marley.jpg/220px-Bob-Marley.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bob-Marley.jpg/250px-Bob-Marley.jpg"
     },
     {
       "id": 6,
@@ -348,7 +348,7 @@
       "country": "UK",
       "activeYears": "1962-2016",
       "topHit": "Space Oddity",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg/220px-David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg/250px-David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
     },
     {
       "id": 7,
@@ -357,7 +357,7 @@
       "country": "UK",
       "activeYears": "1965-2014",
       "topHit": "Comfortably Numb",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Pink_Floyd_-_all_members.jpg/300px-Pink_Floyd_-_all_members.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DarkSideOfTheMoon1973.jpg/250px-DarkSideOfTheMoon1973.jpg"
     },
     {
       "id": 8,
@@ -375,7 +375,7 @@
       "country": "USA",
       "activeYears": "1997-present",
       "topHit": "Crazy in Love",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beyonc%C3%A9_at_the_2024_Golden_Globe_Awards_%28cropped%29.jpg/220px-Beyonc%C3%A9_at_the_2024_Golden_Globe_Awards_%28cropped%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/The_Beyonc%C3%A9_Experience_in_Dublin%2C_Ireland.jpg/250px-The_Beyonc%C3%A9_Experience_in_Dublin%2C_Ireland.jpg"
     },
     {
       "id": 10,
@@ -384,7 +384,7 @@
       "country": "UK",
       "activeYears": "1985-present",
       "topHit": "Creep",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Radiohead_%28band%29.jpg/250px-Radiohead_%28band%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/R_A_D_I_O_H_E_A_D_%40_Foro_Sol_-_Flickr_-_monophonicgirl.jpg/250px-R_A_D_I_O_H_E_A_D_%40_Foro_Sol_-_Flickr_-_monophonicgirl.jpg"
     }
   ],
   "countries": [
@@ -396,7 +396,8 @@
       "population": 125700000,
       "language": "Japanese",
       "currency": "Yen",
-      "flag": "🇯🇵"
+      "flag": "🇯🇵",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png"
     },
     {
       "id": 2,
@@ -406,7 +407,8 @@
       "population": 214300000,
       "language": "Portuguese",
       "currency": "Real",
-      "flag": "🇧🇷"
+      "flag": "🇧🇷",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/250px-Flag_of_Brazil.svg.png"
     },
     {
       "id": 3,
@@ -416,7 +418,8 @@
       "population": 83200000,
       "language": "German",
       "currency": "Euro",
-      "flag": "🇩🇪"
+      "flag": "🇩🇪",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png"
     },
     {
       "id": 4,
@@ -426,7 +429,8 @@
       "population": 85300000,
       "language": "Turkish",
       "currency": "Lira",
-      "flag": "🇹🇷"
+      "flag": "🇹🇷",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/250px-Flag_of_Turkey.svg.png"
     },
     {
       "id": 5,
@@ -436,7 +440,8 @@
       "population": 26500000,
       "language": "English",
       "currency": "Dollar",
-      "flag": "🇦🇺"
+      "flag": "🇦🇺",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/250px-Flag_of_Australia_%28converted%29.svg.png"
     },
     {
       "id": 6,
@@ -446,7 +451,8 @@
       "population": 104100000,
       "language": "Arabic",
       "currency": "Pound",
-      "flag": "🇪🇬"
+      "flag": "🇪🇬",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/250px-Flag_of_Egypt.svg.png"
     },
     {
       "id": 7,
@@ -456,7 +462,8 @@
       "population": 40100000,
       "language": "English/French",
       "currency": "Dollar",
-      "flag": "🇨🇦"
+      "flag": "🇨🇦",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/250px-Flag_of_Canada_%28Pantone%29.svg.png"
     },
     {
       "id": 8,
@@ -466,7 +473,8 @@
       "population": 51700000,
       "language": "Korean",
       "currency": "Won",
-      "flag": "🇰🇷"
+      "flag": "🇰🇷",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/250px-Flag_of_South_Korea.svg.png"
     },
     {
       "id": 9,
@@ -476,7 +484,8 @@
       "population": 59000000,
       "language": "Italian",
       "currency": "Euro",
-      "flag": "🇮🇹"
+      "flag": "🇮🇹",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/250px-Flag_of_Italy.svg.png"
     },
     {
       "id": 10,
@@ -486,7 +495,8 @@
       "population": 128900000,
       "language": "Spanish",
       "currency": "Peso",
-      "flag": "🇲🇽"
+      "flag": "🇲🇽",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png"
     }
   ],
   "sports": [
@@ -498,7 +508,7 @@
       "team": "Inter Miami",
       "position": "Forward",
       "birthYear": 1987,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/220px-Lionel_Messi_WC2022.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/250px-Lionel_Messi_WC2022.jpg"
     },
     {
       "id": 2,
@@ -508,7 +518,7 @@
       "team": "Los Angeles Lakers",
       "position": "Forward",
       "birthYear": 1984,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977108%29_%28cropped2%29.jpg/220px-LeBron_James_%2851959977108%29_%28cropped2%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/LeBronJamesBush.jpg/250px-LeBronJamesBush.jpg"
     },
     {
       "id": 3,
@@ -518,7 +528,7 @@
       "team": "Individual",
       "position": "Singles",
       "birthYear": 1981,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Serena_Williams_at_2013_US_Open.jpg/220px-Serena_Williams_at_2013_US_Open.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Serena_Williams_at_2013_US_Open.jpg/250px-Serena_Williams_at_2013_US_Open.jpg"
     },
     {
       "id": 4,
@@ -528,7 +538,7 @@
       "team": "Al Nassr",
       "position": "Forward",
       "birthYear": 1985,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/220px-Cristiano_Ronaldo.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/250px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg"
     },
     {
       "id": 5,
@@ -538,7 +548,7 @@
       "team": "Individual",
       "position": "Sprinter",
       "birthYear": 1986,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Usain_Bolt_smiling_Berlin_2009.jpg/220px-Usain_Bolt_smiling_Berlin_2009.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Usain_Bolt_pictured_with_seven_of_Brunel%27s_student_athletes_-_30_July_2009.jpg/250px-Usain_Bolt_pictured_with_seven_of_Brunel%27s_student_athletes_-_30_July_2009.jpg"
     },
     {
       "id": 6,
@@ -548,7 +558,7 @@
       "team": "Chicago Bulls (retired)",
       "position": "Shooting Guard",
       "birthYear": 1963,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/220px-Michael_Jordan_in_2014.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/250px-Michael_Jordan_in_2014.jpg"
     },
     {
       "id": 7,
@@ -558,7 +568,7 @@
       "team": "Individual",
       "position": "Singles",
       "birthYear": 1981,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/R_Federer.jpg/220px-R_Federer.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Roger_Federer_signerer_autografer_under_Roma_Masters_2003.jpg/250px-Roger_Federer_signerer_autografer_under_Roma_Masters_2003.jpg"
     },
     {
       "id": 8,
@@ -568,7 +578,7 @@
       "team": "Individual",
       "position": "Heavyweight",
       "birthYear": 1942,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/220px-Muhammad_Ali_NYWTS.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/250px-Muhammad_Ali_NYWTS.jpg"
     },
     {
       "id": 9,
@@ -578,7 +588,7 @@
       "team": "Individual",
       "position": "All-around",
       "birthYear": 1997,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Simone_Biles_in_2024_%28cropped%29.jpg/220px-Simone_Biles_in_2024_%28cropped%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Simone_Biles_Rio_2016b.jpg/250px-Simone_Biles_Rio_2016b.jpg"
     },
     {
       "id": 10,
@@ -588,7 +598,7 @@
       "team": "Santos",
       "position": "Forward",
       "birthYear": 1992,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705_%28cropped%29.jpg/220px-Neymar.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg/250px-Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg"
     }
   ],
   "games": [
@@ -600,7 +610,7 @@
       "genre": "Action-Adventure",
       "platform": "Switch",
       "rating": 9.7,
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_Legend_of_Zelda_Tears_of_the_Kingdom_Reklama.jpg/250px-The_Legend_of_Zelda_Tears_of_the_Kingdom_Reklama.jpg"
     },
     {
       "id": 2,
@@ -610,7 +620,7 @@
       "genre": "RPG",
       "platform": "Multi",
       "rating": 9.3,
-      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Witcher_3_cover_art.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/The_Witcher_3_Wild_Hunt_-_Inventory.jpg/250px-The_Witcher_3_Wild_Hunt_-_Inventory.jpg"
     },
     {
       "id": 3,
@@ -620,7 +630,7 @@
       "genre": "Action-Adventure",
       "platform": "Multi",
       "rating": 9.7,
-      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Red_Dead_Redemption_2_Logo.png/250px-Red_Dead_Redemption_2_Logo.png"
     },
     {
       "id": 4,
@@ -630,7 +640,7 @@
       "genre": "Action-Adventure",
       "platform": "PS4",
       "rating": 9.4,
-      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Game_Awards_2018_-_God_of_War_wins_Game_of_the_Year.jpg/250px-The_Game_Awards_2018_-_God_of_War_wins_Game_of_the_Year.jpg"
     },
     {
       "id": 5,
@@ -640,7 +650,7 @@
       "genre": "Sandbox",
       "platform": "Multi",
       "rating": 9,
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Minecraft_Beta_1.8.1_Gameplay_Screenshot.png/250px-Minecraft_Beta_1.8.1_Gameplay_Screenshot.png"
     },
     {
       "id": 6,
@@ -650,7 +660,7 @@
       "genre": "Action-Adventure",
       "platform": "Multi",
       "rating": 9.5,
-      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Boy_wearing_a_Grand_Theft_Auto_V_T-shirt.png/250px-Boy_wearing_a_Grand_Theft_Auto_V_T-shirt.png"
     },
     {
       "id": 7,
@@ -660,7 +670,7 @@
       "genre": "Action-Adventure",
       "platform": "PS3",
       "rating": 9.5,
-      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/The_Last_of_Us_crossing_USA_en.png/250px-The_Last_of_Us_crossing_USA_en.png"
     },
     {
       "id": 8,
@@ -670,7 +680,7 @@
       "genre": "Action RPG",
       "platform": "Multi",
       "rating": 9.5,
-      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/ELDEN_RING_Ming-Na_Wen_03.png/250px-ELDEN_RING_Ming-Na_Wen_03.png"
     },
     {
       "id": 9,
@@ -680,7 +690,7 @@
       "genre": "Puzzle",
       "platform": "Multi",
       "rating": 9.5,
-      "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Portal_2_pax_prime_2010.jpg/250px-Portal_2_pax_prime_2010.jpg"
     },
     {
       "id": 10,
@@ -690,7 +700,7 @@
       "genre": "Roguelike",
       "platform": "Multi",
       "rating": 9.3,
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Hades_cover_art.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Hades_logo.png/250px-Hades_logo.png"
     }
   ],
   "recipes": [
@@ -706,7 +716,8 @@
         "tomato sauce",
         "mozzarella",
         "basil"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Piante_Margherita_Pizza_Slice.jpg/250px-Piante_Margherita_Pizza_Slice.jpg"
     },
     {
       "id": 2,
@@ -721,7 +732,8 @@
         "salmon",
         "avocado",
         "soy sauce"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Golden_Maki_Rainbow_Roll_sushi.jpg/250px-Golden_Maki_Rainbow_Roll_sushi.jpg"
     },
     {
       "id": 3,
@@ -736,7 +748,8 @@
         "tortilla",
         "onion",
         "cilantro"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Al_pastor_tacos_from_Las_Diablitas_food_truck_-_July_2022_-_Sarah_Stierch.jpg/250px-Al_pastor_tacos_from_Las_Diablitas_food_truck_-_July_2022_-_Sarah_Stierch.jpg"
     },
     {
       "id": 4,
@@ -751,7 +764,8 @@
         "tofu",
         "peanuts",
         "lime"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Pad_Thai_at_Kinn_Thai_Restaurant%2C_Canberra%2C_2022.jpg/250px-Pad_Thai_at_Kinn_Thai_Restaurant%2C_Canberra%2C_2022.jpg"
     },
     {
       "id": 5,
@@ -766,7 +780,8 @@
         "yeast",
         "milk",
         "sugar"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Recipe_croissant_hk_DIY.jpg/250px-Recipe_croissant_hk_DIY.jpg"
     },
     {
       "id": 6,
@@ -781,7 +796,8 @@
         "tomato",
         "pepper",
         "yogurt"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Orient_Food_D%C3%B6ner_Kebab_Restaurant_in_Hauptstra%C3%9Fe_2b_%28Tauberbischofsheim%29.jpg/250px-Orient_Food_D%C3%B6ner_Kebab_Restaurant_in_Hauptstra%C3%9Fe_2b_%28Tauberbischofsheim%29.jpg"
     },
     {
       "id": 7,
@@ -796,7 +812,8 @@
         "flour",
         "beer",
         "peas"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Fish_and_chips_-_Cambridge%2C_MA.jpg/250px-Fish_and_chips_-_Cambridge%2C_MA.jpg"
     },
     {
       "id": 8,
@@ -812,7 +829,8 @@
         "carrot",
         "egg",
         "gochujang"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Korean_bibimbap_at_Food_Court_TST.jpg/250px-Korean_bibimbap_at_Food_Court_TST.jpg"
     },
     {
       "id": 9,
@@ -827,7 +845,8 @@
         "espresso",
         "cocoa",
         "eggs"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Tiramisu_at_Italian_restaurant_in_Japan.jpg/250px-Tiramisu_at_Italian_restaurant_in_Japan.jpg"
     },
     {
       "id": 10,
@@ -842,7 +861,8 @@
         "star anise",
         "cinnamon",
         "basil"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pho%2C_popular_Vietnamese_noodle_soup.jpg/250px-Pho%2C_popular_Vietnamese_noodle_soup.jpg"
     }
   ],
   "planets": [
@@ -944,7 +964,8 @@
       "paradigm": "Multi-paradigm",
       "typing": "Dynamic",
       "extension": ".js",
-      "popularity": 1
+      "popularity": 1,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/JavaScript_unofficial_logo.svg/250px-JavaScript_unofficial_logo.svg.png"
     },
     {
       "id": 2,
@@ -954,7 +975,8 @@
       "paradigm": "Multi-paradigm",
       "typing": "Dynamic",
       "extension": ".py",
-      "popularity": 2
+      "popularity": 2,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/250px-Python_logo_01.svg.png"
     },
     {
       "id": 3,
@@ -964,7 +986,8 @@
       "paradigm": "Multi-paradigm",
       "typing": "Static",
       "extension": ".ts",
-      "popularity": 3
+      "popularity": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Typescript-logo.png/250px-Typescript-logo.png"
     },
     {
       "id": 4,
@@ -974,7 +997,8 @@
       "paradigm": "OOP",
       "typing": "Static",
       "extension": ".java",
-      "popularity": 4
+      "popularity": 4,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/250px-Duke_%28Java_mascot%29_waving.svg.png"
     },
     {
       "id": 5,
@@ -984,7 +1008,8 @@
       "paradigm": "OOP",
       "typing": "Static",
       "extension": ".cs",
-      "popularity": 5
+      "popularity": 5,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/C_Sharp_Icon.png/250px-C_Sharp_Icon.png"
     },
     {
       "id": 6,
@@ -994,7 +1019,8 @@
       "paradigm": "Procedural",
       "typing": "Static",
       "extension": ".go",
-      "popularity": 6
+      "popularity": 6,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Go_gopher_mascot_bw.png/250px-Go_gopher_mascot_bw.png"
     },
     {
       "id": 7,
@@ -1004,7 +1030,8 @@
       "paradigm": "Multi-paradigm",
       "typing": "Static",
       "extension": ".rs",
-      "popularity": 7
+      "popularity": 7,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rust_Foundation_logo.png/250px-Rust_Foundation_logo.png"
     },
     {
       "id": 8,
@@ -1014,7 +1041,8 @@
       "paradigm": "Multi-paradigm",
       "typing": "Static",
       "extension": ".swift",
-      "popularity": 8
+      "popularity": 8,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/250px-Swift_logo.svg.png"
     },
     {
       "id": 9,
@@ -1024,7 +1052,8 @@
       "paradigm": "Multi-paradigm",
       "typing": "Static",
       "extension": ".kt",
-      "popularity": 9
+      "popularity": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kotlin_icon_%282021-present%29.svg/250px-Kotlin_icon_%282021-present%29.svg.png"
     },
     {
       "id": 10,
@@ -1034,7 +1063,8 @@
       "paradigm": "OOP",
       "typing": "Dynamic",
       "extension": ".rb",
-      "popularity": 10
+      "popularity": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/250px-Ruby_logo.svg.png"
     }
   ],
   "pokemons": [
@@ -1147,7 +1177,7 @@
       "publisher": "DC",
       "power": "Intelligence & Gadgets",
       "firstAppearance": 1939,
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Batman_Cosplay_at_NYCC_2017.jpg/250px-Batman_Cosplay_at_NYCC_2017.jpg"
     },
     {
       "id": 2,
@@ -1156,7 +1186,7 @@
       "publisher": "Marvel",
       "power": "Spider Sense & Web",
       "firstAppearance": 1962,
-      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Winter_Con_2016_Cosplay_of_Iron_Spider%2C_Spider-Man%2C_Spider-Gwen%2C_and_Silk.jpg/250px-Winter_Con_2016_Cosplay_of_Iron_Spider%2C_Spider-Man%2C_Spider-Gwen%2C_and_Silk.jpg"
     },
     {
       "id": 3,
@@ -1165,7 +1195,7 @@
       "publisher": "DC",
       "power": "Super Strength & Flight",
       "firstAppearance": 1941,
-      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Wonder_Woman.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cosplay_of_Wonder_Woman_at_Sutera_Cosplay_Fest_2021.jpg/250px-Cosplay_of_Wonder_Woman_at_Sutera_Cosplay_Fest_2021.jpg"
     },
     {
       "id": 4,
@@ -1174,7 +1204,7 @@
       "publisher": "Marvel",
       "power": "Powered Armor",
       "firstAppearance": 1963,
-      "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2019_sdcc_vacation_Cosplay_of_Iron_Man_Hulkbuster_Armor.jpg/250px-2019_sdcc_vacation_Cosplay_of_Iron_Man_Hulkbuster_Armor.jpg"
     },
     {
       "id": 5,
@@ -1183,7 +1213,7 @@
       "publisher": "DC",
       "power": "Super Strength & Flight",
       "firstAppearance": 1938,
-      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Superman_Cosplay_at_NYCC_2017.jpg/250px-Superman_Cosplay_at_NYCC_2017.jpg"
     },
     {
       "id": 6,
@@ -1192,7 +1222,7 @@
       "publisher": "Marvel",
       "power": "Enhanced Abilities & Vibranium Suit",
       "firstAppearance": 1966,
-      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Black_Panther_%28T%27Challa_-_comic_book_character%29.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Huey_Newton%2C_Black_Panther_Minister_of_Defense_-_Black_Panther_poster.jpg/250px-Huey_Newton%2C_Black_Panther_Minister_of_Defense_-_Black_Panther_poster.jpg"
     },
     {
       "id": 7,
@@ -1201,7 +1231,7 @@
       "publisher": "Marvel",
       "power": "Super Soldier Serum",
       "firstAppearance": 1941,
-      "image": "https://upload.wikimedia.org/wikipedia/en/9/91/CaptainAmerica109.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Captain_America_and_Shield_Agent_cosplays_San_Diego_Comic_Con_2011.jpg/250px-Captain_America_and_Shield_Agent_cosplays_San_Diego_Comic_Con_2011.jpg"
     },
     {
       "id": 8,
@@ -1210,7 +1240,7 @@
       "publisher": "Marvel",
       "power": "God of Thunder & Mjolnir",
       "firstAppearance": 1962,
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Thor_%28Marvel_Comics%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WonderCon_2011_-_a_fan_worthy_of_holding_the_hammer_of_Thor_and_the_shield_of_Captain_America_at_the_Marvel_booth_%285593337199%29.jpg/250px-WonderCon_2011_-_a_fan_worthy_of_holding_the_hammer_of_Thor_and_the_shield_of_Captain_America_at_the_Marvel_booth_%285593337199%29.jpg"
     },
     {
       "id": 9,
@@ -1219,7 +1249,7 @@
       "publisher": "DC",
       "power": "Super Speed",
       "firstAppearance": 1956,
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Flash_%28Barry_Allen%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wonder_Woman%2C_Superman%2C_Flash_Cosplay.jpg/250px-Wonder_Woman%2C_Superman%2C_Flash_Cosplay.jpg"
     },
     {
       "id": 10,
@@ -1228,7 +1258,7 @@
       "publisher": "Marvel",
       "power": "Regeneration & Adamantium Claws",
       "firstAppearance": 1974,
-      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Wolverine_%28character%29.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cosplay_of_Wolverine_and_the_Wasp_from_Marvel_Comics_at_Made_in_Asia_2023.jpg/250px-Cosplay_of_Wolverine_and_the_Wasp_from_Marvel_Comics_at_Made_in_Asia_2023.jpg"
     }
   ],
   "cars": [
@@ -1241,7 +1271,7 @@
       "type": "Sports",
       "country": "Japan",
       "price": 56250,
-      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Toyota_GR_Supra_%28A90%29_Washington_DC_Metro_Area%2C_USA.jpg/250px-Toyota_GR_Supra_%28A90%29_Washington_DC_Metro_Area%2C_USA.jpg"
     },
     {
       "id": 2,
@@ -1252,7 +1282,7 @@
       "type": "Sedan",
       "country": "Germany",
       "price": 76900,
-      "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/BMW_M3_Competition_%28G80%29_1X7A1573.jpg/250px-BMW_M3_Competition_%28G80%29_1X7A1573.jpg"
     },
     {
       "id": 3,
@@ -1263,7 +1293,7 @@
       "type": "Sedan",
       "country": "USA",
       "price": 89990,
-      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Tesla_Model_S_Plaid_Autofr%C3%BChling_Ulm_IMG_9321.jpg/250px-Tesla_Model_S_Plaid_Autofr%C3%BChling_Ulm_IMG_9321.jpg"
     },
     {
       "id": 4,
@@ -1274,7 +1304,7 @@
       "type": "Sports",
       "country": "Germany",
       "price": 169700,
-      "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Porsche_911_GT3_4.0_%28992%29_1X7A7256.jpg/250px-Porsche_911_GT3_4.0_%28992%29_1X7A7256.jpg"
     },
     {
       "id": 5,
@@ -1285,7 +1315,7 @@
       "type": "Muscle",
       "country": "USA",
       "price": 42495,
-      "image": "https://images.unsplash.com/photo-1547744152-14d985cb937f?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/2024_Ford_Mustang_GT%2C_Kingsville%2C_Ontario%2C_2025-06-29.jpg/250px-2024_Ford_Mustang_GT%2C_Kingsville%2C_Ontario%2C_2025-06-29.jpg"
     },
     {
       "id": 6,
@@ -1296,7 +1326,7 @@
       "type": "Supercar",
       "country": "Italy",
       "price": 276550,
-      "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ferrari_F8_Tributo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1319%29.jpg/250px-Ferrari_F8_Tributo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1319%29.jpg"
     },
     {
       "id": 7,
@@ -1307,7 +1337,7 @@
       "type": "Hot Hatch",
       "country": "Japan",
       "price": 44295,
-      "image": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Honda_CIVIC_TYPE_R_%28FK8%29.jpg/250px-Honda_CIVIC_TYPE_R_%28FK8%29.jpg"
     },
     {
       "id": 8,
@@ -1318,7 +1348,7 @@
       "type": "Supercar",
       "country": "Italy",
       "price": 209409,
-      "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Lamborghini_Hurac%C3%A1n_Tecnica_1X7A7430.jpg/250px-Lamborghini_Hurac%C3%A1n_Tecnica_1X7A7430.jpg"
     },
     {
       "id": 9,
@@ -1329,7 +1359,7 @@
       "type": "Grand Tourer",
       "country": "Germany",
       "price": 162900,
-      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Mercedes-AMG_GT43_Coupe_C192.jpg/250px-Mercedes-AMG_GT43_Coupe_C192.jpg"
     },
     {
       "id": 10,
@@ -1340,7 +1370,7 @@
       "type": "Sports",
       "country": "Japan",
       "price": 217990,
-      "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Nissan_GT-R_Nismo_%28R35%29%2C_2022%2C_front.jpg/250px-Nissan_GT-R_Nismo_%28R35%29%2C_2022%2C_front.jpg"
     }
   ],
   "tvShows": [
@@ -1352,7 +1382,7 @@
       "genre": "Crime Drama",
       "seasons": 5,
       "rating": 9.5,
-      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png"
+      "image": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 2,
@@ -1362,7 +1392,7 @@
       "genre": "Fantasy Drama",
       "seasons": 8,
       "rating": 9.2,
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 3,
@@ -1372,7 +1402,7 @@
       "genre": "Sitcom",
       "seasons": 10,
       "rating": 8.9,
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Friends_title_card.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 4,
@@ -1382,7 +1412,7 @@
       "genre": "Mockumentary",
       "seasons": 9,
       "rating": 9,
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/56/The_Office_Title_Card.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 5,
@@ -1392,7 +1422,7 @@
       "genre": "Sci-Fi Horror",
       "seasons": 5,
       "rating": 8.7,
-      "image": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_1.png"
+      "image": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 6,
@@ -1402,7 +1432,7 @@
       "genre": "Crime Drama",
       "seasons": 6,
       "rating": 9.2,
-      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Sopranos_titlescreen.png"
+      "image": "https://m.media-amazon.com/images/M/MV5BMjRmMTNiMTQtMDg1ZS00MGM1LWE1MGUtYjEzMGFjNWUzOWRkXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 7,
@@ -1412,7 +1442,7 @@
       "genre": "Historical Drama",
       "seasons": 1,
       "rating": 9.4,
-      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Chernobyl_2019_Miniseries.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BNzU0OTI4YTQtNGQ1ZS00ZjA4LTg3MTMtZjkyZWNjN2RiZDJmXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 8,
@@ -1422,7 +1452,7 @@
       "genre": "Sci-Fi Thriller",
       "seasons": 3,
       "rating": 8.8,
-      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Dark_%28TV_series%29.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BOWJjMGViY2UtNTAzNS00ZGFjLWFkNTMtMDBiMDMyZTM1NTY3XkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 9,
@@ -1432,7 +1462,7 @@
       "genre": "Sci-Fi Western",
       "seasons": 3,
       "rating": 8.7,
-      "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/TheMandalorianSeason3Poster.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
       "id": 10,
@@ -1442,7 +1472,7 @@
       "genre": "Crime Drama",
       "seasons": 6,
       "rating": 8.8,
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Peaky_Blinders_titlecard.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BOGM0NGY3ZmItOGE2ZC00OWIxLTk0N2EtZWY4Yzg3ZDlhNGI3XkEyXkFqcGc@._V1_SX300.jpg"
     }
   ],
   "anime": [
@@ -1454,7 +1484,7 @@
       "genre": "Action",
       "episodes": 720,
       "rating": 8.4,
-      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/NauroShipp662.jpg"
+      "image": "https://myanimelist.net/images/anime/1141/142503.jpg"
     },
     {
       "id": 2,
@@ -1464,7 +1494,7 @@
       "genre": "Adventure",
       "episodes": 1100,
       "rating": 9,
-      "image": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg"
+      "image": "https://myanimelist.net/images/anime/1244/138851.jpg"
     },
     {
       "id": 3,
@@ -1474,7 +1504,7 @@
       "genre": "Dark Fantasy",
       "episodes": 94,
       "rating": 9.1,
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg"
+      "image": "https://myanimelist.net/images/anime/10/47347.jpg"
     },
     {
       "id": 4,
@@ -1484,7 +1514,7 @@
       "genre": "Thriller",
       "episodes": 37,
       "rating": 9,
-      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg"
+      "image": "https://myanimelist.net/images/anime/1079/138100.jpg"
     },
     {
       "id": 5,
@@ -1494,7 +1524,7 @@
       "genre": "Action",
       "episodes": 64,
       "rating": 9.2,
-      "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/Fma_brotherhood.png"
+      "image": "https://myanimelist.net/images/anime/1208/94745.jpg"
     },
     {
       "id": 6,
@@ -1504,7 +1534,7 @@
       "genre": "Action",
       "episodes": 291,
       "rating": 8.8,
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Dragon_Ball_Z.png"
+      "image": "https://myanimelist.net/images/anime/1277/142022.jpg"
     },
     {
       "id": 7,
@@ -1514,7 +1544,7 @@
       "genre": "Action",
       "episodes": 55,
       "rating": 8.7,
-      "image": "https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg"
+      "image": "https://myanimelist.net/images/anime/1286/99889.jpg"
     },
     {
       "id": 8,
@@ -1524,7 +1554,7 @@
       "genre": "Sci-Fi Thriller",
       "episodes": 24,
       "rating": 9.1,
-      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Steins%3BGate_cover.jpg"
+      "image": "https://myanimelist.net/images/anime/1935/127974.jpg"
     },
     {
       "id": 9,
@@ -1534,7 +1564,7 @@
       "genre": "Sci-Fi",
       "episodes": 26,
       "rating": 8.9,
-      "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/Cowboy_Bebop_-_cover.jpg"
+      "image": "https://myanimelist.net/images/anime/4/19644.jpg"
     },
     {
       "id": 10,
@@ -1544,7 +1574,7 @@
       "genre": "Action",
       "episodes": 47,
       "rating": 8.6,
-      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_Kaisen_vol_1.jpg"
+      "image": "https://myanimelist.net/images/anime/1171/109222.jpg"
     }
   ],
   "footballTeams": [
@@ -1556,7 +1586,8 @@
       "founded": 1902,
       "stadium": "Santiago Bernabeu",
       "capacity": 83186,
-      "titles": 36
+      "titles": 36,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Logo_Real_Madrid_%28Espa%C3%B1a%29.jpg/250px-Logo_Real_Madrid_%28Espa%C3%B1a%29.jpg"
     },
     {
       "id": 2,
@@ -1566,7 +1597,8 @@
       "founded": 1899,
       "stadium": "Spotify Camp Nou",
       "capacity": 99354,
-      "titles": 27
+      "titles": 27,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/FCBarcelona.JPG/250px-FCBarcelona.JPG"
     },
     {
       "id": 3,
@@ -1576,7 +1608,8 @@
       "founded": 1878,
       "stadium": "Old Trafford",
       "capacity": 74310,
-      "titles": 20
+      "titles": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Master_crest_RGB_WIKIPEDIA.jpg/250px-Master_crest_RGB_WIKIPEDIA.jpg"
     },
     {
       "id": 4,
@@ -1586,7 +1619,8 @@
       "founded": 1892,
       "stadium": "Anfield",
       "capacity": 61276,
-      "titles": 19
+      "titles": 19,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Crest_of_Liverpool_FC_-_geograph.org.uk_-_7321152.jpg/250px-Crest_of_Liverpool_FC_-_geograph.org.uk_-_7321152.jpg"
     },
     {
       "id": 5,
@@ -1596,7 +1630,8 @@
       "founded": 1900,
       "stadium": "Allianz Arena",
       "capacity": 75024,
-      "titles": 33
+      "titles": 33,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/250px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png"
     },
     {
       "id": 6,
@@ -1606,7 +1641,8 @@
       "founded": 1899,
       "stadium": "San Siro",
       "capacity": 75923,
-      "titles": 19
+      "titles": 19,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/250px-Logo_of_AC_Milan.svg.png"
     },
     {
       "id": 7,
@@ -1616,7 +1652,8 @@
       "founded": 1897,
       "stadium": "Allianz Stadium",
       "capacity": 41507,
-      "titles": 36
+      "titles": 36,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Juventus_FC_-_logo_black_%28Italy%2C_2017%29.svg/250px-Juventus_FC_-_logo_black_%28Italy%2C_2017%29.svg.png"
     },
     {
       "id": 8,
@@ -1626,7 +1663,8 @@
       "founded": 1970,
       "stadium": "Parc des Princes",
       "capacity": 47929,
-      "titles": 12
+      "titles": 12,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/PSG_Logo.svg/250px-PSG_Logo.svg.png"
     },
     {
       "id": 9,
@@ -1636,7 +1674,8 @@
       "founded": 1905,
       "stadium": "RAMS Park",
       "capacity": 52280,
-      "titles": 24
+      "titles": 24,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Galatasaray_Sports_Club_Logo.svg/250px-Galatasaray_Sports_Club_Logo.svg.png"
     },
     {
       "id": 10,
@@ -1646,7 +1685,8 @@
       "founded": 1907,
       "stadium": "Sukru Saracoglu",
       "capacity": 50530,
-      "titles": 19
+      "titles": 19,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Fenerbah%C3%A7e_Spor_Kul%C3%BCb%C3%BC_%28logo%2C_1923%29.svg/250px-Fenerbah%C3%A7e_Spor_Kul%C3%BCb%C3%BC_%28logo%2C_1923%29.svg.png"
     }
   ],
   "instruments": [
@@ -1657,7 +1697,8 @@
       "origin": "Italy",
       "year": 1700,
       "keys": 88,
-      "difficulty": "Medium"
+      "difficulty": "Medium",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/250px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
     },
     {
       "id": 2,
@@ -1666,7 +1707,8 @@
       "origin": "Spain",
       "year": 1500,
       "strings": 6,
-      "difficulty": "Medium"
+      "difficulty": "Medium",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Acoustic_Guitar_with_Seashell_Inlay.jpg/250px-Acoustic_Guitar_with_Seashell_Inlay.jpg"
     },
     {
       "id": 3,
@@ -1675,7 +1717,8 @@
       "origin": "Italy",
       "year": 1530,
       "strings": 4,
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bow_Fiddle_Rock_East.jpg/250px-Bow_Fiddle_Rock_East.jpg"
     },
     {
       "id": 4,
@@ -1684,7 +1727,8 @@
       "origin": "Ancient",
       "year": -5500,
       "pieces": 5,
-      "difficulty": "Medium"
+      "difficulty": "Medium",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_06.jpg/250px-A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_06.jpg"
     },
     {
       "id": 5,
@@ -1693,7 +1737,8 @@
       "origin": "Belgium",
       "year": 1846,
       "keys": 23,
-      "difficulty": "Medium"
+      "difficulty": "Medium",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/4_Saxophone_Amati_white_background.jpg/250px-4_Saxophone_Amati_white_background.jpg"
     },
     {
       "id": 6,
@@ -1702,7 +1747,8 @@
       "origin": "Egypt",
       "year": -1500,
       "valves": 3,
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Trumpet_1.png/250px-Trumpet_1.png"
     },
     {
       "id": 7,
@@ -1711,7 +1757,8 @@
       "origin": "Italy",
       "year": 1660,
       "strings": 4,
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cello_bygget_af_Johann_Hinrich_Schnabel_%281744-1799%29.jpg/250px-Cello_bygget_af_Johann_Hinrich_Schnabel_%281744-1799%29.jpg"
     },
     {
       "id": 8,
@@ -1720,7 +1767,8 @@
       "origin": "Germany",
       "year": -900,
       "keys": 16,
-      "difficulty": "Medium"
+      "difficulty": "Medium",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg/250px-Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg"
     },
     {
       "id": 9,
@@ -1729,7 +1777,8 @@
       "origin": "Mesopotamia",
       "year": -3500,
       "strings": 47,
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pedal_harp_in_library.jpg/250px-Pedal_harp_in_library.jpg"
     },
     {
       "id": 10,
@@ -1738,7 +1787,8 @@
       "origin": "Hawaii",
       "year": 1879,
       "strings": 4,
-      "difficulty": "Easy"
+      "difficulty": "Easy",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pineapple_Ukulele_with_Feather_and_Seashells.jpg/250px-Pineapple_Ukulele_with_Feather_and_Seashells.jpg"
     }
   ],
   "dinosaurs": [
@@ -1750,7 +1800,8 @@
       "length": "12m",
       "weight": "8 tons",
       "region": "North America",
-      "yearsAgo": "68M"
+      "yearsAgo": "68M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tyrannosaurus_rex_skeleton_%28cast_of_specimen_MOR_555%29_at_Cleveland_Museum_of_Natural_History.jpg/250px-Tyrannosaurus_rex_skeleton_%28cast_of_specimen_MOR_555%29_at_Cleveland_Museum_of_Natural_History.jpg"
     },
     {
       "id": 2,
@@ -1760,7 +1811,8 @@
       "length": "2m",
       "weight": "15 kg",
       "region": "Central Asia",
-      "yearsAgo": "75M"
+      "yearsAgo": "75M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Velociraptor_mongoliensis.jpg/250px-Velociraptor_mongoliensis.jpg"
     },
     {
       "id": 3,
@@ -1770,7 +1822,8 @@
       "length": "9m",
       "weight": "6 tons",
       "region": "North America",
-      "yearsAgo": "68M"
+      "yearsAgo": "68M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Triceratops_skeleton_-_Ulster_Museum_1.JPG/250px-Triceratops_skeleton_-_Ulster_Museum_1.JPG"
     },
     {
       "id": 4,
@@ -1780,7 +1833,8 @@
       "length": "26m",
       "weight": "56 tons",
       "region": "North America",
-      "yearsAgo": "154M"
+      "yearsAgo": "154M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Brachiosaurus_mount.jpg/250px-Brachiosaurus_mount.jpg"
     },
     {
       "id": 5,
@@ -1790,7 +1844,8 @@
       "length": "9m",
       "weight": "3.5 tons",
       "region": "North America",
-      "yearsAgo": "155M"
+      "yearsAgo": "155M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Stegosaurus_Skeleton_%2836094963090%29.jpg/250px-Stegosaurus_Skeleton_%2836094963090%29.jpg"
     },
     {
       "id": 6,
@@ -1800,7 +1855,8 @@
       "length": "1.8m",
       "weight": "25 kg",
       "region": "North America",
-      "yearsAgo": "86M"
+      "yearsAgo": "86M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Pteranodon_skeleton%2C_from_Abel%2C_O._%281919%29._Die_St%C3%A4mme_der_Wirbeltiere.jpg/250px-Pteranodon_skeleton%2C_from_Abel%2C_O._%281919%29._Die_St%C3%A4mme_der_Wirbeltiere.jpg"
     },
     {
       "id": 7,
@@ -1810,7 +1866,8 @@
       "length": "15m",
       "weight": "7 tons",
       "region": "North Africa",
-      "yearsAgo": "99M"
+      "yearsAgo": "99M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Spinosaurus_swimming.jpg/250px-Spinosaurus_swimming.jpg"
     },
     {
       "id": 8,
@@ -1820,7 +1877,8 @@
       "length": "8m",
       "weight": "6 tons",
       "region": "North America",
-      "yearsAgo": "68M"
+      "yearsAgo": "68M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mirrored_Ankylosaurus_magniventris_reconstruction.png/250px-Mirrored_Ankylosaurus_magniventris_reconstruction.png"
     },
     {
       "id": 9,
@@ -1830,7 +1888,8 @@
       "length": "10m",
       "weight": "2.5 tons",
       "region": "North America",
-      "yearsAgo": "76M"
+      "yearsAgo": "76M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Parasaurolophus_walkeri.jpg/250px-Parasaurolophus_walkeri.jpg"
     },
     {
       "id": 10,
@@ -1840,7 +1899,8 @@
       "length": "7m",
       "weight": "400 kg",
       "region": "North America",
-      "yearsAgo": "193M"
+      "yearsAgo": "193M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Dilophosaurus_wetherilli.jpg/250px-Dilophosaurus_wetherilli.jpg"
     }
   ],
   "mythologies": [
@@ -1851,7 +1911,8 @@
       "role": "King of the Gods",
       "domain": "Sky & Thunder",
       "symbol": "Lightning Bolt",
-      "weapon": "Thunderbolt"
+      "weapon": "Thunderbolt",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Zeus_%28Robert_Wl%C3%A9rick%29.jpg/250px-Zeus_%28Robert_Wl%C3%A9rick%29.jpg"
     },
     {
       "id": 2,
@@ -1860,7 +1921,8 @@
       "role": "God of Thunder",
       "domain": "Thunder & Strength",
       "symbol": "Hammer",
-      "weapon": "Mjolnir"
+      "weapon": "Mjolnir",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Thor_Lightning_Strikes.jpg/250px-Thor_Lightning_Strikes.jpg"
     },
     {
       "id": 3,
@@ -1869,7 +1931,8 @@
       "role": "God of the Dead",
       "domain": "Death & Afterlife",
       "symbol": "Jackal",
-      "weapon": "Staff"
+      "weapon": "Staff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Anubis_%28God%29.png/250px-Anubis_%28God%29.png"
     },
     {
       "id": 4,
@@ -1878,7 +1941,8 @@
       "role": "Goddess of Wisdom",
       "domain": "Wisdom & War",
       "symbol": "Owl",
-      "weapon": "Spear & Shield"
+      "weapon": "Spear & Shield",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Statue_of_Athena._Academy_of_Athens.jpg/250px-Statue_of_Athena._Academy_of_Athens.jpg"
     },
     {
       "id": 5,
@@ -1887,7 +1951,8 @@
       "role": "Allfather",
       "domain": "Wisdom & Death",
       "symbol": "Ravens",
-      "weapon": "Gungnir"
+      "weapon": "Gungnir",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Detalj_av_statyn_Odin_av_Bengt_Erland_Fogelberg%2C_Nationalmuseum.jpg/250px-Detalj_av_statyn_Odin_av_Bengt_Erland_Fogelberg%2C_Nationalmuseum.jpg"
     },
     {
       "id": 6,
@@ -1896,7 +1961,8 @@
       "role": "Sun God",
       "domain": "Sun & Creation",
       "symbol": "Sun Disk",
-      "weapon": "Solar Barque"
+      "weapon": "Solar Barque",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ra_%28God%29.png/250px-Ra_%28God%29.png"
     },
     {
       "id": 7,
@@ -1905,7 +1971,8 @@
       "role": "God of the Sea",
       "domain": "Sea & Earthquakes",
       "symbol": "Trident",
-      "weapon": "Trident"
+      "weapon": "Trident",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Socha_Poseidona%2C_Pardubice_01.jpg/250px-Socha_Poseidona%2C_Pardubice_01.jpg"
     },
     {
       "id": 8,
@@ -1914,7 +1981,8 @@
       "role": "Trickster God",
       "domain": "Mischief & Chaos",
       "symbol": "Snake",
-      "weapon": "Shapeshifting"
+      "weapon": "Shapeshifting",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Loki_and_Dvalin.jpg/250px-Loki_and_Dvalin.jpg"
     },
     {
       "id": 9,
@@ -1923,7 +1991,8 @@
       "role": "Sun Goddess",
       "domain": "Sun & Universe",
       "symbol": "Mirror",
-      "weapon": "Divine Light"
+      "weapon": "Divine Light",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Amaterasu_rooster.jpg/250px-Amaterasu_rooster.jpg"
     },
     {
       "id": 10,
@@ -1932,7 +2001,8 @@
       "role": "God of Beginnings",
       "domain": "Wisdom & Success",
       "symbol": "Elephant",
-      "weapon": "Axe & Lotus"
+      "weapon": "Axe & Lotus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gardez_Ganesha%2C_Maharajadhiraja_Shri_Shahi_Kimgalau.jpg/250px-Gardez_Ganesha%2C_Maharajadhiraja_Shri_Shahi_Kimgalau.jpg"
     }
   ],
   "inventions": [
@@ -1942,7 +2012,8 @@
       "inventor": "Johannes Gutenberg",
       "year": 1440,
       "country": "Germany",
-      "impact": "Mass communication"
+      "impact": "Mass communication",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Printing_press_04.jpg/250px-Printing_press_04.jpg"
     },
     {
       "id": 2,
@@ -1950,7 +2021,8 @@
       "inventor": "Alexander Graham Bell",
       "year": 1876,
       "country": "USA",
-      "impact": "Instant voice communication"
+      "impact": "Instant voice communication",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Alexander_Graham_Telephone_in_Newyork.jpg/250px-Alexander_Graham_Telephone_in_Newyork.jpg"
     },
     {
       "id": 3,
@@ -1958,7 +2030,8 @@
       "inventor": "Thomas Edison",
       "year": 1879,
       "country": "USA",
-      "impact": "Artificial lighting"
+      "impact": "Artificial lighting",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Edison_incandescent_light_bulb_enclosed_in_cage.jpg/250px-Edison_incandescent_light_bulb_enclosed_in_cage.jpg"
     },
     {
       "id": 4,
@@ -1966,7 +2039,8 @@
       "inventor": "Tim Berners-Lee",
       "year": 1989,
       "country": "Switzerland",
-      "impact": "Global information sharing"
+      "impact": "Global information sharing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/YouTube_results_screenshot.jpg/250px-YouTube_results_screenshot.jpg"
     },
     {
       "id": 5,
@@ -1974,7 +2048,8 @@
       "inventor": "Wright Brothers",
       "year": 1903,
       "country": "USA",
-      "impact": "Air travel"
+      "impact": "Air travel",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Relic_from_the_Wright_brothers%E2%80%99_airplane_attached_to_the_Ingenuity_helicopter.jpg/250px-Relic_from_the_Wright_brothers%E2%80%99_airplane_attached_to_the_Ingenuity_helicopter.jpg"
     },
     {
       "id": 6,
@@ -1982,7 +2057,8 @@
       "inventor": "Alexander Fleming",
       "year": 1928,
       "country": "UK",
-      "impact": "Modern antibiotics"
+      "impact": "Modern antibiotics",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg/250px-Synthetic_Production_of_Penicillin_TR1468.jpg"
     },
     {
       "id": 7,
@@ -1990,7 +2066,8 @@
       "inventor": "James Watt",
       "year": 1769,
       "country": "UK",
-      "impact": "Industrial Revolution"
+      "impact": "Industrial Revolution",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Maquina_vapor_Watt_ETSIIM.jpg/250px-Maquina_vapor_Watt_ETSIIM.jpg"
     },
     {
       "id": 8,
@@ -1998,7 +2075,8 @@
       "inventor": "Nikola Tesla & Thomas Edison",
       "year": 1882,
       "country": "USA",
-      "impact": "Modern power systems"
+      "impact": "Modern power systems",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Franklin%27s_Experiment%2C_June_1752_Demonstrating_the_identity_of_Lightning_and_Electricity%2C_from_which_he_invented_the_Lightning_Rod_MET_DP-21537-001.jpg/250px-Franklin%27s_Experiment%2C_June_1752_Demonstrating_the_identity_of_Lightning_and_Electricity%2C_from_which_he_invented_the_Lightning_Rod_MET_DP-21537-001.jpg"
     },
     {
       "id": 9,
@@ -2006,7 +2084,8 @@
       "inventor": "Chinese inventors",
       "year": 206,
       "country": "China",
-      "impact": "Navigation"
+      "impact": "Navigation",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plastic-compass.jpg/250px-Plastic-compass.jpg"
     },
     {
       "id": 10,
@@ -2014,7 +2093,8 @@
       "inventor": "Hans Lippershey",
       "year": 1608,
       "country": "Netherlands",
-      "impact": "Astronomy & space exploration"
+      "impact": "Astronomy & space exploration",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Galilei%27s_newer_telescope%2C_part_with_lens%2C_Museo_Galileo%2C_Florence%2C_Inv._2427%2C_224092.jpg/250px-Galilei%27s_newer_telescope%2C_part_with_lens%2C_Museo_Galileo%2C_Florence%2C_Inv._2427%2C_224092.jpg"
     }
   ],
   "coffees": [
@@ -2027,7 +2107,8 @@
       "prepTime": "25 sec",
       "ingredients": [
         "coffee"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Espresso_cup.jpg/250px-Espresso_cup.jpg"
     },
     {
       "id": 2,
@@ -2040,7 +2121,8 @@
         "espresso",
         "steamed milk",
         "foam"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/A-cup-of-cappuccino-coffee-dar-es-salaam-cafe.jpg/250px-A-cup-of-cappuccino-coffee-dar-es-salaam-cafe.jpg"
     },
     {
       "id": 3,
@@ -2052,7 +2134,8 @@
       "ingredients": [
         "espresso",
         "steamed milk"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Caffe_Latte_cup.jpg/250px-Caffe_Latte_cup.jpg"
     },
     {
       "id": 4,
@@ -2064,7 +2147,8 @@
       "ingredients": [
         "espresso",
         "hot water"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/A_cup_of_Americano_in_Lano_Coffee_%28Palembang%2C_SS%29.jpg/250px-A_cup_of_Americano_in_Lano_Coffee_%28Palembang%2C_SS%29.jpg"
     },
     {
       "id": 5,
@@ -2076,7 +2160,8 @@
       "ingredients": [
         "coarse ground coffee",
         "cold water"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Amir_makes_cold_brew_coffee_at_Wikimania_2021_-_02.png/250px-Amir_makes_cold_brew_coffee_at_Wikimania_2021_-_02.png"
     },
     {
       "id": 6,
@@ -2089,7 +2174,8 @@
         "finely ground coffee",
         "water",
         "sugar"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Turkish_coffee_in_Jajce.jpg/250px-Turkish_coffee_in_Jajce.jpg"
     },
     {
       "id": 7,
@@ -2102,7 +2188,8 @@
         "espresso",
         "chocolate",
         "steamed milk"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Mocha_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg/250px-Mocha_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg"
     },
     {
       "id": 8,
@@ -2114,7 +2201,8 @@
       "ingredients": [
         "espresso",
         "vanilla gelato"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/%E5%92%96%E5%95%A1%E9%9B%AA%E7%B3%95.jpg/250px-%E5%92%96%E5%95%A1%E9%9B%AA%E7%B3%95.jpg"
     },
     {
       "id": 9,
@@ -2126,7 +2214,8 @@
       "ingredients": [
         "double espresso",
         "microfoam milk"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flat_white_coffee_Highgate_Cricket_Club%2C_Crouch_End%2C_London.jpg/250px-Flat_white_coffee_Highgate_Cricket_Club%2C_Crouch_End%2C_London.jpg"
     },
     {
       "id": 10,
@@ -2140,7 +2229,8 @@
         "irish whiskey",
         "sugar",
         "cream"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Irish_coffee.jpg/250px-Irish_coffee.jpg"
     }
   ],
   "users": [

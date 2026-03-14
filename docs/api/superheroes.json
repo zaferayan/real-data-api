@@ -6,7 +6,7 @@
     "publisher": "DC",
     "power": "Intelligence & Gadgets",
     "firstAppearance": 1939,
-    "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Batman_Cosplay_at_NYCC_2017.jpg/250px-Batman_Cosplay_at_NYCC_2017.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "publisher": "Marvel",
     "power": "Spider Sense & Web",
     "firstAppearance": 1962,
-    "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Winter_Con_2016_Cosplay_of_Iron_Spider%2C_Spider-Man%2C_Spider-Gwen%2C_and_Silk.jpg/250px-Winter_Con_2016_Cosplay_of_Iron_Spider%2C_Spider-Man%2C_Spider-Gwen%2C_and_Silk.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "publisher": "DC",
     "power": "Super Strength & Flight",
     "firstAppearance": 1941,
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Wonder_Woman.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cosplay_of_Wonder_Woman_at_Sutera_Cosplay_Fest_2021.jpg/250px-Cosplay_of_Wonder_Woman_at_Sutera_Cosplay_Fest_2021.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "publisher": "Marvel",
     "power": "Powered Armor",
     "firstAppearance": 1963,
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2019_sdcc_vacation_Cosplay_of_Iron_Man_Hulkbuster_Armor.jpg/250px-2019_sdcc_vacation_Cosplay_of_Iron_Man_Hulkbuster_Armor.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "publisher": "DC",
     "power": "Super Strength & Flight",
     "firstAppearance": 1938,
-    "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Superman_Cosplay_at_NYCC_2017.jpg/250px-Superman_Cosplay_at_NYCC_2017.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "publisher": "Marvel",
     "power": "Enhanced Abilities & Vibranium Suit",
     "firstAppearance": 1966,
-    "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Black_Panther_%28T%27Challa_-_comic_book_character%29.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Huey_Newton%2C_Black_Panther_Minister_of_Defense_-_Black_Panther_poster.jpg/250px-Huey_Newton%2C_Black_Panther_Minister_of_Defense_-_Black_Panther_poster.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "publisher": "Marvel",
     "power": "Super Soldier Serum",
     "firstAppearance": 1941,
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/91/CaptainAmerica109.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Captain_America_and_Shield_Agent_cosplays_San_Diego_Comic_Con_2011.jpg/250px-Captain_America_and_Shield_Agent_cosplays_San_Diego_Comic_Con_2011.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "publisher": "Marvel",
     "power": "God of Thunder & Mjolnir",
     "firstAppearance": 1962,
-    "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Thor_%28Marvel_Comics%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WonderCon_2011_-_a_fan_worthy_of_holding_the_hammer_of_Thor_and_the_shield_of_Captain_America_at_the_Marvel_booth_%285593337199%29.jpg/250px-WonderCon_2011_-_a_fan_worthy_of_holding_the_hammer_of_Thor_and_the_shield_of_Captain_America_at_the_Marvel_booth_%285593337199%29.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "publisher": "DC",
     "power": "Super Speed",
     "firstAppearance": 1956,
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Flash_%28Barry_Allen%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wonder_Woman%2C_Superman%2C_Flash_Cosplay.jpg/250px-Wonder_Woman%2C_Superman%2C_Flash_Cosplay.jpg"
   },
   {
     "id": 10,
@@ -87,6 +87,6 @@
     "publisher": "Marvel",
     "power": "Regeneration & Adamantium Claws",
     "firstAppearance": 1974,
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Wolverine_%28character%29.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cosplay_of_Wolverine_and_the_Wasp_from_Marvel_Comics_at_Made_in_Asia_2023.jpg/250px-Cosplay_of_Wolverine_and_the_Wasp_from_Marvel_Comics_at_Made_in_Asia_2023.jpg"
   }
 ]
