@@ -1,0 +1,364 @@
+{
+  "info": {
+    "name": "Real Data API",
+    "description": "Curated real-world datasets served as a REST API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:4000"
+    },
+    {
+      "key": "token",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"firstName\": \"Ayse\",\n  \"lastName\": \"Kaya\",\n  \"email\": \"ayse@example.com\",\n  \"password\": \"123456\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "register"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const res = pm.response.json();",
+                  "if (res.token) {",
+                  "  pm.collectionVariables.set('token', res.token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"john@example.com\",\n  \"password\": \"123456\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "login"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const res = pm.response.json();",
+                  "if (res.token) {",
+                  "  pm.collectionVariables.set('token', res.token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Me",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/auth/me",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "me"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Movies",
+      "item": [
+        {
+          "name": "Get All Movies",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/movies",
+              "host": ["{{baseUrl}}"],
+              "path": ["movies"]
+            }
+          }
+        },
+        {
+          "name": "Get Movie by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/movies/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["movies", "1"]
+            }
+          }
+        },
+        {
+          "name": "Create Movie",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Interstellar\",\n  \"director\": \"Christopher Nolan\",\n  \"year\": 2014,\n  \"genre\": \"Sci-Fi\",\n  \"rating\": 8.7\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/movies",
+              "host": ["{{baseUrl}}"],
+              "path": ["movies"]
+            }
+          }
+        },
+        {
+          "name": "Update Movie (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Interstellar\",\n  \"director\": \"Christopher Nolan\",\n  \"year\": 2014,\n  \"genre\": \"Sci-Fi\",\n  \"rating\": 9.0\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/movies/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["movies", "1"]
+            }
+          }
+        },
+        {
+          "name": "Update Movie (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"rating\": 9.5\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/movies/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["movies", "1"]
+            }
+          }
+        },
+        {
+          "name": "Delete Movie",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/movies/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["movies", "1"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Books",
+      "item": [
+        {
+          "name": "Get All Books",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/books",
+              "host": ["{{baseUrl}}"],
+              "path": ["books"]
+            }
+          }
+        },
+        {
+          "name": "Get Book by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/books/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["books", "1"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pokemons",
+      "item": [
+        {
+          "name": "Get All Pokemons",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/pokemons",
+              "host": ["{{baseUrl}}"],
+              "path": ["pokemons"]
+            }
+          }
+        },
+        {
+          "name": "Get Pokemon by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/pokemons/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["pokemons", "1"]
+            }
+          }
+        },
+        {
+          "name": "Create Pokemon",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Rayquaza\",\n  \"type\": \"Dragon/Flying\",\n  \"hp\": 105\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/pokemons",
+              "host": ["{{baseUrl}}"],
+              "path": ["pokemons"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Recipes",
+      "item": [
+        {
+          "name": "Get All Recipes",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/recipes",
+              "host": ["{{baseUrl}}"],
+              "path": ["recipes"]
+            }
+          }
+        },
+        {
+          "name": "Get Recipe by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/recipes/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["recipes", "1"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Other Collections",
+      "item": [
+        {
+          "name": "Get All Artists",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/artists", "host": ["{{baseUrl}}"], "path": ["artists"] } }
+        },
+        {
+          "name": "Get All Musicians",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/musicians", "host": ["{{baseUrl}}"], "path": ["musicians"] } }
+        },
+        {
+          "name": "Get All Countries",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/countries", "host": ["{{baseUrl}}"], "path": ["countries"] } }
+        },
+        {
+          "name": "Get All Sports",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/sports", "host": ["{{baseUrl}}"], "path": ["sports"] } }
+        },
+        {
+          "name": "Get All Games",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/games", "host": ["{{baseUrl}}"], "path": ["games"] } }
+        },
+        {
+          "name": "Get All Planets",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/planets", "host": ["{{baseUrl}}"], "path": ["planets"] } }
+        },
+        {
+          "name": "Get All Programming Languages",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/programming", "host": ["{{baseUrl}}"], "path": ["programming"] } }
+        },
+        {
+          "name": "Get All Superheroes",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/superheroes", "host": ["{{baseUrl}}"], "path": ["superheroes"] } }
+        },
+        {
+          "name": "Get All Cars",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/cars", "host": ["{{baseUrl}}"], "path": ["cars"] } }
+        },
+        {
+          "name": "Get All TV Shows",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/tvShows", "host": ["{{baseUrl}}"], "path": ["tvShows"] } }
+        },
+        {
+          "name": "Get All Anime",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/anime", "host": ["{{baseUrl}}"], "path": ["anime"] } }
+        },
+        {
+          "name": "Get All Football Teams",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/footballTeams", "host": ["{{baseUrl}}"], "path": ["footballTeams"] } }
+        },
+        {
+          "name": "Get All Instruments",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/instruments", "host": ["{{baseUrl}}"], "path": ["instruments"] } }
+        },
+        {
+          "name": "Get All Dinosaurs",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/dinosaurs", "host": ["{{baseUrl}}"], "path": ["dinosaurs"] } }
+        },
+        {
+          "name": "Get All Mythologies",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/mythologies", "host": ["{{baseUrl}}"], "path": ["mythologies"] } }
+        },
+        {
+          "name": "Get All Inventions",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/inventions", "host": ["{{baseUrl}}"], "path": ["inventions"] } }
+        },
+        {
+          "name": "Get All Coffees",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/coffees", "host": ["{{baseUrl}}"], "path": ["coffees"] } }
+        }
+      ]
+    }
+  ]
+}
